@@ -64,7 +64,7 @@ We welcome contributions! To contribute:
 2. **Create a feature branch** for your changes.
 3. **Submit a Pull Request** with a clear description of your changes.
 
-For detailed guidelines, check the [Contributing Guide](docs/contributing.rst).
+For detailed guidelines, check the [Contributing Guide](docs/developer_guide/contributing.rst).
 
 ---
 
