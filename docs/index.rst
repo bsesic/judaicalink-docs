@@ -5,6 +5,7 @@ Welcome to JudaicaLink's Documentation!
    :maxdepth: 2
    :caption: Table of Contents
 
+   introduction
    getting_started
    user_guide/overview
    user_guide/search_guide
