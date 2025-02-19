@@ -13,6 +13,7 @@ Welcome to JudaicaLink's Documentation!
    user_guide/content_negotiation
    developer_guide/setup
    developer_guide/deployment
+   developer_guide/docker
    developer_guide/contributing
    developer_guide/api_reference
    projects/labs
