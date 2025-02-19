@@ -1,21 +1,25 @@
-Welcome to the Judaicalink documentation!
-=========================================
+Welcome to JudaicaLink's Documentation!
+=======================================
 
-Judaicalink is a knowledge graph for the Jewish community.
-The project is hosted on GitHub and is open source.
-It is currently under active development by the Judaicalink team from the University of Applied Media, Stuttgart.
-It is cureted by the FID Judaica of the University library J.C.Senckenberg, Frankfurt am Main.
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents
 
-For users
-----------
-
-For developers
--------------
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   getting_started
+   user_guide/overview
+   user_guide/search_guide
+   user_guide/datasets
+   user_guide/content_negotiation
+   developer_guide/setup
+   developer_guide/deployment
+   developer_guide/contributing
+   developer_guide/api_reference
+   projects/labs
+   projects/site
+   projects/pubby
+   projects/generators
+   projects/rdf_generator
+   advanced_topics/rdf_model
+   advanced_topics/sparql_guide
+   contributing
+   faq
