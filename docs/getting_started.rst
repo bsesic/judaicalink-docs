@@ -19,7 +19,8 @@ Setting Up Locally
 
 Follow these steps to set up the different projects locally:
 
-### **JudaicaLink Docs**
+**JudaicaLink Docs**
+====================
 
 1. **Clone the Repository**
 
@@ -53,7 +54,8 @@ Follow these steps to set up the different projects locally:
 
    The generated HTML files will be located in `docs/_build/html/`. Open `index.html` in a browser to view the documentation.
 
-### **JudaicaLink Labs**
+**JudaicaLink Labs**
+====================
 
 1. **Clone the Repository**
 
@@ -74,7 +76,8 @@ Follow these steps to set up the different projects locally:
    python manage.py runserver
    ```
 
-### **JudaicaLink Site**
+**JudaicaLink Site**
+====================
 
 1. **Clone the Repository**
 
@@ -96,7 +99,8 @@ Follow these steps to set up the different projects locally:
    hugo server
    ```
 
-### **JudaicaLink Pubby**
+**JudaicaLink Pubby**
+=====================
 
 1. **Clone the Repository**
 
@@ -117,7 +121,8 @@ Follow these steps to set up the different projects locally:
    python manage.py runserver
    ```
 
-### **Using Docker for Local Deployment**
+**Using Docker for Local Deployment**
+=====================================
 
 For a full-stack deployment of all projects together, use Docker:
 
