@@ -4,7 +4,7 @@
 Setup Guide
 ===========
 
-This guide provides instructions on how to set up the JudaicaLink environment locally, including * Solr, Redis, Apache Jena Fuseki, and Nginx*  to run the projects efficiently.
+This guide provides instructions on how to set up the JudaicaLink environment locally, including *Solr, Redis, Apache Jena Fuseki, and Nginx*  to run the projects efficiently.
 
 System Requirements
 -------------------
