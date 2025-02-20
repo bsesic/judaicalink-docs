@@ -59,7 +59,7 @@ The following datasets are included in JudaicaLink:
 
   * SPARQL Query Example:
 
-.. code-block::
+.. code-block:: sparql
     :linenos:
 
     SELECT ?entity ?label WHERE {
@@ -81,7 +81,7 @@ Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint*:
 * *Endpoint URL* : `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 * *Example Query*  (Retrieve all persons in the dataset):
 
-.. code-block::
+.. code-block:: sparql
     :linenos:
 
     SELECT ?person ?name WHERE {
