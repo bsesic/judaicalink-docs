@@ -21,15 +21,11 @@ How to Use DjangoRDF
 Setting Up the Environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. *Clone the repository*
-
-::
+1. *Clone the repository*::
    git clone https://github.com/judaicalink/djangordf.git
    cd djangordf
 
-2. *Create a virtual environment* (Recommended)
-
-::
+2. *Create a virtual environment* (Recommended)::
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate  # On Windows
