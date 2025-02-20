@@ -14,18 +14,21 @@ Features of RDF Model
 Setting Up the Environment
 --------------------------
 
-1. **Clone the repository**::
+1. **Clone the repository**
+::
 
    git clone https://github.com/judaicalink/rdf_model.git
    cd rdf_model
 
-2. **Create a virtual environment** (Recommended)::
+2. **Create a virtual environment** (Recommended)
+::
 
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate  # On Windows
 
-3. **Install dependencies**::
+3. **Install dependencies**
+::
 
    pip install -r requirements.txt
 
