@@ -148,7 +148,7 @@ Nginx is used as a reverse proxy to serve the web applications.
           }
       }
 
-3. * Enable the configuration and restart Nginx:* 
+3. *Enable the configuration and restart Nginx:*
 
    ::
 
