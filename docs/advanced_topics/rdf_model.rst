@@ -90,6 +90,6 @@ Troubleshooting & Support
 - **Serialization errors?** Validate the RDF syntax before saving.
 - **Need help?** Contact us at https://labs.judaicalink.org/contact/
 
----------------------------------------------------------------------------------------------------------------------
+---
 The RDF Model simplifies Linked Data management, making it easier to structure, query, and integrate semantic data. \🚀
 
