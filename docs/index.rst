@@ -22,10 +22,10 @@ The deployment process involves setting up a web application framework, a databa
    :maxdepth: 2
    :caption: User Guide
 
-   user_guides/overview
-   user_guides/search_guide
-   user_guides/content_negotiation
-   user_guides/datasets
+   user_guide/overview
+   user_guide/search_guide
+   user_guide/content_negotiation
+   user_guide/datasets
 
 .. toctree::
    :maxdepth: 2
@@ -42,15 +42,15 @@ The deployment process involves setting up a web application framework, a databa
    :maxdepth: 2
    :caption: Developer Guide
 
-   developer/setup
-   developer/deployment
-   developer/contribution
-   developer/api_reference
-   developer/docker
+   developer_guide/setup
+   developer_guide/deployment
+   developer_guide/contribution
+   developer_guide/api_reference
+   developer_guide/docker
 
 .. toctree::
    :maxdepth: 2
    :caption: Advanced Topics
 
-   advanced/sparql_guide
-   advanced/rdf_model
+   advanced_topics/sparql_guide
+   advanced_topics/rdf_model
