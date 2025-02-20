@@ -10,17 +10,16 @@ Overview
 The deployment process involves setting up a web application framework, a database, indexing and caching services, and a SPARQL endpoint to handle structured queries.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: General Information
 
-   index
-   overview
    introduction
+   overview
    getting_started
    faq
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: User Guide
 
    user_guides/overview
@@ -29,7 +28,7 @@ The deployment process involves setting up a web application framework, a databa
    user_guides/datasets
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Projects
 
    projects/labs
@@ -40,7 +39,7 @@ The deployment process involves setting up a web application framework, a databa
    projects/rdf_generator
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Developer Guide
 
    developer/setup
@@ -50,7 +49,7 @@ The deployment process involves setting up a web application framework, a databa
    developer/docker
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Advanced Topics
 
    advanced/sparql_guide
