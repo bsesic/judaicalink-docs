@@ -1,5 +1,5 @@
 .. _user_guide_content_negotiation:
-s
+
 ==================================
 Content Negotiation in JudaicaLink
 ==================================
