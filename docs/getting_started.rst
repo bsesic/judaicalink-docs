@@ -151,7 +151,7 @@ Using Read the Docs
 
 JudaicaLink documentation is hosted on *Read the Docs*. You can view the latest version online at:
 
-\📖 * `JudaicaLink Docs <https://judaicalink-docs.readthedocs.io/>`_*
+\📖 `JudaicaLink Docs <https://judaicalink-docs.readthedocs.io/>`_
 
 Updating Documentation
 ----------------------
