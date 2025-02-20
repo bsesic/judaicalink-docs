@@ -208,6 +208,6 @@ Troubleshooting & Support
 - *Need help?*  Contact us at https://labs.judaicalink.org/contact/.
 
 
----------------------------------------------------------------------------------------------------------
+---
 This setup guide ensures a complete local environment for developing and testing JudaicaLink projects. \🚀
 
