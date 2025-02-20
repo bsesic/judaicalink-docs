@@ -51,9 +51,9 @@ Yes. JudaicaLink provides RDF dumps that can be downloaded and processed locally
 Does JudaicaLink support content negotiation?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes. You can access data in different formats using content negotiation:
-- *HTML*: `https://data.judaicalink.org/data/html/<dataset>/<entity>`
-- *JSON-LD*: `https://data.judaicalink.org/data/jsonld/<dataset>/<entity>`
-- *RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`
+* *HTML*: `https://data.judaicalink.org/data/html/<dataset>/<entity>`
+* *JSON-LD*: `https://data.judaicalink.org/data/jsonld/<dataset>/<entity>`
+* *RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`
 
 Technical Questions
 -------------------
