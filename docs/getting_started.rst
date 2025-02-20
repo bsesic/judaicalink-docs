@@ -178,7 +178,7 @@ To contribute updates to the documentation:
 Next Steps
 ----------
 
-* Read the `User Guide <user_guide.rst>`_ for more details on using JudaicaLink.
-* Check the `Developer Guide <developer_guide.rst>`_ for information on contributing code.
-* Visit the `FAQ <faq.rst>`_ if you encounter any issues.
+* Read the `User Guide <user_guide_overview>` for more details on using JudaicaLink.
+* Check the `Developer Guide <developer_guide_setup>` for information on contributing code.
+* Visit the `FAQ <faq>` if you encounter any issues.
 
