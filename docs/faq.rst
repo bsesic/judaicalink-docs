@@ -35,6 +35,7 @@ Using JudaicaLink
 How can I search for information in JudaicaLink?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 JudaicaLink offers multiple search methods:
+
 1. *Knowledge Graph Search* – Explore structured data about persons, places, and institutions.
 2. *Full-text search in Compact Memory* – Find relevant excerpts in historical Jewish newspapers.
 3. *Entity Extraction Search* – Use NLP-extracted entities from Compact Memory to discover connections.
@@ -42,7 +43,7 @@ JudaicaLink offers multiple search methods:
 Where can I find the SPARQL endpoint?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The SPARQL endpoint for querying the knowledge graph is available at:
-🔗 `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
+\🔗 `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 
 Can I download datasets from JudaicaLink?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -51,6 +52,7 @@ Yes. JudaicaLink provides RDF dumps that can be downloaded and processed locally
 Does JudaicaLink support content negotiation?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes. You can access data in different formats using content negotiation:
+
 * *HTML*: `https://data.judaicalink.org/data/html/<dataset>/<entity>`
 * *JSON-LD*: `https://data.judaicalink.org/data/jsonld/<dataset>/<entity>`
 * *RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`
