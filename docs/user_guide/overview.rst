@@ -16,40 +16,42 @@ Key Features
 1. Search Functionality
 -----------------------
 JudaicaLink offers multiple ways to search and explore data:
-* * Knowledge Graph Search* : Search for persons, places, institutions, and other entities in structured data.
-* * Full-Text Search in Compact Memory* : Query historical Jewish newspapers and documents.
-* * Entity Extraction Search* : Find entities automatically identified within historical texts using NLP.
+
+* *Knowledge Graph Search* : Search for persons, places, institutions, and other entities in structured data.
+* *Full-Text Search in Compact Memory* : Query historical Jewish newspapers and documents.
+* *Entity Extraction Search* : Find entities automatically identified within historical texts using NLP.
 
 2. SPARQL Endpoint
 ------------------
 For advanced users, JudaicaLink provides a * SPARQL query interface* , enabling custom queries against the structured knowledge graph.
-- \🔗 * Access the SPARQL endpoint:*  `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_.
-- Learn how to construct SPARQL queries in the `SPARQL Guide <sparql_guide.rst>`_.
+
+* \🔗 *Access the SPARQL endpoint:*  `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_.
+* Learn how to construct SPARQL queries in the `SPARQL Guide <advanced_topic_sparql_guide>`_.
 
 3. Linked Open Data (LOD) Integration
 -------------------------------------
-JudaicaLink integrates with major Linked Data resources such as * GND, Wikidata, DBpedia, VIAF, and Geonames* , allowing enriched and interconnected research.
+JudaicaLink integrates with major Linked Data resources such as *GND, Wikidata, DBpedia, VIAF, and Geonames* , allowing enriched and interconnected research.
 
 4. Dataset Exploration
 -----------------------
-* Browse available datasets via [https://data.judaicalink.org](https://data.judaicalink.org).
-* Understand how datasets are structured in the `Dataset Guide <datasets>`_.
+* Browse available datasets via `https://data.judaicalink.org <https://data.judaicalink.org>`_.
+* Understand how datasets are structured in the `Dataset Guide <datasets>`.
 
 5. Entity Pages
 ----------------
-- JudaicaLink provides * Entity Pages* , which aggregate information from multiple sources about an entity.
-- See examples of entity pages at: [https://data.judaicalink.org/data/html/](https://data.judaicalink.org/data/html/)
+* JudaicaLink provides *Entity Pages* , which aggregate information from multiple sources about an entity.
+* See examples of entity pages at: `https://data.judaicalink.org/data/html/ <https://data.judaicalink.org/data/html/>`_.
 
 How to Use This Guide
 ======================
 This guide is divided into several sections to help users get started with JudaicaLink:
 
-1. * `Getting Started](getting_started)*  – A step-by-step guide to accessing JudaicaLink.
-2. * `Search Guide](search_guide)*  – Instructions on how to use the different search methods.
-3. * `SPARQL Guide](sparql_guide)*  – How to construct SPARQL queries.
-4. * `Dataset Guide](datasets.rst)*  – Information about the datasets available.
-5. * `Content Negotiation](content_negotiation.rst)*  – Learn how to retrieve data in different formats.
-6. * `FAQs](faq.rst)*  – Answers to common questions.
+1. * `Getting Started <getting_started>`*  – A step-by-step guide to accessing JudaicaLink.
+2. * `Search Guide <user_guide_search_guide>`*  – Instructions on how to use the different search methods.
+3. * `SPARQL Guide <advanced_topics_sparql_guide>`*  – How to construct SPARQL queries.
+4. * `Dataset Guide <datasets>`*  – Information about the datasets available.
+5. * `Content Negotiation <content_negotiation.rst>`*  – Learn how to retrieve data in different formats.
+6. * `FAQs <faq>`*  – Answers to common questions.
 
 Who Can Use JudaicaLink?
 =========================
