@@ -50,7 +50,7 @@ JudaicaLink Labs is the *core application* that powers the search and entity exp
 - Provides a *searchable knowledge graph*
 - Supports *Natural Language Processing (NLP)* for entity recognition
 
-\🔗 *Labs URL*: `https://labs.judaicalink.org<https://labs.judaicalink.org>`_
+\🔗 *Labs URL*: `https://labs.judaicalink.org <https://labs.judaicalink.org>`_
 
 
 2. JudaicaLink Site
@@ -58,7 +58,7 @@ JudaicaLink Labs is the *core application* that powers the search and entity exp
 
 The JudaicaLink Site is the *public-facing static website* providing background information, project news, and dataset overviews. It is built using *Hugo* and integrates dynamically with the knowledge graph.
 
-\🔗 *Site URL*: `https://www.judaicalink.org<https://www.judaicalink.org>`_
+\🔗 *Site URL*: `https://www.judaicalink.org <https://www.judaicalink.org>`_
 
 3. JudaicaLink Pubby
 ----------------------
