@@ -24,7 +24,7 @@ The deployment process involves setting up a web application framework, a databa
    :caption: User Guide
 
    user_guides/overview
-   user_guides/searching
+   user_guides/search_guide
    user_guides/content_negotiation
    user_guides/datasets
 
