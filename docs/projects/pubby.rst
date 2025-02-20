@@ -1,3 +1,6 @@
+.. _projects_pubby:
+
+=================
 JudaicaLink Pubby
 =================
 

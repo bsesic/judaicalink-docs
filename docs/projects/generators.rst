@@ -1,3 +1,6 @@
+.. _projects_generators:
+
+======================
 JudaicaLink Generators
 ======================
 

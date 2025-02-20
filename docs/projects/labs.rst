@@ -45,6 +45,7 @@ JudaicaLink Labs is the *main web interface* for searching, exploring, and inter
 
 .. code-block:: sparql
     :linenos:
+
     SELECT ?person ?name WHERE {
        ?person a jl:Person ;
                rdfs:label ?name .
@@ -90,6 +91,7 @@ JudaicaLink Labs is the *main web interface* for searching, exploring, and inter
 1. *Clone the repository*
 
 .. code-block:: bash
+
    git clone https://github.com/judaicalink/judaicalink-labs.git
    cd judaicalink-labs
 
@@ -97,6 +99,7 @@ JudaicaLink Labs is the *main web interface* for searching, exploring, and inter
 2. *Create a virtual environment*
 
 .. code-block:: bash
+
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate  # On Windows
@@ -105,12 +108,14 @@ JudaicaLink Labs is the *main web interface* for searching, exploring, and inter
 3. *Install dependencies*
 
 .. code-block:: bash
+
     pip install -r requirements.txt
 
 
 4. *Run the development server*
 
 .. code-block:: bash
+
    python manage.py runserver
 
 
