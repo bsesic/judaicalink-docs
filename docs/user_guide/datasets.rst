@@ -1,5 +1,6 @@
 .. _datasets:
 
+=======================
 Datasets in JudaicaLink
 =======================
 
@@ -60,6 +61,7 @@ The following datasets are included in JudaicaLink:
 
 .. code-block:: sparql
     :linenos:
+
     SELECT ?entity ?label WHERE {
       ?entity a jl:Person ;
               rdfs:label ?label .
@@ -81,6 +83,7 @@ Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint*:
 
 .. code-block:: sparql
     :linenos:
+
     SELECT ?person ?name WHERE {
     ?person a jl:Person ;
             rdfs:label ?name .
@@ -95,6 +98,7 @@ Users can download full dataset RDF dumps for offline use:
 * *Example:*  Download `yivo.rdf`
 
 ::
+
   wget https://data.judaicalink.org/dumps/yivo.rdf
 
 
@@ -118,6 +122,7 @@ For automated access and data retrieval:
 * *Example API Query (Get data for an entity):*
 
 ::
+
     curl -H "Accept: application/json" https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn
 
 Next Steps
