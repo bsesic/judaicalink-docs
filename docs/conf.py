@@ -1,13 +1,15 @@
 import os
 import sys
+import datetime
 sys.path.insert(0, os.path.abspath(''))
+year = datetime.datetime.now().year
 
 # Sphinx project settings
 project = 'JudaicaLink Documentation'
 author = 'JudaicaLink Team'
 version = '0.1'
 release = '0.1.0'
-
+copyright = f'{year}, JudaicaLink Team'
 
 # Add language support
 language = 'en'  # Default language
