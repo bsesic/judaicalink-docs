@@ -26,11 +26,10 @@ JudaicaLink Docs
 =================
 
 1. *Clone the Repository*
+::
 
-   ``sh
    git clone https://github.com/judaicalink/judaicalink-docs.git
    cd judaicalink-docs
-   ``
 
 2. *Create and Activate a Virtual Environment (Recommended)*
 
