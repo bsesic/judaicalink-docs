@@ -22,6 +22,7 @@ Yes! JudaicaLink follows the principles of *Open Data, Open Knowledge, and Open 
 How can I contribute to JudaicaLink?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You can contribute by:
+
 * Providing datasets related to Jewish Studies.
 * Contributing to RDF data generation.
 * Enhancing entity linking and enrichment.
