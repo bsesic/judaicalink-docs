@@ -63,15 +63,18 @@ Running Django Commands
 
 DjangoRDF provides management commands to interact with RDF data.
 
-1. *List available RDF models*::
+1. *List available RDF models*
+::
 
    python manage.py list_rdf_models
 
-2. *Run a SPARQL query*::
+2. *Run a SPARQL query*
+::
 
    python manage.py sparql_query "SELECT ?s ?p ?o WHERE { ?s ?p ?o } LIMIT 10"
 
-3. *Load RDF data into the triple store*::
+3. *Load RDF data into the triple store*
+::
 
    python manage.py load_rdf path/to/data.rdf
 
