@@ -58,12 +58,12 @@ The following datasets are included in JudaicaLink:
 
   * SPARQL Query Example:
 
-    ``sparql
+.. code-block:: sparql
+    :linenos:
     SELECT ?entity ?label WHERE {
       ?entity a jl:Person ;
               rdfs:label ?label .
     } LIMIT 10
-    ``
 
   * Content Negotiation: Available in RDF/XML, JSON-LD, and Turtle.
 
@@ -74,35 +74,38 @@ Using the Datasets
 1. Querying Data with SPARQL
 ----------------------------
 
-Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint* :
+Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint*:
 
 * *Endpoint URL* : `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 * *Example Query*  (Retrieve all persons in the dataset):
 
-  ``sparql
-  SELECT ?person ?name WHERE {
+.. code-block:: sparql
+    :linenos:
+    SELECT ?person ?name WHERE {
     ?person a jl:Person ;
             rdfs:label ?name .
-  } LIMIT 100
-  ``
+    } LIMIT 100
 
 2. Downloading RDF Dumps
 ------------------------
 
 Users can download full dataset RDF dumps for offline use:
+
 * *Download URL* : `https://data.judaicalink.org/dumps/ <https://data.judaicalink.org/dumps/>`_
 * *Example:*  Download `yivo.rdf`
 
-  ``sh
+::
   wget https://data.judaicalink.org/dumps/yivo.rdf
-  ``
+
 
 3. Accessing Data via Content Negotiation
 -----------------------------------------
 
 JudaicaLink supports content negotiation, allowing users to request data in different formats.
+
 * *Formats available:*  HTML, JSON-LD, RDF/XML, Turtle.
 * *Example Requests:*
+
     * JSON-LD: `https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn`
     * RDF/XML: `https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn`
 
@@ -110,16 +113,16 @@ JudaicaLink supports content negotiation, allowing users to request data in diff
 ----------------------------
 
 For automated access and data retrieval:
+
 * *Base API URL* : `https://data.judaicalink.org/api/`
 * *Example API Query (Get data for an entity):*
 
-    ``sh
+::
     curl -H "Accept: application/json" https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn
-    ``
 
 Next Steps
 ==========
 
-* Learn how to refine your *SPARQL queries*  in the :ref:`SPARQL Guide <advanced_topics_sparql_guide>`.
-* Explore the *Entity Pages*  to browse individual datasets.
+* Learn how to refine your *SPARQL queries* in the :ref:`SPARQL Guide <advanced_topics_sparql_guide>`.
+* Explore the *Entity Pages* to browse individual datasets.
 * If you need help, check the :ref:`FAQs <faq>` or contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.

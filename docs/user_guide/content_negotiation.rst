@@ -56,14 +56,17 @@ Advanced users and applications can specify the desired format using the `Accept
 Example Requests
 ________________
 - *JSON-LD:*
+
 ::
   curl -H "Accept: application/ld+json" https://data.judaicalink.org/data/yivo/moses-mendelssohn
 
 - *RDF/XML:*
+
 ::
   curl -H "Accept: application/rdf+xml" https://data.judaicalink.org/data/yivo/moses-mendelssohn
 
 - *Turtle:*
+
 ::
   curl -H "Accept: text/turtle" https://data.judaicalink.org/data/yivo/moses-mendelssohn
 
