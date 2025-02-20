@@ -1,3 +1,6 @@
+.. developer_guide_contributing:
+
+===================================
 Contributing to JudaicaLink Projects
 ===================================
 
