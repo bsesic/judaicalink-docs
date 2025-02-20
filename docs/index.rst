@@ -16,6 +16,7 @@ The deployment process involves setting up a web application framework, a databa
    index
    overview
    introduction
+   getting_started
    faq
 
 .. toctree::

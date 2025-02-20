@@ -1,3 +1,4 @@
+===============
 Getting Started
 ===============
 
@@ -8,28 +9,28 @@ Prerequisites
 
 Before getting started, ensure you have the following installed:
 
-- Python 3.8 or later
-- pip (Python package manager)
-- Virtual environment (optional but recommended)
-- Git (for cloning the repository)
-- Docker (if using containerized deployments)
+* Python 3.8 or later
+* pip (Python package manager)
+* Virtual environment (optional but recommended)
+* Git (for cloning the repository)
+* Docker (if using containerized deployments)
 
 Setting Up Locally
 ------------------
 
 Follow these steps to set up the different projects locally:
 
-**JudaicaLink Docs**
-====================
+JudaicaLink Docs
+=================
 
-1. **Clone the Repository**
+1. *Clone the Repository*
 
    ```sh
    git clone https://github.com/judaicalink/judaicalink-docs.git
    cd judaicalink-docs
    ```
 
-2. **Create and Activate a Virtual Environment (Recommended)**
+2. *Create and Activate a Virtual Environment (Recommended)*
 
    ```sh
    python -m venv venv
@@ -37,13 +38,13 @@ Follow these steps to set up the different projects locally:
    venv\Scripts\activate  # On Windows
    ```
 
-3. **Install Dependencies**
+3. *Install Dependencies*
 
    ```sh
    pip install -r requirements.txt
    ```
 
-4. **Build the Documentation Locally**
+4. *Build the Documentation Locally*
 
    ```sh
    cd docs
@@ -54,92 +55,92 @@ Follow these steps to set up the different projects locally:
 
    The generated HTML files will be located in `docs/_build/html/`. Open `index.html` in a browser to view the documentation.
 
-**JudaicaLink Labs**
+JudaicaLink Labs
 ====================
 
-1. **Clone the Repository**
+1. *Clone the Repository*
 
    ```sh
    git clone https://github.com/judaicalink/judaicalink-labs.git
    cd judaicalink-labs
    ```
 
-2. **Install Dependencies**
+2. *Install Dependencies*
 
    ```sh
    pip install -r requirements.txt
    ```
 
-3. **Run the Development Server**
+3. *Run the Development Server*
 
    ```sh
    python manage.py runserver
    ```
 
-**JudaicaLink Site**
+JudaicaLink Site
 ====================
 
-1. **Clone the Repository**
+1. *Clone the Repository*
 
    ```sh
    git clone https://github.com/judaicalink/judaicalink-site.git
    cd judaicalink-site
    ```
 
-2. **Install Hugo** (if not installed already)
+2. *Install Hugo* (if not installed already)
 
    ```sh
    brew install hugo  # On macOS
    sudo apt install hugo  # On Linux
    ```
 
-3. **Build and Serve the Site**
+3. *Build and Serve the Site*
 
    ```sh
    hugo server
    ```
 
-**JudaicaLink Pubby**
+JudaicaLink Pubby
 =====================
 
-1. **Clone the Repository**
+1. *Clone the Repository*
 
    ```sh
    git clone https://github.com/lod-pubby/pubby-django.git
    cd pubby-django
    ```
 
-2. **Install Dependencies**
+2. *Install Dependencies*
 
    ```sh
    pip install -r requirements.txt
    ```
 
-3. **Run the Development Server**
+3. *Run the Development Server*
 
    ```sh
    python manage.py runserver
    ```
 
-**Using Docker for Local Deployment**
+Using Docker for Local Deployment
 =====================================
 
 For a full-stack deployment of all projects together, use Docker:
 
-1. **Clone the Docker Repository**
+1. *Clone the Docker Repository*
 
    ```sh
    git clone https://github.com/judaicalink/docker.git
    cd docker
    ```
 
-2. **Set Up the Environment**
+2. *Set Up the Environment*
 
    ```sh
    cp .env.example .env
    ```
 
-3. **Build and Start Containers**
+3. *Build and Start Containers*
 
    ```sh
    docker-compose up --build -d
@@ -148,9 +149,9 @@ For a full-stack deployment of all projects together, use Docker:
 Using Read the Docs
 -------------------
 
-JudaicaLink documentation is hosted on **Read the Docs**. You can view the latest version online at:
+JudaicaLink documentation is hosted on *Read the Docs*. You can view the latest version online at:
 
-📖 **[JudaicaLink Docs](https://judaicalink-docs.readthedocs.io/)**
+\📖 * `JudaicaLink Docs <https://judaicalink-docs.readthedocs.io/>`_*
 
 Updating Documentation
 ----------------------
@@ -175,7 +176,7 @@ To contribute updates to the documentation:
 Next Steps
 ----------
 
-- Read the [User Guide](user_guide.rst) for more details on using JudaicaLink.
-- Check the [Developer Guide](developer_guide.rst) for information on contributing code.
-- Visit the [FAQ](faq.rst) if you encounter any issues.
+* Read the `User Guide <user_guide.rst>`_ for more details on using JudaicaLink.
+* Check the `Developer Guide <developer_guide.rst>`_ for information on contributing code.
+* Visit the `FAQ <faq.rst>`_ if you encounter any issues.
 
