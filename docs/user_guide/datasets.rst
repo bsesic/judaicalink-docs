@@ -40,7 +40,7 @@ The following datasets are included in JudaicaLink:
   * RDF: `https://data.judaicalink.org/dumps/rabbiner.rdf`
   * SPARQL queries available for detailed searches.
 
-4. Footprints * Jewish Books through Time and Place
+4. Footprints - Jewish Books through Time and Place
 -------------------------------------------------
 
 * Description: A dataset tracing the movement of Jewish books across different regions and owners.
