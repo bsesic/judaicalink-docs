@@ -205,7 +205,7 @@ Troubleshooting & Support
 
       sudo systemctl restart redis
 
-- *Need help?*  Contact us at `https://labs.judaicalink.org/contact/`_.
+- *Need help?*  Contact us at `https://labs.judaicalink.org/contact/`.
 
 
 ---------------------------------------------------------------------------------------------------------
