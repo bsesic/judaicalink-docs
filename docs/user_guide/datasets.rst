@@ -59,7 +59,7 @@ The following datasets are included in JudaicaLink:
 
   * SPARQL Query Example:
 
-.. code-block:: sparql
+.. code-block::
     :linenos:
 
     SELECT ?entity ?label WHERE {
@@ -81,7 +81,7 @@ Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint*:
 * *Endpoint URL* : `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 * *Example Query*  (Retrieve all persons in the dataset):
 
-.. code-block:: sparql
+.. code-block::
     :linenos:
 
     SELECT ?person ?name WHERE {
@@ -94,9 +94,8 @@ Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint*:
 
 Users can download full dataset RDF dumps for offline use:
 
-* *Download URL* : `https://data.judaicalink.org/dumps/ <https://data.judaicalink.org/dumps/>`_
+* *Download URL*: `https://data.judaicalink.org/dumps/ <https://data.judaicalink.org/dumps/>`_
 * *Example:*  Download `yivo.rdf`
-
 ::
 
   wget https://data.judaicalink.org/dumps/yivo.rdf
@@ -107,7 +106,7 @@ Users can download full dataset RDF dumps for offline use:
 
 JudaicaLink supports content negotiation, allowing users to request data in different formats.
 
-* *Formats available:*  HTML, JSON-LD, RDF/XML, Turtle.
+* *Formats available:* HTML, JSON-LD, RDF/XML, Turtle.
 * *Example Requests:*
 
     * JSON-LD: `https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn`
@@ -120,7 +119,6 @@ For automated access and data retrieval:
 
 * *Base API URL* : `https://data.judaicalink.org/api/`
 * *Example API Query (Get data for an entity):*
-
 ::
 
     curl -H "Accept: application/json" https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn
