@@ -1,21 +1,21 @@
 .. _developer_guide_setup:
 
-===========s
+===========
 Setup Guide
 ===========
 
-This guide provides instructions on how to set up the JudaicaLink environment locally, including **Solr, Redis, Apache Jena Fuseki, and Nginx** to run the projects efficiently.
+This guide provides instructions on how to set up the JudaicaLink environment locally, including * Solr, Redis, Apache Jena Fuseki, and Nginx*  to run the projects efficiently.
 
 System Requirements
 -------------------
 
 Ensure your system meets the following requirements:
 
-- **OS:** Ubuntu 20.04+ / macOS / Windows (WSL recommended for Windows)
-- **Python:** 3.8+
-- **Docker & Docker Compose:** Latest version
-- **Node.js & npm:** Latest LTS version (for frontend projects)
-- **Git:** Latest version
+- * OS:*  Ubuntu 20.04+ / macOS / Windows (WSL recommended for Windows)
+- * Python:*  3.8+
+- * Docker & Docker Compose:*  Latest version
+- * Node.js & npm:*  Latest LTS version (for frontend projects)
+- * Git:*  Latest version
 
 Cloning the Repositories
 ------------------------
@@ -52,7 +52,7 @@ Setting Up Solr
 
 Solr is used for full-text indexing in JudaicaLink Labs.
 
-1. **Download and extract Solr:**
+1. * Download and extract Solr:* 
 
    ::
 
@@ -60,13 +60,13 @@ Solr is used for full-text indexing in JudaicaLink Labs.
       tar xzf solr-9.0.0.tgz
       cd solr-9.0.0
 
-2. **Start Solr in standalone mode:**
+2. * Start Solr in standalone mode:* 
 
    ::
 
       bin/solr start -e cloud -noprompt
 
-3. **Create a core for JudaicaLink:**
+3. * Create a core for JudaicaLink:* 
 
    ::
 
@@ -77,13 +77,13 @@ Setting Up Redis
 
 Redis is used for caching and queuing operations.
 
-1. **Install Redis:**
+1. * Install Redis:* 
 
    ::
 
       sudo apt update && sudo apt install redis-server
 
-2. **Start Redis:**
+2. * Start Redis:* 
 
    ::
 
@@ -95,7 +95,7 @@ Setting Up Apache Jena Fuseki
 
 Apache Jena Fuseki is used as the SPARQL endpoint and RDF triple store.
 
-1. **Download and extract Fuseki:**
+1. * Download and extract Fuseki:* 
 
    ::
 
@@ -103,13 +103,13 @@ Apache Jena Fuseki is used as the SPARQL endpoint and RDF triple store.
       tar -xzf apache-jena-fuseki-4.5.0.tar.gz
       cd apache-jena-fuseki-4.5.0
 
-2. **Start Fuseki server:**
+2. * Start Fuseki server:* 
 
    ::
 
       ./fuseki-server --update --mem /ds
 
-3. **Load RDF data:**
+3. * Load RDF data:* 
 
    ::
 
@@ -120,13 +120,13 @@ Setting Up Nginx
 
 Nginx is used as a reverse proxy to serve the web applications.
 
-1. **Install Nginx:**
+1. * Install Nginx:* 
 
    ::
 
       sudo apt update && sudo apt install nginx
 
-2. **Create an Nginx configuration file:**
+2. * Create an Nginx configuration file:* 
 
    ::
 
@@ -148,7 +148,7 @@ Nginx is used as a reverse proxy to serve the web applications.
           }
       }
 
-3. **Enable the configuration and restart Nginx:**
+3. * Enable the configuration and restart Nginx:* 
 
    ::
 
@@ -160,21 +160,21 @@ Running the Projects
 
 To run the projects locally:
 
-1. **Run Django-based projects:**
+1. * Run Django-based projects:* 
 
    ::
 
       cd judaicalink-labs
       python manage.py runserver
 
-2. **Run Hugo-based site:**
+2. * Run Hugo-based site:* 
 
    ::
 
       cd judaicalink-site
       hugo server
 
-3. **Run Pubby:**
+3. * Run Pubby:* 
 
    ::
 
@@ -184,11 +184,11 @@ To run the projects locally:
 Verifying the Setup
 -------------------
 
-- **Labs:** http://127.0.0.1:8000
-- **Site:** http://localhost:1313
-- **SPARQL Endpoint:** http://localhost:3030/ds
-- **Solr Admin UI:** http://localhost:8983/solr
-- **Redis Status:**
+- * Labs:*  http://127.0.0.1:8000
+- * Site:*  http://localhost:1313
+- * SPARQL Endpoint:*  http://localhost:3030/ds
+- * Solr Admin UI:*  http://localhost:8983/solr
+- * Redis Status:* 
 
    ::
 
@@ -197,16 +197,17 @@ Verifying the Setup
 Troubleshooting & Support
 -------------------------
 
-- **Solr not starting?** Ensure Java is installed.
-- **Fuseki not responding?** Verify it is running on port **3030**.
-- **Redis connection errors?** Restart Redis with:
+- * Solr not starting?*  Ensure Java is installed.
+- * Fuseki not responding?*  Verify it is running on port * 3030* .
+- * Redis connection errors?*  Restart Redis with:
 
    ::
 
       sudo systemctl restart redis
 
-- **Need help?** Contact us at https://labs.judaicalink.org/contact/
+- * Need help?*  Contact us at https://labs.judaicalink.org/contact/
 
----
-This setup guide ensures a complete local environment for developing and testing JudaicaLink projects. 🚀
+
+---------------------------------------------------------------------------------------------------------
+This setup guide ensures a complete local environment for developing and testing JudaicaLink projects. \🚀
 
