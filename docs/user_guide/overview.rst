@@ -50,7 +50,7 @@ This guide is divided into several sections to help users get started with Judai
 2. :ref:`Search Guide <user_guide_search_guide>` – Instructions on how to use the different search methods.
 3. :ref:`SPARQL Guide <advanced_topics_sparql_guide>` – How to construct SPARQL queries.
 4. :ref:`Dataset Guide <datasets>` – Information about the datasets available.
-5. :ref:`Content Negotiation <user_guide_content_negotiation.rst>` – Learn how to retrieve data in different formats.
+5. :ref:`Content Negotiation <user_guide_content_negotiation>` – Learn how to retrieve data in different formats.
 6. :ref:`FAQs <faq>` – Answers to common questions.
 
 Who Can Use JudaicaLink?
