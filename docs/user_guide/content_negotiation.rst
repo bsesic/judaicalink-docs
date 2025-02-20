@@ -4,14 +4,15 @@
 Content Negotiation
 ===================
 
-JudaicaLink supports *content negotiation* , allowing users to retrieve linked data in multiple formats such as *HTML, JSON-LD, RDF/XML, and Turtle (TTL)*. This enables seamless integration with various linked data tools and applications.
+JudaicaLink supports *content negotiation*, allowing users to retrieve linked data in multiple formats such as *HTML, JSON-LD, RDF/XML, and Turtle (TTL)*. This enables seamless integration with various linked data tools and applications.
 
 What is Content Negotiation?
 ----------------------------
 Content negotiation is a mechanism that allows clients to request a resource in a specific format by specifying the desired format in the HTTP `Accept` header.
 
 For example:
-* A web browser requests *HTML*  by default.
+
+* A web browser requests *HTML* by default.
 * A linked data application may request *JSON-LD or RDF/XML* .
 
 Available Formats
@@ -44,9 +45,9 @@ JudaicaLink allows users to specify the desired format directly in the URL:
 * Turtle: `https://data.judaicalink.org/data/ttl/{dataset}/{entity}`
 
 Example:
-``sh
-curl -L https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn
-``
+::
+    curl -L https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn
+
 
 2. Using HTTP Headers
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -54,37 +55,35 @@ Advanced users and applications can specify the desired format using the `Accept
 
 Example Requests
 ________________
-- *JSON-LD:*
-  ``sh
+- *JSON-LD:*::
   curl -H "Accept: application/ld+json" https://data.judaicalink.org/data/yivo/moses-mendelssohn
-  ``
-- *RDF/XML:*
-  ``sh
+
+- *RDF/XML:*::
   curl -H "Accept: application/rdf+xml" https://data.judaicalink.org/data/yivo/moses-mendelssohn
-  ``
-- *Turtle:*
-  ``sh
+
+- *Turtle:*::
   curl -H "Accept: text/turtle" https://data.judaicalink.org/data/yivo/moses-mendelssohn
-  ``
 
 Programmatic Access
 -------------------
 Applications can integrate JudaicaLink's content negotiation capabilities by dynamically requesting data formats based on their needs.
 
-For example, in *Python* :
-``python
-import requests
-headers = {"Accept": "application/ld+json"}
-response = requests.get("https://data.judaicalink.org/data/yivo/moses-mendelssohn", headers=headers)
-data = response.json()
-print(data)
-``
+For example, in *Python*:
+
+.. code-block:: python
+:linenos:
+    import requests
+    headers = {"Accept": "application/ld+json"}
+    response = requests.get("https://data.judaicalink.org/data/yivo/moses-mendelssohn", headers=headers)
+    data = response.json()
+    print(data)
+
 
 Best Practices
 --------------
-* When using *SPARQL endpoints* , consider requesting results in *JSON-LD*  for better integration with semantic web tools.
-* For *human-readable data* , use the *HTML*  format.
-* For *machine-readable RDF* , request *Turtle (TTL)*  or *RDF/XML* .
+* When using *SPARQL endpoints*, consider requesting results in *JSON-LD* for better integration with semantic web tools.
+* For *human-readable data*, use the *HTML* format.
+* For *machine-readable RDF*, request *Turtle (TTL)* or *RDF/XML* .
 
 Troubleshooting
 ---------------
