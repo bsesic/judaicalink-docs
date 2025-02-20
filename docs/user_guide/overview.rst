@@ -1,3 +1,5 @@
+.. _user_guide_overview:
+
 ===================
 User Guide Overview
 ===================

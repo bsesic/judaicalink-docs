@@ -1,3 +1,6 @@
+.. _developer_guide_setup:
+
+===========s
 Setup Guide
 ===========
 
