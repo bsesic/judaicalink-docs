@@ -56,16 +56,16 @@ The following datasets are included in JudaicaLink:
 * Description: Extracted named entities (persons, locations, topics) from historical Jewish periodicals.
 * Entities: Persons, places, organizations, topics.
 * Data Access:
+
  * SPARQL Query Example:
 
+    .. code-block:: sparql
+        :linenos:
 
-.. code-block:: sparql
-    :linenos:
-
-    SELECT ?entity ?label WHERE {
-      ?entity a jl:Person ;
-              rdfs:label ?label .
-    } LIMIT 10
+        SELECT ?entity ?label WHERE {
+          ?entity a jl:Person ;
+                  rdfs:label ?label .
+        } LIMIT 10
 
   * Content Negotiation: Available in RDF/XML, JSON-LD, and Turtle.
 
