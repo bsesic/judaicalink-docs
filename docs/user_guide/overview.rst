@@ -17,9 +17,9 @@ Key Features
 -----------------------
 JudaicaLink offers multiple ways to search and explore data:
 
-* *Knowledge Graph Search* : Search for persons, places, institutions, and other entities in structured data.
-* *Full-Text Search in Compact Memory* : Query historical Jewish newspapers and documents.
-* *Entity Extraction Search* : Find entities automatically identified within historical texts using NLP.
+* *Knowledge Graph Search*: Search for persons, places, institutions, and other entities in structured data.
+* *Full-Text Search in Compact Memory*: Query historical Jewish newspapers and documents.
+* *Entity Extraction Search*: Find entities automatically identified within historical texts using NLP.
 
 2. SPARQL Endpoint
 ------------------
