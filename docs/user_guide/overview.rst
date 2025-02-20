@@ -46,12 +46,12 @@ How to Use This Guide
 ======================
 This guide is divided into several sections to help users get started with JudaicaLink:
 
-1. *:ref:`Getting Started <getting_started>`*  – A step-by-step guide to accessing JudaicaLink.
-2. *:ref:`Search Guide <user_guide_search_guide>`*  – Instructions on how to use the different search methods.
-3. *:ref:`SPARQL Guide <advanced_topics_sparql_guide>`*  – How to construct SPARQL queries.
-4. *:ref:`Dataset Guide <datasets>`*  – Information about the datasets available.
-5. *:ref:`Content Negotiation <content_negotiation.rst>`*  – Learn how to retrieve data in different formats.
-6. *:ref:`FAQs <faq>`*  – Answers to common questions.
+1. * :ref:`Getting Started <getting_started>`*  – A step-by-step guide to accessing JudaicaLink.
+2. * :ref:`Search Guide <user_guide_search_guide>`*  – Instructions on how to use the different search methods.
+3. * :ref:`SPARQL Guide <advanced_topics_sparql_guide>`*  – How to construct SPARQL queries.
+4. * :ref:`Dataset Guide <datasets>`*  – Information about the datasets available.
+5. * :ref:`Content Negotiation <content_negotiation.rst>`*  – Learn how to retrieve data in different formats.
+6. * :ref:`FAQs <faq>`*  – Answers to common questions.
 
 Who Can Use JudaicaLink?
 =========================
