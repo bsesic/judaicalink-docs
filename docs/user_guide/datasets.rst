@@ -1,6 +1,5 @@
 .. _datasets:
 
-=======================
 Datasets in JudaicaLink
 =======================
 

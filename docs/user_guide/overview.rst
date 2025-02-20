@@ -59,10 +59,6 @@ JudaicaLink is designed for:
 
 Next Steps
 ==========
-* Start with [Getting Started](getting_started.rst).
+* Start with :ref:`Getting Started <getting_started>`.
 * If you need help, visit the [FAQs](faq.rst) or contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.
-
-
------------------------------------------------------------------
-Thank you for using JudaicaLink! \🚀
 
