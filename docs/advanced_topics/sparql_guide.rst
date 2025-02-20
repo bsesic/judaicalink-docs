@@ -1,3 +1,6 @@
+.. _advanced_topics_sparql_guide
+
+============
 SPARQL Guide
 ============
 
