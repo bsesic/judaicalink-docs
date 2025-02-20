@@ -42,7 +42,7 @@ JudaicaLink offers multiple search methods:
 Where can I find the SPARQL endpoint?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The SPARQL endpoint for querying the knowledge graph is available at:
-🔗 [https://data.judaicalink.org/sparql.html](https://data.judaicalink.org/sparql.html)
+🔗 `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 
 Can I download datasets from JudaicaLink?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
