@@ -43,7 +43,7 @@ The deployment process involves setting up a web application framework, a databa
 
    developer_guide/setup
    developer_guide/deployment
-   developer_guide/contribution
+   developer_guide/contributing
    developer_guide/api_reference
    developer_guide/docker
 

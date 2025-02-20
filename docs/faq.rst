@@ -72,7 +72,8 @@ What technologies does JudaicaLink use?
 - *Backend*: Django (Labs, Pubby)
 - *Frontend*: Hugo (Site), Vue.js (planned improvements)
 - *Data Storage*: Apache Jena Fuseki (RDF Triple Store)
-- *Search*: Elasticsearch, Redis
+- *Search*: SOLR
+- *Cache*: Redis
 - *Deployment*: Docker, Nginx
 
 How often is the data updated?
