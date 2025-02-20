@@ -90,6 +90,7 @@ JudaicaLink Site is the *public-facing portal* of the JudaicaLink project. It pr
 3. *Run the local server*
 
 .. code-block:: bash
+
    hugo server
 
 4. Open *http://localhost:1313/* in your browser to preview the site.
