@@ -97,7 +97,7 @@ Troubleshooting & Support
 
 I found incorrect data. How can I report it?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you find incorrect or outdated data, please contact the JudaicaLink team via the [Contact Page](https://labs.judaicalink.org/contact/).
+If you find incorrect or outdated data, please contact the JudaicaLink team via the `Contact Page <https://labs.judaicalink.org/contact/>`_.
 
 My SPARQL query is too slow. What can I do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,10 +114,10 @@ Getting Help
 
 Where can I find more information about JudaicaLink?
 
-- *Documentation*: [https://judaicalink-docs.readthedocs.io/](https://judaicalink-docs.readthedocs.io/)
-- *FAQ Updates*: Check [https://web.judaicalink.org/faq/](https://web.judaicalink.org/faq/) for the latest FAQs.
-- *Community & Support*: Contact us at [https://labs.judaicalink.org/contact/](https://labs.judaicalink.org/contact/).
+- *Documentation*: `https://judaicalink-docs.readthedocs.io/ <https://judaicalink-docs.readthedocs.io/>`_
+- *FAQ Updates*: Check `https://web.judaicalink.org/faq/ <https://web.judaicalink.org/faq/>`_ for the latest FAQs.
+- *Community & Support*: Contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.
 
----
+________________________________________________________
 If your question isn't listed here, feel free to contact us or check the JudaicaLink documentation!
 
