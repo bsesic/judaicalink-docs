@@ -28,7 +28,7 @@ You can contribute by:
 * Enhancing entity linking and enrichment.
 * Developing additional tools using the SPARQL endpoint.
 
-For detailed contribution guidelines, see the :ref:`Contributing Guide <developer_guide/contributing.rst>`.
+For detailed contribution guidelines, see the :ref:`Contributing Guide <developer_guide_contributing>`.
 
 Using JudaicaLink
 -----------------
