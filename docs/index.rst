@@ -14,7 +14,6 @@ The deployment process involves setting up a web application framework, a databa
    :caption: General Information
 
    introduction
-   overview
    getting_started
    faq
 
