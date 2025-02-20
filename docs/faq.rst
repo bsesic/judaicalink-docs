@@ -123,6 +123,6 @@ Where can I find more information about JudaicaLink?
 - *FAQ Updates*: Check `https://web.judaicalink.org/faq/ <https://web.judaicalink.org/faq/>`_ for the latest FAQs.
 - *Community & Support*: Contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.
 
-________________________________________________________
+___
 If your question isn't listed here, feel free to contact us or check the JudaicaLink documentation!
 
