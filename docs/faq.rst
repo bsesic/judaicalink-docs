@@ -27,7 +27,7 @@ You can contribute by:
 - Enhancing entity linking and enrichment.
 - Developing additional tools using the SPARQL endpoint.
 
-For detailed contribution guidelines, see the [Contributing Guide](contributing.rst).
+For detailed contribution guidelines, see the `Contributing Guide <contributing>`.
 
 Using JudaicaLink
 -----------------
@@ -77,9 +77,9 @@ JudaicaLink updates its data regularly. The frequency depends on external datase
 How can I integrate JudaicaLink with my project?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Developers can integrate JudaicaLink data by:
-- Using the *SPARQL endpoint* for live queries.
-- Downloading RDF datasets for local processing.
-- Embedding entity URIs into their knowledge bases.
+* Using the *SPARQL endpoint* for live queries.
+* Downloading RDF datasets for local processing.
+* Embedding entity URIs into their knowledge bases.
 
 Data and Licensing
 ------------------
