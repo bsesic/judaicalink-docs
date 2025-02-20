@@ -55,13 +55,16 @@ Advanced users and applications can specify the desired format using the `Accept
 
 Example Requests
 ________________
-- *JSON-LD:*::
+- *JSON-LD:*
+::
   curl -H "Accept: application/ld+json" https://data.judaicalink.org/data/yivo/moses-mendelssohn
 
-- *RDF/XML:*::
+- *RDF/XML:*
+::
   curl -H "Accept: application/rdf+xml" https://data.judaicalink.org/data/yivo/moses-mendelssohn
 
-- *Turtle:*::
+- *Turtle:*
+::
   curl -H "Accept: text/turtle" https://data.judaicalink.org/data/yivo/moses-mendelssohn
 
 Programmatic Access
@@ -71,7 +74,8 @@ Applications can integrate JudaicaLink's content negotiation capabilities by dyn
 For example, in *Python*:
 
 .. code-block:: python
-:linenos:
+    :linenos:
+
     import requests
     headers = {"Accept": "application/ld+json"}
     response = requests.get("https://data.judaicalink.org/data/yivo/moses-mendelssohn", headers=headers)
