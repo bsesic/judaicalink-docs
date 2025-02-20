@@ -91,6 +91,6 @@ Troubleshooting & Support
 - **SPARQL syntax errors?** Validate your query using a SPARQL validator.
 - **Need help?** Contact us at https://labs.judaicalink.org/contact/
 
----
-JudaicaLink’s SPARQL endpoint allows for rich, structured data retrieval. Start exploring now! 🚀
+------------------------------------------------------------------------------------------------
+JudaicaLink’s SPARQL endpoint allows for rich, structured data retrieval. Start exploring now! \🚀
 
