@@ -10,6 +10,7 @@ General Contribution Guidelines
 ===============================
 
 JudaicaLink is an open-source initiative. Contributions can include:
+
 * Reporting and fixing bugs
 * Improving documentation
 * Adding new features
@@ -35,6 +36,7 @@ Choose the project you want to contribute to and clone its repository:
 *(For Python-based projects like Labs and Pubby)*
 
 ::
+
     python -m venv venv
     source venv/bin/activate  # On macOS/Linux
     venv\Scripts\activate  # On Windows
@@ -84,7 +86,7 @@ JudaicaLink Labs
 
 ::
 
-  python manage.py runserver
+    python manage.py runserver
 
 
 JudaicaLink Site
@@ -106,6 +108,7 @@ JudaicaLink Pubby
 * Test Pubby:
 
 ::
+
     python manage.py runserver
 
 
@@ -150,11 +153,13 @@ Reporting Issues
 ================
 
 If you encounter a bug, have a feature request, or need help, open an issue in the relevant GitHub repository:
-* **Docs:** [https://github.com/judaicalink/judaicalink-docs/issues](https://github.com/judaicalink/judaicalink-docs/issues)
-* **Labs:** [https://github.com/judaicalink/judaicalink-labs/issues](https://github.com/judaicalink/judaicalink-labs/issues)
-* **Site:** [https://github.com/judaicalink/judaicalink-site/issues](https://github.com/judaicalink/judaicalink-site/issues)
-* **Pubby:** [https://github.com/lod-pubby/pubby-django/issues](https://github.com/lod-pubby/pubby-django/issues)
-* **Generators:** [https://github.com/judaicalink/judaicalink-generators/issues](https://github.com/judaicalink/judaicalink-generators/issues)
+
+* **Docs:** `https://github.com/judaicalink/judaicalink-docs/issues <https://github.com/judaicalink/judaicalink-docs/issues>`_
+* **Labs:** `https://github.com/judaicalink/judaicalink-labs/issues <https://github.com/judaicalink/judaicalink-labs/issues>`_
+* **Site:** `https://github.com/judaicalink/judaicalink-site/issues <https://github.com/judaicalink/judaicalink-site/issues>`_
+* **Pubby:** `https://github.com/lod-pubby/pubby-django/issues <https://github.com/lod-pubby/pubby-django/issues>`_
+* **Generators:** `https://github.com/judaicalink/judaicalink-generators/issues <https://github.com/judaicalink/judaicalink-generators/issues>`_
+
 
 Code of Conduct
 ===============
