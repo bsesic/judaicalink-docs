@@ -100,7 +100,7 @@ Adding a New Generator
 
 To create a new generator:
 
-1. **Create a new Python script in the ``generators/`` folder**.
+1. **Create a new Python script in the `generators/` folder**.
 2. **Implement data extraction and RDF transformation**.
 3. **Use the RDFLib library to generate triples**
 
