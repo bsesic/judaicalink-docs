@@ -74,7 +74,6 @@ Validating RDF Output
 ---------------------
 
 Once RDF data is generated, it is essential to validate it before loading it into the triple store. Use the following command
-
 ::
    rapper -i rdfxml -o turtle output.rdf
 
@@ -105,18 +104,17 @@ To create a new generator:
 2. **Implement data extraction and RDF transformation**.
 3. **Use the RDFLib library to generate triples**
 
-
 .. code-block:: sparql
+    :linenos:
+    from rdflib import Graph, URIRef, Literal, Namespace
 
-   from rdflib import Graph, URIRef, Literal, Namespace
+    g = Graph()
+    jl = Namespace("https://data.judaicalink.org/ontology/")
 
-   g = Graph()
-   jl = Namespace("https://data.judaicalink.org/ontology/")
+    entity = URIRef("https://data.judaicalink.org/resource/example")
+    g.add((entity, jl.label, Literal("Example Entity")))
 
-   entity = URIRef("https://data.judaicalink.org/resource/example")
-   g.add((entity, jl.label, Literal("Example Entity")))
-
-   g.serialize("output.rdf", format="xml")
+    g.serialize("output.rdf", format="xml")
 
 4. **Test and validate RDF output**.
 
