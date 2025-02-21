@@ -147,6 +147,7 @@ To contribute updates to the documentation:
 
 1. Make changes to the `.rst` files in the `docs/` directory.
 2. Rebuild the documentation using:
+
 ::
 
    make html

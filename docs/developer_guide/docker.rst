@@ -11,8 +11,8 @@ System Requirements
 
 Ensure your system has the following installed:
 
-- **Docker:** Latest version (`Installation Guide <https://docs.docker.com/get-docker/>`_)
-- **Docker Compose:** Latest version (`Installation Guide <https://docs.docker.com/compose/install/>`_)
+* **Docker:** Latest version (`Docker Installation Guide <https://docs.docker.com/get-docker/>`_)
+* **Docker Compose:** Latest version (`Docker Compose Installation Guide <https://docs.docker.com/compose/install/>`_)
 
 Cloning the Repository
 ======================
@@ -125,7 +125,7 @@ Running Solr in Docker
 
 To access the Solr admin panel:
 
-- URL: `http://localhost:8983/solr`
+* URL: `http://localhost:8983/solr`
 
 To create a new Solr core:
 
@@ -138,7 +138,7 @@ Running Apache Jena Fuseki in Docker
 
 To access Fuseki’s web interface:
 
-- URL: `http://localhost:3030`
+* URL: `http://localhost:3030`
 
 To load RDF data into Fuseki:
 

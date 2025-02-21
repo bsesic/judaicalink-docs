@@ -41,7 +41,7 @@ The following datasets are included in JudaicaLink:
   * SPARQL queries available for detailed searches.
 
 4. Footprints - Jewish Books through Time and Place
--------------------------------------------------
+---------------------------------------------------
 
 * Description: A dataset tracing the movement of Jewish books across different regions and owners.
 * Entities: Books, authors, owners, locations.
@@ -75,10 +75,10 @@ Using the Datasets
 1. Querying Data with SPARQL
 ----------------------------
 
-Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint*:
+Users can run SPARQL queries against the JudaicaLink **SPARQL Endpoint**:
 
-* *Endpoint URL* : `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
-* *Example Query*  (Retrieve all persons in the dataset):
+* **Endpoint URL** : `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
+* **Example Query**  (Retrieve all persons in the dataset):
 
 .. code-block:: sparql
     :linenos:
@@ -93,8 +93,9 @@ Users can run SPARQL queries against the JudaicaLink *SPARQL Endpoint*:
 
 Users can download full dataset RDF dumps for offline use:
 
-* *Download URL*: `https://data.judaicalink.org/dumps/ <https://data.judaicalink.org/dumps/>`_
-* *Example:*  Download `yivo.rdf`
+* **Download URL**: `https://data.judaicalink.org/dumps/ <https://data.judaicalink.org/dumps/>`_
+* **Example:**  Download `yivo.rdf`
+
 ::
 
   wget https://data.judaicalink.org/dumps/yivo.rdf
@@ -105,8 +106,8 @@ Users can download full dataset RDF dumps for offline use:
 
 JudaicaLink supports content negotiation, allowing users to request data in different formats.
 
-* *Formats available:* HTML, JSON-LD, RDF/XML, Turtle.
-* *Example Requests:*
+* **Formats available:** HTML, JSON-LD, RDF/XML, Turtle.
+* **Example Requests:**
 
     * JSON-LD: `https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn`
     * RDF/XML: `https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn`
@@ -116,8 +117,9 @@ JudaicaLink supports content negotiation, allowing users to request data in diff
 
 For automated access and data retrieval:
 
-* *Base API URL* : `https://data.judaicalink.org/api/`
-* *Example API Query (Get data for an entity):*
+* **Base API URL** : `https://data.judaicalink.org/api/`
+* **Example API Query (Get data for an entity):**
+
 ::
 
     curl -H "Accept: application/json" https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn
@@ -125,6 +127,6 @@ For automated access and data retrieval:
 Next Steps
 ==========
 
-* Learn how to refine your *SPARQL queries* in the :ref:`SPARQL Guide <advanced_topics_sparql_guide>`.
-* Explore the *Entity Pages* to browse individual datasets.
+* Learn how to refine your **SPARQL queries** in the :ref:`SPARQL Guide <advanced_topics_sparql_guide>`.
+* Explore the **Entity Pages** to browse individual datasets.
 * If you need help, check the :ref:`FAQs <faq>` or contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.

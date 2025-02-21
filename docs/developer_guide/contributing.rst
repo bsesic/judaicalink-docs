@@ -1,8 +1,8 @@
 .. _developer_guide_contributing:
 
-===================================
+====================================
 Contributing to JudaicaLink Projects
-===================================
+====================================
 
 Thank you for your interest in contributing to JudaicaLink! This guide provides an overview of how you can contribute to various projects within the JudaicaLink ecosystem, including **Docs, Labs, Site, Pubby, Generators, and RDF-related tools**.
 

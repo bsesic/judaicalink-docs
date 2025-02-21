@@ -7,7 +7,7 @@ JudaicaLink Generators
 JudaicaLink Generators is a collection of scripts and tools designed to transform structured and unstructured data into RDF triples for integration into the JudaicaLink knowledge graph. These generators take input from diverse sources such as **websites, spreadsheets, and bibliographic databases** and convert them into **Linked Data**.
 
 Features of JudaicaLink Generators
-=================================
+==================================
 
 - **Automatic RDF generation** from different data formats.
 - **Data enrichment** using external authority files like GND and Wikidata.
@@ -48,7 +48,8 @@ Each generator script is responsible for processing specific datasets. To run a 
 
 For example
 ::
-   python generators/yivo_generator.py
+
+    python generators/yivo_generator.py
 
 Running Django Commands
 -----------------------
@@ -75,7 +76,8 @@ Validating RDF Output
 
 Once RDF data is generated, it is essential to validate it before loading it into the triple store. Use the following command
 ::
-   rapper -i rdfxml -o turtle output.rdf
+
+    rapper -i rdfxml -o turtle output.rdf
 
 Or validate using the Django management command
 ::
