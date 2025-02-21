@@ -92,8 +92,6 @@ Setting Up a Development Environment
     cd pubby-django
 
 2. **Create a virtual environment**
-
-.. code-block:: bash
 ::
 
    python -m venv venv
