@@ -86,8 +86,7 @@ Setting Up a Development Environment
 ------------------------------------
 
 1. **Clone the repository**
-
-.. code-block:: bash
+::
 
     git clone https://github.com/lod-pubby/pubby-django.git
     cd pubby-django
@@ -95,20 +94,19 @@ Setting Up a Development Environment
 2. **Create a virtual environment**
 
 .. code-block:: bash
+::
 
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate  # On Windows
 
 3. **Install dependencies**
-
-.. code-block:: bash
+::
 
    pip install -r requirements.txt
 
 4. **Run the development server**
-
-.. code-block:: bash
+::
 
    python manage.py runserver
 
