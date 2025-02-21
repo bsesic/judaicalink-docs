@@ -77,7 +77,7 @@ How is data stored and structured in JudaicaLink?
 JudaicaLink uses *RDF (Resource Description Framework)* to structure data. It is stored in an *Apache Jena Fuseki* triple store and follows the Linked Open Data principles.
 
 What technologies does JudaicaLink use?
---------------------------------------
+---------------------------------------
 
 - *Backend*: Django (Labs, Pubby)
 - *Frontend*: Hugo (Site), Vue.js (planned improvements)
@@ -128,7 +128,7 @@ My SPARQL query is too slow. What can I do?
 - Use *indexed fields* where possible.
 
 I need a dataset that is not available. Can you add it?
-------------------------------------------------------
+-------------------------------------------------------
 
 JudaicaLink is open to dataset suggestions. If you have a dataset you’d like to contribute, reach out to us.
 
