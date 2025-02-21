@@ -73,14 +73,14 @@ You can also use the RDF Generator in your Python scripts
 Defining RDF Mappings
 =====================
 
-Mappings define how input data is transformed into RDF triples. Example mapping file (YAML)::
+Mappings define how input data is transformed into RDF triples. Example mapping file (YAML):
 
 .. code-block:: yaml
     :linenos:
 
-prefixes:
-     ex: "http://example.org/"
-     foaf: "http://xmlns.com/foaf/0.1/"
+    prefixes:
+        ex: "http://example.org/"
+        foaf: "http://xmlns.com/foaf/0.1/"
 
     mappings:
         - column: "Name"
