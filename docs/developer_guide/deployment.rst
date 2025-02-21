@@ -15,7 +15,7 @@ Ensure your system meets the following requirements:
 * **Python:**  3.8+
 * **Docker & Docker Compose:**  Latest version
 * **Nginx:**  Latest version
-* **PostgreSQL:*  14+
+* **PostgreSQL:**  14+
 * **Solr:**  9+
 * **Redis:**  6+
 * **Apache Jena Fuseki:**  4.5+

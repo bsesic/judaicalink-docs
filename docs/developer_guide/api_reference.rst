@@ -1,3 +1,6 @@
+.. _developer_guide_api_reference:
+
+=============
 API Reference
 =============
 
@@ -6,7 +9,8 @@ The JudaicaLink API provides programmatic access to linked data, including **ent
 Base API URL: `https://data.judaicalink.org/api/`
 
 Authentication
---------------
+==============
+
 Currently, the JudaicaLink API is **publicly accessible** and does not require authentication.
 
 Endpoints
@@ -146,5 +150,5 @@ Support
 For assistance, contact: [https://labs.judaicalink.org/contact/](https://labs.judaicalink.org/contact/)
 
 ---
-The JudaicaLink API provides structured, linked data for Jewish studies. Explore the datasets and integrate them into your projects! 🚀
+The JudaicaLink API provides structured, linked data for Jewish studies. Explore the datasets and integrate them into your projects! \🚀
 
