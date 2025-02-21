@@ -106,6 +106,7 @@ To create a new generator:
 
 .. code-block:: sparql
     :linenos:
+
     from rdflib import Graph, URIRef, Literal, Namespace
 
     g = Graph()
@@ -115,6 +116,7 @@ To create a new generator:
     g.add((entity, jl.label, Literal("Example Entity")))
 
     g.serialize("output.rdf", format="xml")
+
 
 4. **Test and validate RDF output**.
 
