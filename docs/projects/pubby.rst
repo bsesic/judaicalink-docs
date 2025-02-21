@@ -4,7 +4,7 @@
 JudaicaLink Pubby
 =================
 
-JudaicaLink Pubby is a *linked data server* that provides a human-readable and machine-accessible interface for RDF data. It serves as a *SPARQL endpoint* and *Linked Data interface* for querying and browsing JudaicaLink’s structured datasets.
+JudaicaLink Pubby is a **linked data server** that provides a human-readable and machine-accessible interface for RDF data. It serves as a **SPARQL endpoint** and **Linked Data interface** for querying and browsing JudaicaLink’s structured datasets.
 
 Features of JudaicaLink Pubby
 =============================
@@ -12,21 +12,21 @@ Features of JudaicaLink Pubby
 1. SPARQL Query Interface
 -------------------------
 
-* Users can run *SPARQL queries* to retrieve structured information.
-* Supports *Linked Data browsing* by providing entity URIs.
+* Users can run **SPARQL queries** to retrieve structured information.
+* Supports **Linked Data browsing** by providing entity URIs.
 * SPARQL Endpoint: `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_.
 
 2. RDF Data Exploration
 -----------------------
 
-* Each entity has a *dedicated RDF page*, accessible through content negotiation.
-* Supports multiple formats, including *RDF/XML, Turtle, and JSON-LD*.
+* Each entity has a **dedicated RDF page**, accessible through content negotiation.
+* Supports multiple formats, including **RDF/XML, Turtle, and JSON-LD**.
 * Example entity URL: `https://data.judaicalink.org/data/html/yivo/moses-mendelssohn`
 
 3. Integration with Linked Data Services
 ----------------------------------------
 
-* JudaicaLink Pubby integrates with *Wikidata, GND, VIAF, and DBpedia*.
+* JudaicaLink Pubby integrates with **Wikidata, GND, VIAF, and DBpedia**.
 * Provides structured URIs that link to external data sources.
 
 How to Use JudaicaLink Pubby
@@ -42,7 +42,7 @@ How to Use JudaicaLink Pubby
 2. Running a SPARQL Query
 -------------------------
 
-1. Go to the *SPARQL Endpoint*: `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
+1. Go to the **SPARQL Endpoint**: `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 2. Enter a query, such as:
 
 .. code-block:: sparql
@@ -53,16 +53,16 @@ How to Use JudaicaLink Pubby
         rdfs:label ?name .
     } LIMIT 10
 
-3. Execute the query and view results in *JSON, XML, or CSV format*.
+3. Execute the query and view results in **JSON, XML, or CSV format**.
 
 3. Accessing Data in Different Formats
 --------------------------------------
-You can retrieve entity data in various formats using *content negotiation*:
+You can retrieve entity data in various formats using **content negotiation**:
 
-* *HTML*: `https://data.judaicalink.org/data/html/yivo/moses-mendelssohn`
-* *JSON-LD*: `https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn`
-* *RDF/XML*: `https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn`
-* *Turtle*: `https://data.judaicalink.org/data/ttl/yivo/moses-mendelssohn`
+* **HTML**: `https://data.judaicalink.org/data/html/yivo/moses-mendelssohn`
+* **JSON-LD**: `https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn`
+* **RDF/XML**: `https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn`
+* *Turtle**: `https://data.judaicalink.org/data/ttl/yivo/moses-mendelssohn`
 
 Technical Overview
 ==================
@@ -70,14 +70,14 @@ Technical Overview
 Backend
 -------
 
-* Built using *Apache Jena Fuseki* for RDF storage and SPARQL processing.
-* Uses *Django Pubby* for serving Linked Data.
+* Built using **Apache Jena Fuseki** for RDF storage and SPARQL processing.
+* Uses **Django Pubby** for serving Linked Data.
 
 Database & Data Sources
 -----------------------
 
-* Stores data in *RDF triple format*.
-* Integrates external resources such as *Wikidata, DBpedia, and GND*.
+* Stores data in **RDF triple format**.
+* Integrates external resources such as **Wikidata, DBpedia, and GND**.
 
 Contributing to JudaicaLink Pubby
 =================================
@@ -112,14 +112,14 @@ Setting Up a Development Environment
 
 Deployment
 ----------
-* Pubby is deployed using *Docker*.
-* RDF data is loaded via *SPARQL Update queries*.
+* Pubby is deployed using **Docker**.
+* RDF data is loaded via **SPARQL Update queries**.
 
 Troubleshooting & Support
 =========================
-* *SPARQL query errors?* Check syntax and dataset availability.
-* *RDF data not loading?* Verify dataset ingestion.
-* *Need help?* Contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.
+* **SPARQL query errors?** Check syntax and dataset availability.
+* **RDF data not loading?** Verify dataset ingestion.
+* **Need help?** Contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.
 
 ---
 JudaicaLink Pubby provides structured Linked Data access to Jewish studies datasets. Explore, query, and integrate JudaicaLink’s knowledge graph today! \🚀

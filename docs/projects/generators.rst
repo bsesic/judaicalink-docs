@@ -124,7 +124,7 @@ Troubleshooting & Support
 =========================
 
 - **Generator not producing output?** Check the data source and ensure it is accessible.
-- **RDF validation errors?** Run `validate_rd`` and fix syntax issues.
+- **RDF validation errors?** Run `validate_rd` and fix syntax issues.
 - **SPARQL endpoint not updating?** Ensure that the RDF data is correctly loaded.
 - **Need help?** Contact us at https://labs.judaicalink.org/contact/
 
