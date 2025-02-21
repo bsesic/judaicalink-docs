@@ -14,9 +14,10 @@ Authentication
 Currently, the JudaicaLink API is **publicly accessible** and does not require authentication.
 
 Endpoints
----------
+=========
 
-### 1. Retrieve Entity Data
+1. Retrieve Entity Data
+------------------------
 
 **Endpoint:**
 
@@ -46,7 +47,8 @@ Retrieves structured RDF data about a specific entity.
         "deathDate": "1786-01-04"
     }
 
-### 2. Search Entities
+2. Search Entities
+------------------
 
 **Endpoint:**
 
@@ -68,7 +70,8 @@ Performs a full-text search across JudaicaLink’s knowledge graph.
 
     GET https://data.judaicalink.org/api/search?q=Mendelssohn&limit=5
 
-### 3. List Available Datasets
+3. List Available Datasets
+---------------------------
 
 **Endpoint:**
 
@@ -102,7 +105,8 @@ Returns metadata about all datasets available in JudaicaLink.
         }
     ]
 
-### 4. Run SPARQL Queries
+4. Run SPARQL Queries
+----------------------
 
 **Endpoint:**
 
@@ -128,7 +132,7 @@ Executes a SPARQL query on the JudaicaLink knowledge graph.
 - XML (`Accept: application/xml`)
 
 Error Handling
---------------
+==============
 
 The API returns standard HTTP status codes:
 
@@ -138,16 +142,16 @@ The API returns standard HTTP status codes:
 - `500 Internal Server Error` - Server-side issue
 
 Usage Limits & Best Practices
------------------------------
+==============================
 
 - **Rate Limits**: The API enforces request limits to prevent abuse. If you encounter a `429 Too Many Requests` response, reduce the request frequency.
 - **Efficient Queries**: Use filters and `LIMIT` clauses in SPARQL queries to improve response times.
 - **Data Caching**: Cache frequently accessed results to reduce load on the API.
 
 Support
--------
+=======
 
-For assistance, contact: [https://labs.judaicalink.org/contact/](https://labs.judaicalink.org/contact/)
+For assistance, contact: `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.
 
 ---
 The JudaicaLink API provides structured, linked data for Jewish studies. Explore the datasets and integrate them into your projects! \🚀
