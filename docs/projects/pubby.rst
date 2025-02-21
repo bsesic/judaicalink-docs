@@ -41,6 +41,7 @@ How to Use JudaicaLink Pubby
 
 2. Running a SPARQL Query
 -------------------------
+
 1. Go to the *SPARQL Endpoint*: `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 2. Enter a query, such as:
 
