@@ -103,7 +103,7 @@ Data and Licensing
 ==================
 
 What are the licensing terms for using JudaicaLink data?
--------------------------------------------------------
+--------------------------------------------------------
 
 JudaicaLink data is available under open licenses, including *CC BY-SA* and *CC0*, depending on the dataset. Check individual dataset licenses for specifics.
 
