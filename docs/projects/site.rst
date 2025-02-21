@@ -51,7 +51,7 @@ Finding Dataset Details
 
 Reading News & Updates
 ----------------------
-** Visit `https://www.judaicalink.org/news/ <https://www.judaicalink.org/news/>`_ for the latest project announcements.
+* Visit `https://www.judaicalink.org/news/ <https://www.judaicalink.org/news/>`_ for the latest project announcements.
 
 Technical Overview
 ==================
