@@ -24,7 +24,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.napoleon',
     'sphinx.ext.doctest',
     'sphinx_intl'
 ]
