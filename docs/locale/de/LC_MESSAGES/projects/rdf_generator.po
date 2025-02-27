@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../projects/rdf_generator.rst:5
+msgid "RDF Generator"
+msgstr "RDF-Generator"
+
+#: ../../projects/rdf_generator.rst:7
+msgid ""
+"The RDF Generator is a **Python library** designed to transform "
+"structured and unstructured data into **RDF triples**, making them "
+"compatible with **Linked Data principles**. It is primarily used in the "
+"JudaicaLink project to convert datasets into RDF format for integration "
+"into the JudaicaLink **knowledge graph**."
+msgstr ""
+"Der RDF-Generator ist eine **Python-Bibliothek**, die strukturierte und "
+"unstrukturierte Daten in **RDF-Tripel** umwandelt und sie mit den "
+"**Prinzipien des Linked Data** kompatibel macht. Er wird hauptsächlich im "
+"JudaicaLink-Projekt verwendet, um Datensätze in RDF-Format zu konvertieren, "
+"um sie in den JudaicaLink **Wissensgraphen** zu integrieren."
+
+#: ../../projects/rdf_generator.rst:10
+msgid "Features of RDF Generator"
+msgstr "Funktionen des RDF-Generators"
+
+#: ../../projects/rdf_generator.rst:12
+msgid ""
+"**Support for multiple data sources** (spreadsheets, XML, JSON, CSV, web "
+"scraping)."
+msgstr ""
+"**Unterstützung für mehrere Datenquellen** (Tabellenkalkulationen, XML, JSON, "
+"CSV, Web-Scraping)."
+
+#: ../../projects/rdf_generator.rst:13
+msgid "**Automatic RDF conversion** using predefined mappings."
+msgstr "**Automatische RDF-Konvertierung** mit vordefinierten Zuordnungen."
+
+#: ../../projects/rdf_generator.rst:14
+msgid "**SPARQL update compatibility** for inserting RDF data into triple stores."
+msgstr "**SPARQL-Update-Kompatibilität** zum Einfügen von RDF-Daten in Triple-Stores."
+
+#: ../../projects/rdf_generator.rst:15
+msgid "**Integration with Django and external APIs**."
+msgstr "**Integration mit Django und externen APIs**."
+
+#: ../../projects/rdf_generator.rst:16
+msgid "**Export support for RDF/XML, Turtle, N-Triples, and JSON-LD formats**."
+msgstr "**Exportunterstützung für RDF/XML, Turtle, N-Triples und JSON-LD-Formate**."
+
+#: ../../projects/rdf_generator.rst:19
+msgid "Setting Up the Environment"
+msgstr "Einrichten der Umgebung"
+
+#: ../../projects/rdf_generator.rst:21
+msgid "1. **Clone the repository** ::"
+msgstr "1. **Klonen des Repositorys** ::"
+
+#: ../../projects/rdf_generator.rst:27
+msgid "2. **Create a virtual environment** (Recommended) ::"
+msgstr "2. **Erstellen einer virtuellen Umgebung** (Empfohlen) ::"
+
+#: ../../projects/rdf_generator.rst:34
+msgid "3. **Install dependencies** ::"
+msgstr "3. **Abhängigkeiten installieren** ::"
+
+#: ../../projects/rdf_generator.rst:40
+msgid "Generating RDF Data"
+msgstr "Generieren von RDF-Daten"
+
+#: ../../projects/rdf_generator.rst:42
+msgid ""
+"To generate RDF data, use the command-line tool or integrate it into a "
+"Python script."
+msgstr ""
+"Verwenden Sie zum Generieren von RDF-Daten das Befehlszeilentool oder "
+"integrieren Sie es in ein Python-Skript."
+
+#: ../../projects/rdf_generator.rst:44
+msgid "Example usage ::"
+msgstr "Beispielverwendung ::"
+
+#: ../../projects/rdf_generator.rst:49
+msgid "Supported formats:"
+msgstr "Unterstützte Formate:"
+
+#: ../../projects/rdf_generator.rst:51
+msgid "**RDF/XML**: `--format xml`"
+msgstr "**RDF/XML**: `--format xml`"
+
+#: ../../projects/rdf_generator.rst:52
+msgid "**Turtle (TTL)**: `--format ttl`"
+msgstr "**Turtle (TTL)**: `--format ttl`"
+
+#: ../../projects/rdf_generator.rst:53
+msgid "**JSON-LD**: `--format jsonld`"
+msgstr "**JSON-LD**: `--format jsonld`"
+
+#: ../../projects/rdf_generator.rst:54
+msgid "**N-Triples**: `--format nt`"
+msgstr "**N-Triples**: `--format nt`"
+
+#: ../../projects/rdf_generator.rst:57
+msgid "Integrating with Python"
+msgstr "Integration mit Python"
+
+#: ../../projects/rdf_generator.rst:59
+msgid "You can also use the RDF Generator in your Python scripts"
+msgstr "Sie können den RDF-Generator auch in Ihren Python-Skripten verwenden"
+
+#: ../../projects/rdf_generator.rst:74
+msgid "Defining RDF Mappings"
+msgstr "Definieren von RDF-Zuordnungen"
+
+#: ../../projects/rdf_generator.rst:76
+msgid ""
+"Mappings define how input data is transformed into RDF triples. Example "
+"mapping file (YAML):"
+msgstr ""
+"Zuordnungen definieren, wie Eingabedaten in RDF-Tripel umgewandelt werden. "
+"Beispiel-Mapping-Datei (YAML):"
+
+#: ../../projects/rdf_generator.rst:92
+msgid "Running with a mapping file ::"
+msgstr "Mit einer Mapping-Datei ausführen ::"
+
+#: ../../projects/rdf_generator.rst:98
+msgid "Validating RDF Output"
+msgstr "Überprüfen der RDF-Ausgabe"
+
+#: ../../projects/rdf_generator.rst:100
+msgid "Once RDF is generated, validate it to ensure correctness ::"
+msgstr "Wenn RDF generiert wurde, überprüfen Sie es, um die Korrektheit sicherzustellen ::"
+
+#: ../../projects/rdf_generator.rst:105
+msgid "Or using the RDF Generator tool ::"
+msgstr "Oder mit dem RDF-Generator-Tool ::"
+
+#: ../../projects/rdf_generator.rst:111
+msgid "Loading RDF into a Triple Store"
+msgstr "Laden von RDF in einen Triple-Store"
+
+#: ../../projects/rdf_generator.rst:113
+msgid "To load RDF data into **Apache Jena Fuseki** ::"
+msgstr "Um RDF-Daten in **Apache Jena Fuseki** zu laden ::"
+
+#: ../../projects/rdf_generator.rst:118
+msgid "Alternatively, using SPARQL Update ::"
+msgstr "Alternativ mit SPARQL-Update ::"
+
+#: ../../projects/rdf_generator.rst:124
+msgid "Troubleshooting & Support"
+msgstr "Problembehandlung & Unterstützung"
+
+#: ../../projects/rdf_generator.rst:126
+msgid ""
+"**Invalid RDF syntax?** Ensure mappings are correct and validate RDF "
+"output."
+msgstr ""
+"**Ungültige RDF-Syntax?** Stellen Sie sicher, dass die Zuordnungen korrekt "
+"sind und überprüfen Sie die RDF-Ausgabe."
+
+#: ../../projects/rdf_generator.rst:127
+msgid ""
+"**SPARQL endpoint not responding?** Check network connectivity and "
+"endpoint availability."
+msgstr ""
+"**SPARQL-Endpunkt reagiert nicht?** Überprüfen Sie die Netzwerkverbindung "
+"und die Verfügbarkeit des Endpunkts."
+
+#: ../../projects/rdf_generator.rst:128
+msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
+msgstr "**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/"
+
+#: ../../projects/rdf_generator.rst:130
+msgid ""
+"--- The RDF Generator streamlines RDF data creation for JudaicaLink and "
+"other Linked Data projects. Start transforming your data today! \\🚀"
+
+msgstr ""
+"--- Der RDF-Generator vereinfacht die Erstellung von RDF-Daten für JudaicaLink "
+"und andere Linked-Data-Projekte. Beginnen Sie noch heute mit der Umwandlung "
+"Ihrer Daten! \\🚀"
+

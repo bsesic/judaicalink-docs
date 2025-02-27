@@ -1,0 +1,285 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-21 10:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+
+#: ../../developer_guide/contributing.rst:5
+msgid "Contributing to JudaicaLink Projects"
+msgstr "Zu JudaicaLink-Projekten beitragen"
+
+#: ../../developer_guide/contributing.rst:7
+msgid ""
+"Thank you for your interest in contributing to JudaicaLink! This guide "
+"provides an overview of how you can contribute to various projects within"
+" the JudaicaLink ecosystem, including **Docs, Labs, Site, Pubby, "
+"Generators, and RDF-related tools**."
+msgstr ""
+"Vielen Dank für Ihr Interesse an der Mitarbeit an JudaicaLink! Dieser "
+"Leitfaden gibt einen Überblick darüber, wie Sie zu verschiedenen Projekten"
+" innerhalb des JudaicaLink-Ökosystems beitragen können, einschließlich "
+"**Docs, Labs, Site, Pubby, Generators und RDF-bezogenen Tools**."
+
+
+#: ../../developer_guide/contributing.rst:10
+msgid "General Contribution Guidelines"
+msgstr "Allgemeine Richtlinien für Beiträge"
+
+#: ../../developer_guide/contributing.rst:12
+msgid "JudaicaLink is an open-source initiative. Contributions can include:"
+msgstr "JudaicaLink ist eine Open-Source-Initiative. Beiträge können Folgendes umfassen:"
+
+#: ../../developer_guide/contributing.rst:14
+msgid "Reporting and fixing bugs"
+msgstr "Fehlerberichte und -behebungen"
+
+#: ../../developer_guide/contributing.rst:15
+msgid "Improving documentation"
+msgstr "Dokumentation verbessern"
+
+#: ../../developer_guide/contributing.rst:16
+msgid "Adding new features"
+msgstr "Neue Funktionen hinzufügen"
+
+#: ../../developer_guide/contributing.rst:17
+msgid "Enhancing RDF datasets and linked data"
+msgstr "RDF-Datensätze und Linked Data verbessern"
+
+#: ../../developer_guide/contributing.rst:18
+msgid "Optimizing performance"
+msgstr "Leistung optimieren"
+
+#: ../../developer_guide/contributing.rst:20
+msgid "All contributions should follow our coding standards and best practices."
+msgstr "Alle Beiträge sollten unseren Codierungsstandards und Best Practices folgen."
+
+#: ../../developer_guide/contributing.rst:23
+msgid "Setting Up Your Development Environment"
+msgstr "Einrichten Ihrer Entwicklungsumgebung"
+
+#: ../../developer_guide/contributing.rst:26
+msgid "1. Clone the Repository"
+msgstr "1. Repository klonen"
+
+#: ../../developer_guide/contributing.rst:27
+msgid "Choose the project you want to contribute to and clone its repository: ::"
+msgstr "Wählen Sie das Projekt aus, zu dem Sie beitragen möchten, und klonen Sie sein Repository: ::"
+
+#: ../../developer_guide/contributing.rst:35
+msgid "2. Set Up a Virtual Environment"
+msgstr "2. Ein virtuelles Umfeld einrichten"
+
+#: ../../developer_guide/contributing.rst:36
+msgid "*(For Python-based projects like Labs and Pubby)*"
+msgstr "*(Für Python-basierte Projekte wie Labs und Pubby)*"
+
+#: ../../developer_guide/contributing.rst:45
+msgid "3. Install Dependencies"
+msgstr "3. Abhängigkeiten installieren"
+
+#: ../../developer_guide/contributing.rst:50
+msgid ""
+"For front-end projects like the **JudaicaLink Site**, install "
+"dependencies using **Hugo**: ::"
+msgstr ""
+"Für Frontend-Projekte wie die **JudaicaLink Site** installieren Sie "
+"Abhängigkeiten mit **Hugo**: ::"
+
+#: ../../developer_guide/contributing.rst:56
+msgid "For containerized development using **Docker**: ::"
+msgstr "Für containerisierte Entwicklung mit **Docker**: ::"
+
+#: ../../developer_guide/contributing.rst:64
+msgid "Project-Specific Contributions"
+msgstr "Projektspezifische Beiträge"
+
+#: ../../developer_guide/contributing.rst:67
+msgid "JudaicaLink Docs"
+msgstr "JudaicaLink Docs"
+
+#: ../../developer_guide/contributing.rst:69
+msgid "Update or create `.rst` documentation files in `docs/`."
+msgstr "Aktualisieren oder erstellen Sie `.rst`-Dokumentationsdateien in `docs/`."
+
+#: ../../developer_guide/contributing.rst:70
+msgid "Build and preview documentation:"
+msgstr "Dokumentation erstellen und anzeigen:"
+
+#: ../../developer_guide/contributing.rst:78
+msgid "Submit improvements via a pull request."
+msgstr "Verbesserungen über einen Pull-Request einreichen."
+
+#: ../../developer_guide/contributing.rst:81
+msgid "JudaicaLink Labs"
+msgstr "JudaicaLink Labs"
+
+#: ../../developer_guide/contributing.rst:83
+msgid "Improve search functionality, indexing, and data integration."
+msgstr "Verbessern Sie die Suchfunktion, Indizierung und Datenintegration."
+
+#: ../../developer_guide/contributing.rst:84
+msgid "Work on **Django-based** features."
+msgstr "Arbeiten Sie an **Django-basierten** Funktionen."
+
+#: ../../developer_guide/contributing.rst:85
+msgid "Run the development server:"
+msgstr "Entwicklungsserver ausführen:"
+
+#: ../../developer_guide/contributing.rst:93
+msgid "JudaicaLink Site"
+msgstr "JudaicaLink Seite"
+
+#: ../../developer_guide/contributing.rst:95
+msgid "Improve UI/UX for the static site."
+msgstr "Verbessern Sie das UI/UX für die statische Seite."
+
+#: ../../developer_guide/contributing.rst:96
+msgid "Modify `config.toml` and `content/` for new pages."
+msgstr "Ändern Sie `config.toml` und `content/` für neue Seiten."
+
+#: ../../developer_guide/contributing.rst:97
+msgid "Preview site changes:"
+msgstr "Seitenänderungen anzeigen:"
+
+#: ../../developer_guide/contributing.rst:104
+msgid "JudaicaLink Pubby"
+msgstr "JudaicaLink Pubby"
+
+#: ../../developer_guide/contributing.rst:106
+msgid "Enhance SPARQL querying and linked data support."
+msgstr "Verbessern Sie SPARQL-Abfragen und Linked Data-Unterstützung."
+
+#: ../../developer_guide/contributing.rst:107
+msgid "Improve the Jena Fuseki-based triple store."
+msgstr "Verbessern Sie den auf Jena Fuseki basierenden Triple Store."
+
+#: ../../developer_guide/contributing.rst:108
+msgid "Test Pubby:"
+msgstr "Pubby testen:"
+
+#: ../../developer_guide/contributing.rst:116
+msgid "JudaicaLink Generators & RDF Tools"
+msgstr "JudaicaLink Generatoren & RDF-Werkzeuge"
+
+#: ../../developer_guide/contributing.rst:118
+msgid "Improve data ingestion pipelines."
+msgstr "Verbessern Sie die Daten-Eingabepipelines."
+
+#: ../../developer_guide/contributing.rst:119
+msgid "Enhance RDF transformation scripts."
+msgstr "Verbessern Sie RDF-Transformations-Skripte."
+
+#: ../../developer_guide/contributing.rst:120
+msgid "Validate RDF outputs with:"
+msgstr "Validieren Sie RDF-Ausgaben mit:"
+
+#: ../../developer_guide/contributing.rst:128
+msgid "Submitting a Pull Request"
+msgstr "Ein Pull-Request einreichen"
+
+#: ../../developer_guide/contributing.rst:130
+msgid "Fork the repository on GitHub."
+msgstr "Forken Sie das Repository auf GitHub."
+
+#: ../../developer_guide/contributing.rst:131
+msgid "Create a new feature branch:"
+msgstr "Erstellen Sie einen neuen Feature-Zweig:"
+
+#: ../../developer_guide/contributing.rst:137
+msgid "Make changes and commit them:"
+msgstr "Machen Sie Änderungen und committen Sie sie:"
+
+#: ../../developer_guide/contributing.rst:144
+msgid "Push to your fork:"
+msgstr "Pushen Sie in Ihren Fork:"
+
+#: ../../developer_guide/contributing.rst:150
+msgid "Open a pull request on GitHub and describe your changes."
+msgstr "Öffnen Sie einen Pull-Request auf GitHub und beschreiben Sie Ihre Änderungen."
+
+#: ../../developer_guide/contributing.rst:153
+msgid "Reporting Issues"
+msgstr "Probleme melden"
+
+#: ../../developer_guide/contributing.rst:155
+msgid ""
+"If you encounter a bug, have a feature request, or need help, open an "
+"issue in the relevant GitHub repository:"
+msgstr ""
+"Wenn Sie einen Fehler finden, eine Funktionsanfrage haben oder Hilfe "
+"benötigen, öffnen Sie ein Problem im entsprechenden GitHub-Repository:"
+
+#: ../../developer_guide/contributing.rst:157
+msgid ""
+"**Docs:** `https://github.com/judaicalink/judaicalink-docs/issues "
+"<https://github.com/judaicalink/judaicalink-docs/issues>`_"
+msgstr ""
+"**Docs:** `https://github.com/judaicalink/judaicalink-docs/issues "
+"<https://github.com/judaicalink/judaicalink-docs/issues>`_"
+
+#: ../../developer_guide/contributing.rst:158
+msgid ""
+"**Labs:** `https://github.com/judaicalink/judaicalink-labs/issues "
+"<https://github.com/judaicalink/judaicalink-labs/issues>`_"
+msgstr ""
+"**Labs:** `https://github.com/judaicalink/judaicalink-labs/issues "
+"<https://github.com/judaicalink/judaicalink-labs/issues>`_"
+
+#: ../../developer_guide/contributing.rst:159
+msgid ""
+"**Site:** `https://github.com/judaicalink/judaicalink-site/issues "
+"<https://github.com/judaicalink/judaicalink-site/issues>`_"
+msgstr ""
+"**Site:** `https://github.com/judaicalink/judaicalink-site/issues "
+"<https://github.com/judaicalink/judaicalink-site/issues>`_"
+
+#: ../../developer_guide/contributing.rst:160
+msgid ""
+"**Pubby:** `https://github.com/lod-pubby/pubby-django/issues "
+"<https://github.com/lod-pubby/pubby-django/issues>`_"
+msgstr ""
+"**Pubby:** `https://github.com/lod-pubby/pubby-django/issues "
+"<https://github.com/lod-pubby/pubby-django/issues>`_"
+
+
+#: ../../developer_guide/contributing.rst:161
+msgid ""
+"**Generators:** `https://github.com/judaicalink/judaicalink-"
+"generators/issues <https://github.com/judaicalink/judaicalink-"
+"generators/issues>`_"
+msgstr ""
+"**Generatoren:** `https://github.com/judaicalink/judaicalink-"
+"generators/issues <https://github.com/judaicalink/judaicalink-"
+"generators/issues>`_"
+
+#: ../../developer_guide/contributing.rst:165
+msgid "Code of Conduct"
+msgstr "Verhaltenskodex"
+
+#: ../../developer_guide/contributing.rst:167
+msgid ""
+"All contributors are expected to follow the **JudaicaLink Code of "
+"Conduct** to ensure a respectful and collaborative environment."
+msgstr ""
+"Es wird erwartet, dass alle Beitrag leistenden Personen den **JudaicaLink"
+"Verhaltenskodex** befolgen, um eine respektvolle und kollaborative Umgebung zu"
+"gewährleisten."
+
+#: ../../developer_guide/contributing.rst:169
+msgid "--- Thank you for contributing to JudaicaLink! \\🚀"
+msgstr "--- Vielen Dank für Ihre Mitarbeit an JudaicaLink! \\🚀"
+

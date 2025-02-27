@@ -1,0 +1,219 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-21 10:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../developer_guide/api_reference.rst:5
+msgid "API Reference"
+msgstr "API-Referenz"
+
+#: ../../developer_guide/api_reference.rst:7
+msgid ""
+"The JudaicaLink API provides programmatic access to linked data, "
+"including **entities, datasets, and SPARQL queries**. This guide outlines"
+" available API endpoints and how to interact with them."
+msgstr ""
+"Die JudaicaLink-API bietet programmatischen Zugriff auf verknüpfte Daten, "
+"einschließlich **Entitäten, Datensätzen und SPARQL-Abfragen**. Dieser Leitfaden "
+"beschreibt verfügbare API-Endpunkte."
+
+#: ../../developer_guide/api_reference.rst:9
+msgid "Base API URL: `https://data.judaicalink.org/api/`"
+msgstr "Basis-URL der API: `https://data.judaicalink.org/api/`"
+
+#: ../../developer_guide/api_reference.rst:12
+msgid "Authentication"
+msgstr "Authentifizierung"
+
+#: ../../developer_guide/api_reference.rst:14
+msgid ""
+"Currently, the JudaicaLink API is **publicly accessible** and does not "
+"require authentication."
+msgstr ""
+"Derzeit ist die JudaicaLink-API **öffentlich zugänglich** und erfordert "
+"keine Authentifizierung."
+
+
+#: ../../developer_guide/api_reference.rst:17
+msgid "Endpoints"
+msgstr "Endpunkte"
+
+#: ../../developer_guide/api_reference.rst:20
+msgid "1. Retrieve Entity Data"
+msgstr "1. Entitätsdaten abrufen"
+
+#: ../../developer_guide/api_reference.rst:22
+#: ../../developer_guide/api_reference.rst:53
+#: ../../developer_guide/api_reference.rst:76
+#: ../../developer_guide/api_reference.rst:111
+msgid "**Endpoint:**"
+msgstr "**Endpunkt:**"
+
+#: ../../developer_guide/api_reference.rst:28
+msgid "**Description:** Retrieves structured RDF data about a specific entity."
+msgstr "**Beschreibung:** Ruft strukturierte RDF-Daten zu einer bestimmten Entität ab."
+
+#: ../../developer_guide/api_reference.rst:31
+#: ../../developer_guide/api_reference.rst:67
+#: ../../developer_guide/api_reference.rst:85
+#: ../../developer_guide/api_reference.rst:124
+msgid "**Example Request:**"
+msgstr "**Beispielanfrage:**"
+
+#: ../../developer_guide/api_reference.rst:37
+msgid "**Response (JSON-LD Example):**"
+msgstr "**Antwort (JSON-LD-Beispiel):**"
+
+#: ../../developer_guide/api_reference.rst:51
+msgid "2. Search Entities"
+msgstr "2. Entitäten suchen"
+
+#: ../../developer_guide/api_reference.rst:59
+msgid ""
+"**Description:** Performs a full-text search across JudaicaLink’s "
+"knowledge graph."
+msgstr ""
+"**Beschreibung:** Führt eine Volltextsuche über den Wissensgraphen von JudaicaLink durch."
+
+#: ../../developer_guide/api_reference.rst:62
+#: ../../developer_guide/api_reference.rst:120
+msgid "**Parameters:**"
+msgstr "**Parameter:**"
+
+#: ../../developer_guide/api_reference.rst:64
+msgid "`q` (required) - Search query term"
+msgstr "`q` (erforderlich) - Suchbegriff"
+
+#: ../../developer_guide/api_reference.rst:65
+msgid "`limit` (optional, default: 10) - Number of results to return"
+msgstr "`limit` (optional, Standardwert: 10) - Anzahl der zurückzugebenden Ergebnisse"
+
+#: ../../developer_guide/api_reference.rst:74
+msgid "3. List Available Datasets"
+msgstr "3. Verfügbare Datensätze auflisten"
+
+#: ../../developer_guide/api_reference.rst:82
+msgid ""
+"**Description:** Returns metadata about all datasets available in "
+"JudaicaLink."
+msgstr ""
+"**Beschreibung:** Gibt Metadaten zu allen in JudaicaLink verfügbaren Datensätzen zurück."
+
+#: ../../developer_guide/api_reference.rst:91
+msgid "**Example Response:**"
+msgstr "**Beispielantwort:**"
+
+#: ../../developer_guide/api_reference.rst:109
+msgid "4. Run SPARQL Queries"
+msgstr "4. SPARQL-Abfragen ausführen"
+
+#: ../../developer_guide/api_reference.rst:117
+msgid ""
+"**Description:** Executes a SPARQL query on the JudaicaLink knowledge "
+"graph."
+msgstr ""
+"**Beschreibung:** Führt eine SPARQL-Abfrage im Wissensgraphen von JudaicaLink aus."
+
+#: ../../developer_guide/api_reference.rst:122
+msgid "`query` (required) - SPARQL query string"
+msgstr "`query` (erforderlich) - SPARQL-Abfragezeichenfolge"
+
+#: ../../developer_guide/api_reference.rst:130
+msgid ""
+"**Response Format:** - JSON (`Accept: application/json`) - XML (`Accept: "
+"application/xml`)"
+msgstr ""
+"**Antwortformat:** - JSON (`Accept: application/json`) - XML (`Accept: "
+"application/xml`)"
+
+#: ../../developer_guide/api_reference.rst:135
+msgid "Error Handling"
+msgstr "Fehlerbehandlung"
+
+#: ../../developer_guide/api_reference.rst:137
+msgid "The API returns standard HTTP status codes:"
+msgstr "Die API gibt Standard-HTTP-Statuscodes zurück:"
+
+#: ../../developer_guide/api_reference.rst:139
+msgid "`200 OK` - Successful request"
+msgstr "`200 OK` - Erfolgreiche Anfrage"
+
+#: ../../developer_guide/api_reference.rst:140
+msgid "`400 Bad Request` - Invalid parameters"
+msgstr "`400 Bad Request` - Ungültige Parameter"
+
+#: ../../developer_guide/api_reference.rst:141
+msgid "`404 Not Found` - Resource does not exist"
+msgstr "`404 Not Found` - Ressource existiert nicht"
+
+#: ../../developer_guide/api_reference.rst:142
+msgid "`500 Internal Server Error` - Server-side issue"
+msgstr "`500 Internal Server Error` - Serverseitiges Problem"
+
+#: ../../developer_guide/api_reference.rst:145
+msgid "Usage Limits & Best Practices"
+msgstr "Nutzungslimits und bewährte Verfahren"
+
+#: ../../developer_guide/api_reference.rst:147
+msgid ""
+"**Rate Limits**: The API enforces request limits to prevent abuse. If you"
+" encounter a `429 Too Many Requests` response, reduce the request "
+"frequency."
+msgstr ""
+"**Ratenbegrenzungen**: Die API setzt Anforderungslimits durch, um Missbrauch "
+"zu verhindern. Wenn Sie eine `429 Too Many Requests`-Antwort erhalten, "
+"reduzieren Sie die Anforderungshäufigkeit."
+
+#: ../../developer_guide/api_reference.rst:148
+msgid ""
+"**Efficient Queries**: Use filters and `LIMIT` clauses in SPARQL queries "
+"to improve response times."
+msgstr ""
+"**Effiziente Abfragen**: Verwenden Sie Filter und `LIMIT`-Klauseln in SPARQL-"
+"Abfragen, um die Antwortzeiten zu verbessern."
+
+#: ../../developer_guide/api_reference.rst:149
+msgid ""
+"**Data Caching**: Cache frequently accessed results to reduce load on the"
+" API."
+msgstr ""
+"**Daten-Caching**: Cachen Sie häufig abgerufene Ergebnisse, um die Belastung "
+"der API zu reduzieren."
+
+#: ../../developer_guide/api_reference.rst:152
+msgid "Support"
+msgstr "Unterstützung"
+
+#: ../../developer_guide/api_reference.rst:154
+msgid ""
+"For assistance, contact: `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+
+msgstr ""
+"Für Unterstützung kontaktieren Sie: `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+
+#: ../../developer_guide/api_reference.rst:156
+msgid ""
+"--- The JudaicaLink API provides structured, linked data for Jewish "
+"studies. Explore the datasets and integrate them into your projects! \\🚀"
+
+msgstr ""
+"--- Die JudaicaLink-API bietet strukturierte, verknüpfte Daten für jüdische "
+"Studien. Erkunden Sie die Datensätze und integrieren Sie sie in Ihre Projekte! \\🚀"
+
+

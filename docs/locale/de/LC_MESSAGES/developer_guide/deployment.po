@@ -1,0 +1,182 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-21 10:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+
+msgid "Deployment Guide"
+msgstr "Bereitstellungsanleitung"
+
+msgid "This guide provides instructions for deploying the JudaicaLink projects in a production environment, including **Django-based applications, Solr, Redis, Apache Jena Fuseki, and Nginx** ."
+msgstr "Diese Anleitung bietet Anweisungen zur Bereitstellung der JudaicaLink-Projekte in einer Produktionsumgebung, einschließlich **Django-basierter Anwendungen, Solr, Redis, Apache Jena Fuseki und Nginx**."
+
+msgid "System Requirements"
+msgstr "Systemanforderungen"
+
+msgid "Ensure your system meets the following requirements:"
+msgstr "Stellen Sie sicher, dass Ihr System die folgenden Anforderungen erfüllt:"
+
+msgid "**OS:**  Ubuntu 22.04 LTS (recommended)"
+msgstr "**Betriebssystem:** Ubuntu 22.04 LTS (empfohlen)"
+
+msgid "**Python:**  3.8+"
+msgstr "**Python:** 3.8+"
+
+msgid "**Docker & Docker Compose:**  Latest version"
+msgstr "**Docker & Docker Compose:** Neueste Version"
+
+msgid "**Nginx:**  Latest version"
+msgstr "**Nginx:** Neueste Version"
+
+msgid "**PostgreSQL:**  14+"
+msgstr "**PostgreSQL:** 14+"
+
+msgid "**Solr:**  9+"
+msgstr "**Solr:** 9+"
+
+msgid "**Redis:**  6+"
+msgstr "**Redis:** 6+"
+
+msgid "**Apache Jena Fuseki:**  4.5+"
+msgstr "**Apache Jena Fuseki:** 4.5+"
+
+msgid "Setting Up the Server"
+msgstr "Einrichten des Servers"
+
+msgid "Update the system"
+msgstr "System aktualisieren"
+
+msgid "Create a new user for deployment"
+msgstr "Einen neuen Benutzer für die Bereitstellung erstellen"
+
+msgid "Setting Up PostgreSQL"
+msgstr "Einrichten von PostgreSQL"
+
+msgid "1. Install PostgreSQL"
+msgstr "1. PostgreSQL installieren"
+
+msgid "2. Create a database and user"
+msgstr "2. Eine Datenbank und einen Benutzer erstellen"
+
+msgid "Setting Up Python Environment"
+msgstr "Einrichten der Python-Umgebung"
+
+msgid "1. Install Python dependencies"
+msgstr "1. Python-Abhängigkeiten installieren"
+
+msgid "Setting Up Solr"
+msgstr "Einrichten von Solr"
+
+msgid "1. Install Solr"
+msgstr "1. Solr installieren"
+
+msgid "2. Start Solr and create core"
+msgstr "2. Solr starten und einen Core erstellen"
+
+msgid "Setting Up Redis"
+msgstr "Einrichten von Redis"
+
+msgid "Setting Up Apache Jena Fuseki"
+msgstr "Einrichten von Apache Jena Fuseki"
+
+msgid "1. Download and Install Fuseki"
+msgstr "1. Fuseki herunterladen und installieren"
+
+msgid "2. Start Fuseki server"
+msgstr "2. Fuseki-Server starten"
+
+msgid "3. Load RDF data"
+msgstr "3. RDF-Daten laden"
+
+msgid "Setting Up Nginx"
+msgstr "Einrichten von Nginx"
+
+msgid "1. Install Nginx"
+msgstr "1. Nginx installieren"
+
+msgid "2. Configure Nginx for JudaicaLink"
+msgstr "2. Nginx für JudaicaLink konfigurieren"
+
+msgid "Add the following configuration:"
+msgstr "Fügen Sie die folgende Konfiguration hinzu:"
+
+msgid "3. Enable the Nginx configuration"
+msgstr "3. Die Nginx-Konfiguration aktivieren"
+
+msgid "Deploying the Django Application"
+msgstr "Bereitstellung der Django-Anwendung"
+
+msgid "1. Set up environment variables"
+msgstr "1. Umgebungsvariablen einrichten"
+
+msgid "2. Run migrations and collect static files"
+msgstr "2. Migrationen ausführen und statische Dateien sammeln"
+
+msgid "3. Start the Gunicorn service"
+msgstr "3. Den Gunicorn-Dienst starten"
+
+msgid "Automating Deployment with Docker"
+msgstr "Automatisierung der Bereitstellung mit Docker"
+
+msgid "For easier deployment, use **Docker Compose**."
+msgstr "Für eine einfachere Bereitstellung verwenden Sie **Docker Compose**."
+
+msgid "1. Install Docker and Docker Compose"
+msgstr "1. Docker und Docker Compose installieren"
+
+msgid "2. Run Docker Compose"
+msgstr "2. Docker Compose ausführen"
+
+msgid "Verifying the Deployment"
+msgstr "Überprüfung der Bereitstellung"
+
+msgid "Check that all services are running correctly:"
+msgstr "Überprüfen Sie, ob alle Dienste korrekt laufen:"
+
+msgid "**Django Application:**  http://127.0.0.1:8000"
+msgstr "**Django-Anwendung:** http://127.0.0.1:8000"
+
+msgid "**Nginx:**  http://localhost"
+msgstr "**Nginx:** http://localhost"
+
+msgid "**SPARQL Endpoint:**  http://localhost:3030/ds"
+msgstr "**SPARQL-Endpunkt:** http://localhost:3030/ds"
+
+msgid "**Solr Admin UI:**  http://localhost:8983/solr"
+msgstr "**Solr Admin UI:** http://localhost:8983/solr"
+
+msgid "**Redis Status:**"
+msgstr "**Redis-Status:**"
+
+msgid "Troubleshooting & Support"
+msgstr "Fehlerbehebung & Support"
+
+msgid "**Database connection errors?**  Ensure PostgreSQL is running and credentials are correct."
+msgstr "**Datenbankverbindungsfehler?** Stellen Sie sicher, dass PostgreSQL läuft und die Anmeldeinformationen korrekt sind."
+
+msgid "**Nginx not serving requests?**  Check logs with:"
+msgstr "**Nginx bearbeitet keine Anfragen?** Überprüfen Sie die Protokolle mit:"
+
+msgid "**Gunicorn process stopped?**  Restart it:"
+msgstr "**Gunicorn-Prozess gestoppt?** Starten Sie ihn neu:"
+
+msgid "**Need help?**  Contact us at https://labs.judaicalink.org/contact/"
+msgstr "**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/"
+
+msgid "--- This guide ensures a robust and scalable production deployment of JudaicaLink. \🚀"
+msgstr "--- Diese Anleitung gewährleistet eine robuste und skalierbare Bereitstellung von JudaicaLink. \🚀"
+

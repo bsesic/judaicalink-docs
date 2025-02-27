@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../projects/site.rst:5
+msgid "JudaicaLink Site"
+msgstr "JudicaLink Seite"
+
+#: ../../projects/site.rst:7
+msgid ""
+"JudaicaLink Site is the **public-facing portal** of the JudaicaLink "
+"project. It provides background information, dataset overviews, project "
+"updates, and links to related JudaicaLink resources, including Labs and "
+"Pubby. The site is built using **Hugo**, a static site generator, "
+"ensuring fast performance and easy maintainability."
+msgstr ""
+"JudicaLink Seite ist das **öffentlich zugängliche Portal** des JudaicaLink "
+"Projekts. Es bietet Hintergrundinformationen, Übersichten über Datensätze, "
+"Projektaktualisierungen und Links zu verwandten JudaicaLink-Ressourcen, "
+"einschließlich Labs und Pubby. Die Seite wird mit **Hugo**, einem statischen "
+"Seitengenerator, erstellt, was eine schnelle Leistung und einfache "
+"Wartbarkeit gewährleistet."
+
+#: ../../projects/site.rst:10
+msgid "Features of JudaicaLink Site"
+msgstr "Funktionen der JudaicaLink Seite"
+
+#: ../../projects/site.rst:13
+msgid "1. Overview of JudaicaLink"
+msgstr "1. Übersicht über JudaicaLink"
+
+#: ../../projects/site.rst:15
+msgid "Describes the mission and goals of JudaicaLink."
+msgstr "Beschreibt die Mission und Ziele von JudaicaLink."
+
+#: ../../projects/site.rst:16
+msgid ""
+"Explains how JudaicaLink integrates Jewish studies datasets into a Linked"
+" Open Data knowledge graph."
+msgstr ""
+"Erklärt, wie JudaicaLink jüdische Studiendatensätze in einen Linked Open "
+"Data-Wissensgraphen integriert."
+
+#: ../../projects/site.rst:19
+msgid "2. Dataset Information"
+msgstr "2. Datensatzinformationen"
+
+#: ../../projects/site.rst:21
+msgid "Lists available **datasets** and their sources."
+msgstr "Listet verfügbare **Datensätze** und ihre Quellen auf."
+
+#: ../../projects/site.rst:22
+msgid "Provides links to **entity pages** and **SPARQL queries**."
+msgstr "Bietet Links zu **Entitätsseiten** und **SPARQL-Abfragen**."
+
+#: ../../projects/site.rst:25
+msgid "3. News and Updates"
+msgstr "3. Neuigkeiten und Aktualisierungen"
+
+#: ../../projects/site.rst:27
+msgid ""
+"Regular updates on JudaicaLink’s latest developments, publications, and "
+"features."
+msgstr ""
+"Regelmäßige Updates zu den neuesten Entwicklungen, Veröffentlichungen und "
+"Funktionen von JudaicaLink."
+
+#: ../../projects/site.rst:28
+msgid "Information about conferences and workshops related to JudaicaLink."
+msgstr "Informationen zu Konferenzen und Workshops im Zusammenhang mit JudaicaLink."
+
+#: ../../projects/site.rst:31
+msgid "4. Legal and Contact Information"
+msgstr "4. Rechts- und Kontaktinformationen"
+
+#: ../../projects/site.rst:33
+msgid "Licensing information for datasets and code."
+msgstr "Lizenzinformationen für Datensätze und Code."
+
+#: ../../projects/site.rst:34
+msgid "Contact details for JudaicaLink project maintainers."
+msgstr "Kontaktdaten für die Verantwortlichen des JudaicaLink-Projekts."
+
+#: ../../projects/site.rst:37
+msgid "How to Use JudaicaLink Site"
+msgstr ""
+
+#: ../../projects/site.rst:40
+msgid "Navigating the Website"
+msgstr "Durchsuchen der Website"
+
+#: ../../projects/site.rst:42
+msgid "Visit `https://www.judaicalink.org <https://www.judaicalink.org>`_."
+msgstr "Besuchen Sie `https://www.judaicalink.org <https://www.judaicalink.org>`_."
+
+#: ../../projects/site.rst:43
+msgid ""
+"Browse the menu for **Datasets, Documentation, News, and Project "
+"Information**."
+msgstr ""
+"Durchsuchen Sie das Menü nach **Datensätzen, Dokumentation, Neuigkeiten und "
+"Projektinformationen**."
+
+#: ../../projects/site.rst:44
+msgid "Click on dataset links to explore entity data and SPARQL examples."
+msgstr "Klicken Sie auf Datensatzlinks, um Entitätsdaten und SPARQL-Beispiele zu erkunden."
+
+#: ../../projects/site.rst:47
+msgid "Finding Dataset Details"
+msgstr "Datensatzdetails finden"
+
+#: ../../projects/site.rst:49
+msgid "Go to **Datasets** and select a dataset to view its metadata and sources."
+msgstr "Gehen Sie zu **Datensätzen** und wählen Sie einen Datensatz aus, um seine Metadaten und Quellen anzuzeigen."
+
+#: ../../projects/site.rst:50
+msgid "Use provided **SPARQL query examples** to interact with structured data."
+msgstr "Benutzen Sie die bereitgestellten **SPARQL-Abfragebeispiele**, um mit strukturierten Daten zu interagieren."
+
+#: ../../projects/site.rst:53
+msgid "Reading News & Updates"
+msgstr "Lesen von Neuigkeiten und Aktualisierungen"
+
+#: ../../projects/site.rst:54
+msgid ""
+"Visit `https://www.judaicalink.org/news/ "
+"<https://www.judaicalink.org/news/>`_ for the latest project "
+"announcements."
+msgstr ""
+"Besuchen Sie `https://www.judaicalink.org/news/ "
+"<https://www.judaicalink.org/news/>`_ für die neuesten Projektankündigungen."
+
+#: ../../projects/site.rst:57
+msgid "Technical Overview"
+msgstr "Technischer Überblick"
+
+#: ../../projects/site.rst:60
+msgid "Backend"
+msgstr "Backend"
+
+#: ../../projects/site.rst:62
+msgid "Built using **Hugo**, a static site generator."
+msgstr "Erstellt mit **Hugo**, einem statischen Seitengenerator."
+
+#: ../../projects/site.rst:63
+msgid "Hosted with **NGINX** for continuous deployment."
+msgstr "Gehostet mit **NGINX** für kontinuierliche Bereitstellung."
+
+#: ../../projects/site.rst:66
+msgid "Data Sources"
+msgstr "Datenquellen"
+
+#: ../../projects/site.rst:68
+msgid ""
+"All datasets are sourced from **JudaicaLink Labs** and **SPARQL "
+"endpoints**."
+msgstr ""
+"Alle Datensätze stammen aus **JudaicaLink Labs** und **SPARQL-Endpunkten**."
+
+#: ../../projects/site.rst:69
+msgid "Links to external data sources like **Wikidata, GND, and Compact Memory**."
+msgstr "Links zu externen Datenquellen wie **Wikidata, GND und Compact Memory**."
+
+#: ../../projects/site.rst:72
+msgid "Contributing to JudaicaLink Site"
+msgstr "Zur JudaicaLink Seite beitragen"
+
+#: ../../projects/site.rst:75
+msgid "Setting Up the Site Locally"
+msgstr "Die Seite lokal einrichten"
+
+#: ../../projects/site.rst:77
+msgid "**Clone the repository**"
+msgstr "**Klonen des Repositories**"
+
+#: ../../projects/site.rst:85
+msgid "**Install Hugo** (if not already installed)"
+msgstr "**Hugo installieren** (falls noch nicht installiert)"
+
+#: ../../projects/site.rst:93
+msgid "**Run the local server**"
+msgstr "**Lokalen Server starten**"
+
+#: ../../projects/site.rst:99
+msgid "Open **http://localhost:1313/** in your browser to preview the site."
+msgstr "Öffnen Sie **http://localhost:1313/** in Ihrem Browser, um die Seite zu überprüfen."
+
+#: ../../projects/site.rst:102
+msgid "Making Changes"
+msgstr "Änderungen vornehmen"
+
+#: ../../projects/site.rst:104
+msgid "Edit `.md` files in the `content/` directory."
+msgstr "Bearbeiten Sie `.md`-Dateien im `content/`-Verzeichnis."
+
+#: ../../projects/site.rst:105
+msgid "Update **dataset descriptions** in the `content/datasets/` folder."
+msgstr "Aktualisieren Sie **Datensatzbeschreibungen** im `content/datasets/`-Ordner."
+
+#: ../../projects/site.rst:106
+msgid "Add news updates in the `content/news/` directory."
+msgstr "Fügen Sie Neuigkeiten im `content/news/`-Verzeichnis hinzu."
+
+#: ../../projects/site.rst:107
+msgid "Commit changes and push them to GitHub for deployment."
+msgstr "Bestätigen Sie die Änderungen und schieben Sie sie zur Bereitstellung auf GitHub."
+
+#: ../../projects/site.rst:110
+msgid "Deployment"
+msgstr "Bereitstellung"
+
+#: ../../projects/site.rst:112
+msgid ""
+"The site is deployed on a local server using **Hugo** and **NGINX** as "
+"proxy."
+msgstr ""
+"Die Seite wird auf einem lokalen Server mit **Hugo** und **NGINX** als Proxy "
+"bereitgestellt."
+
+#: ../../projects/site.rst:115
+msgid "Troubleshooting & Support"
+msgstr "Problembehandlung und Unterstützung"
+
+#: ../../projects/site.rst:116
+msgid ""
+"**Website not loading?** Check `GitHub Issues "
+"<https://github.com/judaicalink/judaicalink-site/issues>`_."
+msgstr ""
+"**Website wird nicht geladen?** Überprüfen Sie `GitHub Issues "
+"<https://github.com/judaicalink/judaicalink-site/issues>`_."
+
+#: ../../projects/site.rst:117
+msgid "**Errors in dataset links?** Verify entity URLs in **Labs or Pubby**."
+msgstr "**Fehler in Datensatzlinks?** Überprüfen Sie die Entitäts-URLs in **Labs oder Pubby**."
+
+#: ../../projects/site.rst:118
+msgid ""
+"**Need help?** Contact us at `https://www.judaicalink.org/contact/ "
+"<https://www.judaicalink.org/contact/>`_."
+msgstr ""
+"**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter `https://www.judaicalink.org/contact/ "
+"<https://www.judaicalink.org/contact/>`_."
+
+#: ../../projects/site.rst:120
+msgid ""
+"--- JudaicaLink Site serves as the main entry point for users exploring "
+"Jewish studies data. Stay updated with the latest project news and "
+"dataset expansions at `https://www.judaicalink.org "
+"<https://www.judaicalink.org>`_."
+msgstr ""
+"--- JudaicaLink Site dient als Hauptzugangspunkt für Benutzer, die jüdische "
+"Studiendaten erkunden. Bleiben Sie auf dem Laufenden über die neuesten "
+"Projektnachrichten und Datensatzerweiterungen unter `https://www.judaicalink.org "
+"<https://www.judaicalink.org>`_."
+

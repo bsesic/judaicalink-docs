@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../getting_started.rst:5
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: ../../getting_started.rst:7
+msgid ""
+"Welcome to JudaicaLink! This guide will help you set up the documentation"
+" environment and get started with exploring and contributing to the "
+"JudaicaLink project and its sub-projects."
+msgstr ""
+"Willkommen bei JudaicaLink! Dieser Leitfaden hilft Ihnen, die Dokumentationsumgebung "
+"einzurichten und mit der Erkundung sowie der Mitarbeit am JudaicaLink-Projekt und seinen "
+"Teilprojekten zu beginnen."
+
+#: ../../getting_started.rst:10
+msgid "Prerequisites"
+msgstr "Voraussetzungen"
+
+#: ../../getting_started.rst:12
+msgid "Before getting started, ensure you have the following installed:"
+msgstr "Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes installiert haben:"
+
+#: ../../getting_started.rst:14
+msgid "Python 3.8 or later"
+msgstr "Python 3.8 oder neuer"
+
+#: ../../getting_started.rst:15
+msgid "pip (Python package manager)"
+msgstr "pip (Python-Paketmanager)"
+
+#: ../../getting_started.rst:16
+msgid "Virtual environment (optional but recommended)"
+msgstr "Virtuelle Umgebung (optional, aber empfohlen)"
+
+#: ../../getting_started.rst:17
+msgid "Git (for cloning the repository)"
+msgstr "Git (zum Klonen des Repositorys)"
+
+#: ../../getting_started.rst:18
+msgid "Docker (if using containerized deployments)"
+msgstr "Docker (falls containerisierte Bereitstellungen verwendet werden)"
+
+#: ../../getting_started.rst:21
+msgid "Setting Up Locally"
+msgstr "Lokale Einrichtung"
+
+#: ../../getting_started.rst:23
+msgid "Follow these steps to set up the different projects locally:"
+msgstr "Folgen Sie diesen Schritten, um die verschiedenen Projekte lokal einzurichten:"
+
+#: ../../getting_started.rst:26
+msgid "JudaicaLink Docs"
+msgstr "JudaicaLink Dokumentation"
+
+#: ../../getting_started.rst:28 ../../getting_started.rst:59
+#: ../../getting_started.rst:78 ../../getting_started.rst:98
+msgid "1. *Clone the Repository* ::"
+msgstr "1. *Repository klonen* ::"
+
+#: ../../getting_started.rst:34
+msgid "2. *Create and Activate a Virtual Environment (Recommended)* ::"
+msgstr "2. *Erstellen und Aktivieren einer virtuellen Umgebung (empfohlen)* ::"
+
+#: ../../getting_started.rst:41
+msgid "3. *Install Dependencies* ::"
+msgstr "3. *Abhängigkeiten installieren* ::"
+
+#: ../../getting_started.rst:46
+msgid "4. *Build the Documentation Locally* ::"
+msgstr "4. *Dokumentation lokal erstellen* ::"
+
+#: ../../getting_started.rst:57
+msgid "JudaicaLink Labs"
+msgstr "JudaicaLink Labs"
+
+#: ../../getting_started.rst:65 ../../getting_started.rst:104
+msgid "2. *Install Dependencies* ::"
+msgstr "2. *Abhängigkeiten installieren* ::"
+
+#: ../../getting_started.rst:70 ../../getting_started.rst:109
+msgid "3. *Run the Development Server* ::"
+msgstr "3. *Entwicklungsserver starten* ::"
+
+#: ../../getting_started.rst:76
+msgid "JudaicaLink Site"
+msgstr "JudaicaLink Webseite"
+
+#: ../../getting_started.rst:84
+msgid "2. *Install Hugo* (if not installed already) ::"
+msgstr "2. *Hugo installieren* (falls nicht bereits installiert) ::"
+
+#: ../../getting_started.rst:90
+msgid "3. *Build and Serve the Site* ::"
+msgstr "3. *Webseite erstellen und bereitstellen* ::"
+
+#: ../../getting_started.rst:96
+msgid "JudaicaLink Pubby"
+msgstr "JudaicaLink Pubby"

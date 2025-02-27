@@ -1,0 +1,193 @@
+# EIN BESCHREIBENDER TITEL.
+# Copyright (C) 2025, JudaicaLink Team
+# Diese Datei wird unter derselben Lizenz wie das JudaicaLink
+# Dokumentationspaket verteilt.
+# ERSTER AUTOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Dokumentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: JAHR-MO-TAG STUNDE:MINUTE+ZEITZONE\n"
+"Last-Translator: VOLLER NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user_guide/datasets.rst:5
+msgid "Datasets in JudaicaLink"
+msgstr "Datensätze in JudaicaLink"
+
+#: ../../user_guide/datasets.rst:7
+msgid ""
+"JudaicaLink provides structured datasets that integrate Jewish studies "
+"sources into a Linked Open Data (LOD) knowledge graph. These datasets are"
+" accessible via SPARQL queries, downloadable RDF dumps, and through the "
+"JudaicaLink API."
+msgstr ""
+"JudaicaLink stellt strukturierte Datensätze bereit, die Quellen der jüdischen "
+"Studien in einen Linked Open Data (LOD) Wissensgraphen integrieren. Diese "
+"Datensätze sind über SPARQL-Abfragen, herunterladbare RDF-Dumps und die "
+"JudaicaLink API zugänglich."
+
+#: ../../user_guide/datasets.rst:10
+msgid "Available Datasets"
+msgstr "Verfügbare Datensätze"
+
+#: ../../user_guide/datasets.rst:11
+msgid "The following datasets are included in JudaicaLink:"
+msgstr "Die folgenden Datensätze sind in JudaicaLink enthalten:"
+
+#: ../../user_guide/datasets.rst:14
+msgid "1. YIVO Encyclopedia"
+msgstr "1. YIVO-Enzyklopädie"
+
+#: ../../user_guide/datasets.rst:16
+msgid ""
+"Description: Biographical and historical entries from the YIVO Institute "
+"for Jewish Research."
+msgstr ""
+"Beschreibung: Biografische und historische Einträge aus dem YIVO Institute "
+"for Jewish Research."
+
+#: ../../user_guide/datasets.rst:17
+msgid "Entities: Persons, places, and organizations."
+msgstr "Entitäten: Personen, Orte und Organisationen."
+
+#: ../../user_guide/datasets.rst:18 ../../user_guide/datasets.rst:28
+#: ../../user_guide/datasets.rst:38 ../../user_guide/datasets.rst:48
+#: ../../user_guide/datasets.rst:58
+msgid "Data Access:"
+msgstr "Datenzugriff:"
+
+#: ../../user_guide/datasets.rst:20
+msgid ""
+"SPARQL: Query at `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_"
+msgstr ""
+"SPARQL: Abfragen unter `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_"
+
+#: ../../user_guide/datasets.rst:21
+msgid ""
+"Entity Pages: `https://data.judaicalink.org/data/html/yivo/ "
+"<https://data.judaicalink.org/data/html/yivo/>`_"
+msgstr ""
+"Entitätsseiten: `https://data.judaicalink.org/data/html/yivo/ "
+"<https://data.judaicalink.org/data/html/yivo/>`_"
+
+#: ../../user_guide/datasets.rst:24
+msgid "2. Stolpersteine in Mainz"
+msgstr "2. Stolpersteine in Mainz"
+
+#: ../../user_guide/datasets.rst:26
+msgid "Description: Data on commemorative stones dedicated to Holocaust victims."
+msgstr "Beschreibung: Daten zu Gedenksteinen für Holocaust-Opfer."
+
+#: ../../user_guide/datasets.rst:27
+msgid "Entities: Persons and memorial sites."
+msgstr "Entitäten: Personen und Gedenkstätten."
+
+#: ../../user_guide/datasets.rst:30
+msgid "SPARQL: Query dataset under `stolpersteine`"
+msgstr "SPARQL: Abfrage des Datensatzes unter `stolpersteine`"
+
+#: ../../user_guide/datasets.rst:31
+msgid ""
+"Entity Pages: `https://data.judaicalink.org/data/html/stolpersteine/ "
+"<https://data.judaicalink.org/data/html/stolpersteine/>`_"
+msgstr ""
+"Entitätsseiten: `https://data.judaicalink.org/data/html/stolpersteine/ "
+"<https://data.judaicalink.org/data/html/stolpersteine/>`_"
+
+#: ../../user_guide/datasets.rst:34
+msgid "3. Biographisches Handbuch der Rabbiner"
+msgstr "3. Biographisches Handbuch der Rabbiner"
+
+#: ../../user_guide/datasets.rst:36
+msgid ""
+"Description: Biographical records of Jewish rabbis from various "
+"historical periods."
+msgstr ""
+"Beschreibung: Biografische Aufzeichnungen über jüdische Rabbiner aus verschiedenen "
+"historischen Epochen."
+
+#: ../../user_guide/datasets.rst:37
+msgid "Entities: Persons, institutions, and related documents."
+msgstr "Entitäten: Personen, Institutionen und zugehörige Dokumente."
+
+#: ../../user_guide/datasets.rst:40
+msgid "RDF: `https://data.judaicalink.org/dumps/rabbiner.rdf`"
+msgstr "RDF: `https://data.judaicalink.org/dumps/rabbiner.rdf`"
+
+#: ../../user_guide/datasets.rst:41
+msgid "SPARQL queries available for detailed searches."
+msgstr "SPARQL-Abfragen für detaillierte Recherchen verfügbar."
+
+#: ../../user_guide/datasets.rst:44
+msgid "4. Footprints - Jewish Books through Time and Place"
+msgstr "4. Footprints – Jüdische Bücher durch Zeit und Raum"
+
+#: ../../user_guide/datasets.rst:46
+msgid ""
+"Description: A dataset tracing the movement of Jewish books across "
+"different regions and owners."
+msgstr ""
+"Beschreibung: Ein Datensatz, der die Bewegung jüdischer Bücher durch verschiedene "
+"Regionen und Besitzer nachverfolgt."
+
+#: ../../user_guide/datasets.rst:47
+msgid "Entities: Books, authors, owners, locations."
+msgstr "Entitäten: Bücher, Autoren, Besitzer, Standorte."
+
+#: ../../user_guide/datasets.rst:50
+msgid "SPARQL: Query at `footprints` dataset."
+msgstr "SPARQL: Abfrage des Datensatzes `footprints`."
+
+#: ../../user_guide/datasets.rst:51
+msgid "JSON-LD Access: `https://data.judaicalink.org/data/jsonld/footprints/`"
+msgstr "JSON-LD-Zugriff: `https://data.judaicalink.org/data/jsonld/footprints/`"
+
+#: ../../user_guide/datasets.rst:54
+msgid "5. Compact Memory (CM) Indexed Entities"
+msgstr "5. Compact Memory (CM) indizierte Entitäten"
+
+#: ../../user_guide/datasets.rst:56
+msgid ""
+"Description: Extracted named entities (persons, locations, topics) from "
+"historical Jewish periodicals."
+msgstr ""
+"Beschreibung: Extrahierte benannte Entitäten (Personen, Orte, Themen) aus "
+"historischen jüdischen Zeitschriften."
+
+#: ../../user_guide/datasets.rst:57
+msgid "Entities: Persons, places, organizations, topics."
+msgstr "Entitäten: Personen, Orte, Organisationen, Themen."
+
+#: ../../user_guide/datasets.rst:128
+msgid "Next Steps"
+msgstr "Nächste Schritte"
+
+#: ../../user_guide/datasets.rst:130
+msgid ""
+"Learn how to refine your **SPARQL queries** in the :ref:`SPARQL Guide "
+"<advanced_topics_sparql_guide>`."
+msgstr ""
+"Erfahren Sie, wie Sie Ihre **SPARQL-Abfragen** verfeinern können im :ref:`SPARQL-Leitfaden "
+"<advanced_topics_sparql_guide>`."
+
+#: ../../user_guide/datasets.rst:132
+msgid ""
+"If you need help, check the :ref:`FAQs <faq>` or contact us at "
+"`https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+msgstr ""
+"Falls Sie Hilfe benötigen, schauen Sie in den :ref:`FAQs <faq>` oder kontaktieren Sie uns "
+"unter `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."

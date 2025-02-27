@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../projects/pubby.rst:5
+msgid "JudaicaLink Pubby"
+msgstr "JudaicaLink Pubby"
+
+#: ../../projects/pubby.rst:7
+msgid ""
+"JudaicaLink Pubby is a **linked data server** that provides a human-"
+"readable and machine-accessible interface for RDF data. It serves as a "
+"**SPARQL endpoint** and **Linked Data interface** for querying and "
+"browsing JudaicaLink’s structured datasets."
+msgstr ""
+"JudaicaLink Pubby ist ein **Linked Data-Server**, der eine menschenlesbare "
+"und maschinenzugängliche Schnittstelle für RDF-Daten bereitstellt. Es dient "
+"als **SPARQL-Endpunkt** und **Linked Data-Schnittstelle** zum Abfragen und "
+"Durchsuchen der strukturierten Datensätze von JudaicaLink."
+
+#: ../../projects/pubby.rst:10
+msgid "Features of JudaicaLink Pubby"
+msgstr "Funktionen von JudaicaLink Pubby"
+
+#: ../../projects/pubby.rst:13
+msgid "1. SPARQL Query Interface"
+msgstr "1. SPARQL-Abfrageschnittstelle"
+
+#: ../../projects/pubby.rst:15
+msgid "Users can run **SPARQL queries** to retrieve structured information."
+msgstr "Nutzer können **SPARQL-Abfragen** ausführen, um strukturierte Informationen abzurufen."
+
+#: ../../projects/pubby.rst:16
+msgid "Supports **Linked Data browsing** by providing entity URIs."
+msgstr "Unterstützt das **Durchsuchen von Linked Data**, indem es Entitäts-URIs bereitstellt."
+
+#: ../../projects/pubby.rst:17
+msgid ""
+"SPARQL Endpoint: `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_."
+msgstr ""
+"SPARQL-Endpunkt: `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_."
+
+#: ../../projects/pubby.rst:20
+msgid "2. RDF Data Exploration"
+msgstr "2. RDF-Datenexploration"
+
+#: ../../projects/pubby.rst:22
+msgid ""
+"Each entity has a **dedicated RDF page**, accessible through content "
+"negotiation."
+msgstr ""
+"Jede Entität hat eine **eigene RDF-Seite**, die über Inhaltsverhandlung "
+"zugänglich ist."
+
+#: ../../projects/pubby.rst:23
+msgid "Supports multiple formats, including **RDF/XML, Turtle, and JSON-LD**."
+msgstr "Unterstützt mehrere Formate, einschließlich **RDF/XML, Turtle und JSON-LD**."
+
+#: ../../projects/pubby.rst:24
+msgid ""
+"Example entity URL: `https://data.judaicalink.org/data/html/yivo/moses-"
+"mendelssohn`"
+msgstr ""
+"Beispiel-Entitäts-URL: `https://data.judaicalink.org/data/html/yivo/moses-"
+"mendelssohn`"
+
+#: ../../projects/pubby.rst:27
+msgid "3. Integration with Linked Data Services"
+msgstr "3. Integration mit Linked Data-Services"
+
+#: ../../projects/pubby.rst:29
+msgid "JudaicaLink Pubby integrates with **Wikidata, GND, VIAF, and DBpedia**."
+msgstr "JudaicaLink Pubby integriert sich mit **Wikidata, GND, VIAF und DBpedia**."
+
+#: ../../projects/pubby.rst:30
+msgid "Provides structured URIs that link to external data sources."
+msgstr "Bietet strukturierte URIs, die zu externen Datenquellen verlinken."
+
+#: ../../projects/pubby.rst:33
+msgid "How to Use JudaicaLink Pubby"
+msgstr "So verwenden Sie JudaicaLink Pubby"
+
+#: ../../projects/pubby.rst:36
+msgid "1. Browsing RDF Data"
+msgstr "1. Durchsuchen von RDF-Daten"
+
+#: ../../projects/pubby.rst:38
+msgid "Visit `https://data.judaicalink.org <https://data.judaicalink.org>`_."
+msgstr "Besuchen Sie `https://data.judaicalink.org <https://data.judaicalink.org>`_."
+
+#: ../../projects/pubby.rst:39
+msgid "Search for an entity (e.g., \"Moses Mendelssohn\")."
+msgstr "Nach einer Entität suchen (z. B. \"Moses Mendelssohn\")."
+
+#: ../../projects/pubby.rst:40
+msgid "Click on an entity to view its RDF representation."
+msgstr "Klicken Sie auf eine Entität, um ihre RDF-Repräsentation anzuzeigen."
+
+#: ../../projects/pubby.rst:43
+msgid "2. Running a SPARQL Query"
+msgstr "2. Ausführen einer SPARQL-Abfrage"
+
+#: ../../projects/pubby.rst:45
+msgid ""
+"Go to the **SPARQL Endpoint**: `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_"
+msgstr ""
+"Gehe zum **SPARQL-Endpunkt**: `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_"
+
+#: ../../projects/pubby.rst:46
+msgid "Enter a query, such as:"
+msgstr "Geben Sie eine Abfrage ein, z. B.:"
+
+#: ../../projects/pubby.rst:56
+msgid "Execute the query and view results in **JSON, XML, or CSV format**."
+msgstr "Führen Sie die Abfrage aus und sehen Sie sich die Ergebnisse im **JSON-, XML- oder CSV-Format** an."
+
+#: ../../projects/pubby.rst:59
+msgid "3. Accessing Data in Different Formats"
+msgstr "3. Zugriff auf Daten in verschiedenen Formaten"
+
+#: ../../projects/pubby.rst:60
+msgid ""
+"You can retrieve entity data in various formats using **content "
+"negotiation**:"
+msgstr ""
+"Sie können Entitätsdaten in verschiedenen Formaten abrufen, indem Sie **Inhaltsverhandlung** verwenden:"
+
+#: ../../projects/pubby.rst:62
+msgid "**HTML**: `https://data.judaicalink.org/data/html/yivo/moses-mendelssohn`"
+msgstr "**HTML**: `https://data.judaicalink.org/data/html/yivo/moses-mendelssohn`"
+
+#: ../../projects/pubby.rst:63
+msgid ""
+"**JSON-LD**: `https://data.judaicalink.org/data/jsonld/yivo/moses-"
+"mendelssohn`"
+msgstr ""
+"**JSON-LD**: `https://data.judaicalink.org/data/jsonld/yivo/moses-"
+"mendelssohn`"
+
+#: ../../projects/pubby.rst:64
+msgid ""
+"**RDF/XML**: `https://data.judaicalink.org/data/xml/yivo/moses-"
+"mendelssohn`"
+msgstr ""
+"**RDF/XML**: `https://data.judaicalink.org/data/xml/yivo/moses-"
+"mendelssohn`"
+
+#: ../../projects/pubby.rst:65
+msgid "*Turtle**: `https://data.judaicalink.org/data/ttl/yivo/moses-mendelssohn`"
+msgstr "*Turtle**: `https://data.judaicalink.org/data/ttl/yivo/moses-mendelssohn`"
+
+#: ../../projects/pubby.rst:68
+msgid "Technical Overview"
+msgstr "Technischer Überblick"
+
+#: ../../projects/pubby.rst:71
+msgid "Backend"
+msgstr "Backend"
+
+#: ../../projects/pubby.rst:73
+msgid "Built using **Apache Jena Fuseki** for RDF storage and SPARQL processing."
+msgstr "Erstellt mit **Apache Jena Fuseki** für RDF-Speicherung und SPARQL-Verarbeitung."
+
+#: ../../projects/pubby.rst:74
+msgid "Uses **Django Pubby** for serving Linked Data."
+msgstr "Verwendet **Django Pubby** zum Bereitstellen von Linked Data."
+
+#: ../../projects/pubby.rst:77
+msgid "Database & Data Sources"
+msgstr "Datenbank & Datenquellen"
+
+#: ../../projects/pubby.rst:79
+msgid "Stores data in **RDF triple format**."
+msgstr "Speichert Daten im **RDF-Triple-Format**."
+
+#: ../../projects/pubby.rst:80
+msgid "Integrates external resources such as **Wikidata, DBpedia, and GND**."
+msgstr "Integriert externe Ressourcen wie **Wikidata, DBpedia und GND**."
+
+#: ../../projects/pubby.rst:83
+msgid "Contributing to JudaicaLink Pubby"
+msgstr "Zur JudaicaLink Pubby beitragen"
+
+#: ../../projects/pubby.rst:86
+msgid "Setting Up a Development Environment"
+msgstr "Einrichten einer Entwicklungsumgebung"
+
+#: ../../projects/pubby.rst:88
+msgid "1. **Clone the repository** ::"
+msgstr "1. **Klonen des Repositories** ::"
+
+#: ../../projects/pubby.rst:94
+msgid "2. **Create a virtual environment** ::"
+msgstr "2. **Erstellen einer virtuellen Umgebung** ::"
+
+#: ../../projects/pubby.rst:101
+msgid "3. **Install dependencies** ::"
+msgstr "3. **Abhängigkeiten installieren** ::"
+
+#: ../../projects/pubby.rst:106
+msgid "4. **Run the development server** ::"
+msgstr "4. **Starten des Entwicklungsservers** ::"
+
+#: ../../projects/pubby.rst:111
+msgid "Open http://127.0.0.1:8000/ in your browser."
+msgstr "Öffnen Sie http://127.0.0.1:8000/ in Ihrem Browser."
+
+#: ../../projects/pubby.rst:114
+msgid "Deployment"
+msgstr "Bereitstellung"
+
+#: ../../projects/pubby.rst:115
+msgid "Pubby is deployed using **Docker**."
+msgstr "Pubby wird mit **Docker** bereitgestellt."
+
+#: ../../projects/pubby.rst:116
+msgid "RDF data is loaded via **SPARQL Update queries**."
+msgstr "RDF-Daten werden über **SPARQL-Update-Abfragen** geladen."
+
+#: ../../projects/pubby.rst:119
+msgid "Troubleshooting & Support"
+msgstr "Problembehandlung & Support"
+
+#: ../../projects/pubby.rst:120
+msgid "**SPARQL query errors?** Check syntax and dataset availability."
+msgstr "**SPARQL-Abfragefehler?** Überprüfen Sie die Syntax und die Verfügbarkeit des Datensatzes."
+
+#: ../../projects/pubby.rst:121
+msgid "**RDF data not loading?** Verify dataset ingestion."
+msgstr "**RDF-Daten werden nicht geladen?** Überprüfen Sie die Datensatzaufnahme."
+
+#: ../../projects/pubby.rst:122
+msgid ""
+"**Need help?** Contact us at `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+msgstr ""
+"**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+
+
+#: ../../projects/pubby.rst:124
+msgid ""
+"--- JudaicaLink Pubby provides structured Linked Data access to Jewish "
+"studies datasets. Explore, query, and integrate JudaicaLink’s knowledge "
+"graph today! \\🚀"
+msgstr ""
+"--- JudaicaLink Pubby bietet strukturierten Linked Data-Zugriff auf "
+"jüdische Studiendatensätze. Entdecken, abfragen und integrieren Sie den "
+"Wissensgraphen von JudaicaLink noch heute! \\🚀"
+

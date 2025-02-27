@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction.rst:3
+msgid "Introduction to JudaicaLink"
+msgstr "Einführung in JudaicaLink"
+
+#: ../../introduction.rst:6
+msgid "What is JudaicaLink?"
+msgstr "Was ist JudaicaLink?"
+
+#: ../../introduction.rst:8
+msgid ""
+"JudaicaLink is a Linked Open Data project that provides structured, "
+"interconnected knowledge about Jewish history, culture, and scholarship. "
+"The goal is to make Jewish studies data easily accessible, searchable, "
+"and reusable for researchers, historians, librarians, and the broader "
+"academic community."
+msgstr ""
+"JudaicaLink ist ein Linked Open Data-Projekt, das strukturiertes und "
+"vernetztes Wissen über jüdische Geschichte, Kultur und Wissenschaft "
+"bereitstellt. Das Ziel ist es, Daten aus den Jüdischen Studien für "
+"Forscher, Historiker, Bibliothekare und die akademische Gemeinschaft "
+"leicht zugänglich, durchsuchbar und wiederverwendbar zu machen."
+
+#: ../../introduction.rst:10
+msgid ""
+"By integrating various datasets, JudaicaLink connects existing digital "
+"archives, authority files, and bibliographic resources into a *knowledge "
+"graph*, enabling more efficient exploration of Jewish sources."
+msgstr ""
+"Durch die Integration verschiedener Datensätze verbindet JudaicaLink "
+"bestehende digitale Archive, Normdateien und bibliografische Ressourcen "
+"in einem *Knowledge Graph*, was eine effizientere Erkundung jüdischer "
+"Quellen ermöglicht."
+
+#: ../../introduction.rst:13
+msgid "Project Goals and Functions"
+msgstr "Projektziele und Funktionen"
+
+#: ../../introduction.rst:15
+msgid ""
+"JudaicaLink serves as a *centralized hub* for structured Jewish studies "
+"data, offering:"
+msgstr ""
+"JudaicaLink dient als *zentraler Knotenpunkt* für strukturierte Daten aus "
+"den Jüdischen Studien und bietet:"
+
+#: ../../introduction.rst:17
+msgid ""
+"*Knowledge Graph*: A linked data framework connecting Jewish historical, "
+"biographical, and bibliographical datasets."
+msgstr ""
+"*Knowledge Graph*: Ein Linked-Data-Framework, das jüdisch-historische, "
+"biografische und bibliografische Datensätze miteinander verbindet."
+
+#: ../../introduction.rst:18
+msgid ""
+"*Entity-Based Search*: Users can search for people, places, events, and "
+"publications through a semantically enriched database."
+msgstr ""
+"*Entitätsbasierte Suche*: Benutzer können nach Personen, Orten, Ereignissen "
+"und Publikationen in einer semantisch angereicherten Datenbank suchen."
+
+#: ../../introduction.rst:19
+msgid ""
+"*Integration with Other Projects*: JudaicaLink integrates with "
+"established databases such as *GND, Wikidata, DBpedia, VIAF, and "
+"Geonames*."
+msgstr ""
+"*Integration mit anderen Projekten*: JudaicaLink integriert sich mit "
+"etablierten Datenbanken wie *GND, Wikidata, DBpedia, VIAF und Geonames*."
+
+#: ../../introduction.rst:20
+msgid ""
+"*Data Enrichment*: It enhances existing datasets by linking them with "
+"external sources and extracting meaningful relationships between "
+"entities."
+msgstr ""
+"*Datenanreicherung*: Bestehende Datensätze werden durch Verknüpfung mit "
+"externen Quellen verbessert und bedeutungsvolle Beziehungen zwischen "
+"Entitäten extrahiert."
+
+#: ../../introduction.rst:21
+msgid ""
+"*Open Access and Reuse*: All data is *openly available* under principles "
+"of Linked Open Data (LOD), making it usable by other institutions and "
+"projects."
+msgstr ""
+"*Offener Zugang und Wiederverwendbarkeit*: Alle Daten sind *frei zugänglich* "
+"nach den Prinzipien von Linked Open Data (LOD) und können von anderen "
+"Einrichtungen und Projekten genutzt werden."
+
+#: ../../introduction.rst:24
+msgid "Project Partners"
+msgstr "Projektpartner"
+
+#: ../../introduction.rst:26
+msgid ""
+"JudaicaLink is developed and maintained in collaboration with several "
+"institutions and projects, including:"
+msgstr ""
+"JudaicaLink wird in Zusammenarbeit mit verschiedenen Institutionen und "
+"Projekten entwickelt und gepflegt, darunter:"
+
+#: ../../introduction.rst:28
+msgid "*Hochschule Mannheim* (Mannheim University of Applied Sciences)"
+msgstr "*Hochschule Mannheim* (Mannheimer Hochschule für Angewandte Wissenschaften)"
+
+#: ../../introduction.rst:29
+msgid "*University Library Frankfurt* (UB Frankfurt)"
+msgstr "*Universitätsbibliothek Frankfurt* (UB Frankfurt)"
+
+#: ../../introduction.rst:30
+msgid ""
+"*FID Jüdische Studien* (Specialized Information Service for Jewish "
+"Studies)"
+msgstr "*FID Jüdische Studien* (Fachinformationsdienst Jüdische Studien)"
+
+#: ../../introduction.rst:31
+msgid "*Deutsche Nationalbibliothek (DNB)*"
+msgstr "*Deutsche Nationalbibliothek (DNB)*"
+
+#: ../../introduction.rst:32
+msgid "*Europeana* (A European digital cultural heritage initiative)"
+msgstr "*Europeana* (Eine europäische Initiative für digitales Kulturerbe)"
+
+#: ../../introduction.rst:33
+msgid "*National Library of Israel (NLI)*"
+msgstr "*Nationale Bibliothek Israels (NLI)*"
+
+#: ../../introduction.rst:34
+msgid "*DM2E (Digitised Manuscripts to Europeana)*"
+msgstr "*DM2E (Digitalisierte Manuskripte für Europeana)*"
+
+#: ../../introduction.rst:35
+msgid "*GND (Gemeinsame Normdatei)*"
+msgstr "*GND (Gemeinsame Normdatei)*"
+
+#: ../../introduction.rst:36
+msgid "*Wikidata and Wikipedia*"
+msgstr "*Wikidata und Wikipedia*"
+
+#: ../../introduction.rst:40
+msgid "JudaicaLink Components"
+msgstr "JudaicaLink-Komponenten"
+
+#: ../../introduction.rst:42
+msgid ""
+"JudaicaLink consists of multiple sub-projects that work together to "
+"support the knowledge graph and its applications:"
+msgstr ""
+"JudaicaLink besteht aus mehreren Teilprojekten, die gemeinsam den "
+"Knowledge Graph und seine Anwendungen unterstützen:"
+
+#: ../../introduction.rst:45
+msgid "1. JudaicaLink Labs"
+msgstr "1. JudaicaLink Labs"
+
+#: ../../introduction.rst:57
+msgid "2. JudaicaLink Site"
+msgstr "2. JudaicaLink Webseite"
+
+#: ../../introduction.rst:64
+msgid "3. JudaicaLink Pubby"
+msgstr "3. JudaicaLink Pubby"
+
+#: ../../introduction.rst:81
+msgid "5. RDF Generator"
+msgstr "5. RDF-Generator"
+
+#: ../../introduction.rst:110
+msgid "How to Use JudaicaLink"
+msgstr "Wie man JudaicaLink nutzt"
+
+#: ../../introduction.rst:133
+msgid "Conclusion"
+msgstr "Fazit"

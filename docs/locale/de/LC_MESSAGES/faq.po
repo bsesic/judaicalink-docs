@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../faq.rst:5
+msgid "Frequently Asked Questions (FAQ)"
+msgstr "Häufig gestellte Fragen (FAQ)"
+
+#: ../../faq.rst:7
+msgid ""
+"Below are the most common questions about JudaicaLink, its functionality,"
+" and how to use it effectively."
+msgstr ""
+"Unten finden Sie die häufigsten Fragen zu JudaicaLink, seiner Funktionalität "
+"und zur effektiven Nutzung."
+
+#: ../../faq.rst:10
+msgid "General Questions"
+msgstr "Allgemeine Fragen"
+
+#: ../../faq.rst:13
+msgid "What is JudaicaLink?"
+msgstr "Was ist JudaicaLink?"
+
+#: ../../faq.rst:15
+msgid ""
+"JudaicaLink is a Linked Open Data project that provides structured, "
+"interconnected knowledge about Jewish history, culture, and scholarship. "
+"It integrates data from various sources and makes it available for "
+"researchers, historians, and digital humanities projects."
+msgstr ""
+"JudaicaLink ist ein Linked Open Data-Projekt, das strukturiertes, vernetztes "
+"Wissen über jüdische Geschichte, Kultur und Wissenschaft bereitstellt. "
+"Es integriert Daten aus verschiedenen Quellen und stellt sie Forschern, "
+"Historikern und digitalen Geisteswissenschaften zur Verfügung."
+
+#: ../../faq.rst:18
+msgid "Who maintains JudaicaLink?"
+msgstr "Wer betreut JudaicaLink?"
+
+#: ../../faq.rst:20
+msgid ""
+"JudaicaLink is developed and maintained by *Hochschule Mannheim* in "
+"collaboration with *FID Jüdische Studien*, *UB Frankfurt*, and other "
+"partners."
+msgstr ""
+"JudaicaLink wird von der *Hochschule Mannheim* in Zusammenarbeit mit dem "
+"*FID Jüdische Studien*, der *UB Frankfurt* und weiteren Partnern entwickelt "
+"und betreut."
+
+#: ../../faq.rst:23
+msgid "Is JudaicaLink free to use?"
+msgstr "Ist JudaicaLink kostenlos nutzbar?"
+
+#: ../../faq.rst:25
+msgid ""
+"Yes! JudaicaLink follows the principles of *Open Data, Open Knowledge, "
+"and Open Source*. All datasets are freely accessible."
+msgstr ""
+"Ja! JudaicaLink folgt den Prinzipien von *Open Data, Open Knowledge und Open Source*. "
+"Alle Datensätze sind frei zugänglich."
+
+#: ../../faq.rst:28
+msgid "How can I contribute to JudaicaLink?"
+msgstr "Wie kann ich zu JudaicaLink beitragen?"
+
+#: ../../faq.rst:30
+msgid "You can contribute by:"
+msgstr "Sie können beitragen, indem Sie:"
+
+#: ../../faq.rst:32
+msgid "Providing datasets related to Jewish Studies."
+msgstr "Datensätze zu jüdischen Studien bereitstellen."
+
+#: ../../faq.rst:33
+msgid "Contributing to RDF data generation."
+msgstr "Zur RDF-Datengenerierung beitragen."
+
+#: ../../faq.rst:34
+msgid "Enhancing entity linking and enrichment."
+msgstr "Entity Linking und Datenanreicherung verbessern."
+
+#: ../../faq.rst:35
+msgid "Developing additional tools using the SPARQL endpoint."
+msgstr "Zusätzliche Tools unter Verwendung des SPARQL-Endpunkts entwickeln."
+
+#: ../../faq.rst:37
+msgid ""
+"For detailed contribution guidelines, see the :ref:`Contributing Guide "
+"<developer_guide_contributing>`."
+msgstr ""
+"Für detaillierte Richtlinien zur Mitwirkung siehe den :ref:`Beitragsleitfaden "
+"<developer_guide_contributing>`."
+
+#: ../../faq.rst:40
+msgid "Using JudaicaLink"
+msgstr "JudaicaLink nutzen"
+
+#: ../../faq.rst:43
+msgid "How can I search for information in JudaicaLink?"
+msgstr "Wie kann ich nach Informationen in JudaicaLink suchen?"
+
+#: ../../faq.rst:45
+msgid "JudaicaLink offers multiple search methods:"
+msgstr "JudaicaLink bietet verschiedene Suchmethoden an:"
+
+#: ../../faq.rst:47
+msgid "*Knowledge Graph Search* – Explore structured data about persons, places, and institutions."
+msgstr "*Knowledge Graph-Suche* – Strukturierte Daten über Personen, Orte und Institutionen durchsuchen."
+
+#: ../../faq.rst:48
+msgid "*Full-text search in Compact Memory* – Find relevant excerpts in historical Jewish newspapers."
+msgstr "*Volltextsuche in Compact Memory* – Relevante Auszüge aus historischen jüdischen Zeitungen finden."
+
+#: ../../faq.rst:49
+msgid "*Entity Extraction Search* – Use NLP-extracted entities from Compact Memory to discover connections."
+msgstr "*Entitätensuche* – Durch NLP extrahierte Entitäten aus Compact Memory nutzen, um Verbindungen zu entdecken."
+
+#: ../../faq.rst:52
+msgid "Where can I find the SPARQL endpoint?"
+msgstr "Wo finde ich den SPARQL-Endpunkt?"
+
+#: ../../faq.rst:54
+msgid ""
+"The SPARQL endpoint for querying the knowledge graph is available at: \🔗 "
+"`https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_"
+msgstr ""
+"Der SPARQL-Endpunkt zur Abfrage des Knowledge Graph ist verfügbar unter: \🔗 "
+"`https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_"
+
+#: ../../faq.rst:63
+msgid "Does JudaicaLink support content negotiation?"
+msgstr "Unterstützt JudaicaLink Content-Negotiation?"
+
+#: ../../faq.rst:65
+msgid "Yes. You can access data in different formats using content negotiation:"
+msgstr "Ja. Sie können mit Content-Negotiation auf Daten in verschiedenen Formaten zugreifen:"
+
+#: ../../faq.rst:67
+msgid "*HTML*: `https://data.judaicalink.org/data/html/<dataset>/<entity>`"
+msgstr "*HTML*: `https://data.judaicalink.org/data/html/<dataset>/<entity>`"
+
+#: ../../faq.rst:68
+msgid "*JSON-LD*: `https://data.judaicalink.org/data/jsonld/<dataset>/<entity>`"
+msgstr "*JSON-LD*: `https://data.judaicalink.org/data/jsonld/<dataset>/<entity>`"
+
+#: ../../faq.rst:69
+msgid "*RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`"
+msgstr "*RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`"

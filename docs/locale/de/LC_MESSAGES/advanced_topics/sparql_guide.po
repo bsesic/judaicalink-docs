@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../advanced_topics/sparql_guide.rst:5
+msgid "SPARQL Guide"
+msgstr "SPARQL-Leitfaden"
+
+#: ../../advanced_topics/sparql_guide.rst:7
+msgid ""
+"SPARQL is a query language used to retrieve and manipulate data stored in"
+" **RDF format**. JudaicaLink provides a **public SPARQL endpoint** that "
+"allows users to query the **JudaicaLink knowledge graph**."
+msgstr ""
+"SPARQL ist eine Abfragesprache zur Abrufung und Manipulation von Daten, die im "
+"**RDF-Format** gespeichert sind. JudaicaLink bietet einen **öffentlichen SPARQL-Endpunkt**, "
+"der es ermöglicht, den **JudaicaLink Knowledge Graph** abzufragen."
+
+#: ../../advanced_topics/sparql_guide.rst:10
+msgid "SPARQL Endpoint"
+msgstr "SPARQL-Endpunkt"
+
+#: ../../advanced_topics/sparql_guide.rst:12
+msgid "JudaicaLink's SPARQL endpoint is accessible at:"
+msgstr "Der SPARQL-Endpunkt von JudaicaLink ist erreichbar unter:"
+
+#: ../../advanced_topics/sparql_guide.rst:14
+msgid "**URL:** https://data.judaicalink.org/sparql.html"
+msgstr "**URL:** https://data.judaicalink.org/sparql.html"
+
+#: ../../advanced_topics/sparql_guide.rst:16
+msgid ""
+"You can use this endpoint to run queries directly via a web interface or "
+"programmatically using command-line tools or programming languages."
+msgstr ""
+"Dieser Endpunkt kann verwendet werden, um Abfragen direkt über eine Web-Oberfläche oder "
+"programmgesteuert mit Befehlszeilentools oder Programmiersprachen auszuführen."
+
+#: ../../advanced_topics/sparql_guide.rst:19
+msgid "Basic SPARQL Query Structure"
+msgstr "Grundlegende Struktur einer SPARQL-Abfrage"
+
+#: ../../advanced_topics/sparql_guide.rst:21
+msgid "A SPARQL query consists of:"
+msgstr "Eine SPARQL-Abfrage besteht aus:"
+
+#: ../../advanced_topics/sparql_guide.rst:23
+msgid "**SELECT Clause**: Specifies the variables to retrieve."
+msgstr "**SELECT-Klausel**: Bestimmt die abzurufenden Variablen."
+
+#: ../../advanced_topics/sparql_guide.rst:24
+msgid "**WHERE Clause**: Defines the conditions that must be met."
+msgstr "**WHERE-Klausel**: Definiert die Bedingungen, die erfüllt sein müssen."
+
+#: ../../advanced_topics/sparql_guide.rst:25
+msgid "**LIMIT/OFFSET**: Restricts the number of results."
+msgstr "**LIMIT/OFFSET**: Begrenzt die Anzahl der Ergebnisse."
+
+#: ../../advanced_topics/sparql_guide.rst:28
+msgid "Example Query"
+msgstr "Beispielabfrage"
+
+#: ../../advanced_topics/sparql_guide.rst:30
+msgid "Retrieve the first 10 persons in the dataset::"
+msgstr "Abruf der ersten 10 Personen im Datensatz::"
+
+#: ../../advanced_topics/sparql_guide.rst:38
+msgid "Filtering Results"
+msgstr "Filtern von Ergebnissen"
+
+#: ../../advanced_topics/sparql_guide.rst:40
+msgid "Filter results using conditions like **strings, numbers, or dates**::"
+msgstr "Filtern von Ergebnissen mit Bedingungen wie **Zeichenfolgen, Zahlen oder Daten**::"
+
+#: ../../advanced_topics/sparql_guide.rst:49
+msgid "Sorting and Ordering Results"
+msgstr "Sortieren und Anordnen von Ergebnissen"
+
+#: ../../advanced_topics/sparql_guide.rst:51
+msgid "Use **ORDER BY** to sort results::"
+msgstr "Verwenden Sie **ORDER BY**, um Ergebnisse zu sortieren::"
+
+#: ../../advanced_topics/sparql_guide.rst:59
+msgid "Querying with Optional Data"
+msgstr "Abfragen mit optionalen Daten"
+
+#: ../../advanced_topics/sparql_guide.rst:61
+msgid "Use **OPTIONAL** to include additional data if available::"
+msgstr "Verwenden Sie **OPTIONAL**, um zusätzliche Daten einzuschließen, falls verfügbar::"
+
+#: ../../advanced_topics/sparql_guide.rst:70
+msgid "Accessing SPARQL Programmatically"
+msgstr "Programmgesteuerter Zugriff auf SPARQL"
+
+#: ../../advanced_topics/sparql_guide.rst:72
+msgid "Use **cURL** to send SPARQL queries::"
+msgstr "Verwenden Sie **cURL**, um SPARQL-Abfragen zu senden::"
+
+#: ../../advanced_topics/sparql_guide.rst:77
+msgid "Use **Python with rdflib**::"
+msgstr "Verwenden Sie **Python mit rdflib**::"
+
+#: ../../advanced_topics/sparql_guide.rst:88
+msgid "Troubleshooting & Support"
+msgstr "Fehlersuche & Unterstützung"
+
+#: ../../advanced_topics/sparql_guide.rst:90
+msgid "**Query returning no results?** Ensure the dataset contains relevant data."
+msgstr "**Abfrage liefert keine Ergebnisse?** Stellen Sie sicher, dass der Datensatz relevante Daten enthält."
+
+#: ../../advanced_topics/sparql_guide.rst:91
+msgid "**SPARQL syntax errors?** Validate your query using a SPARQL validator."
+msgstr "**SPARQL-Syntaxfehler?** Überprüfen Sie Ihre Abfrage mit einem SPARQL-Validator."
+
+#: ../../advanced_topics/sparql_guide.rst:92
+msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
+msgstr "**Benötigen Sie Hilfe?** Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/"
+
+#: ../../advanced_topics/sparql_guide.rst:94
+msgid ""
+"--- JudaicaLink’s SPARQL endpoint allows for rich, structured data "
+"retrieval. Start exploring now! \🚀"
+msgstr ""
+"--- Der SPARQL-Endpunkt von JudaicaLink ermöglicht eine umfassende und strukturierte "
+"Datenabfrage. Beginnen Sie jetzt mit der Erkundung! \🚀"

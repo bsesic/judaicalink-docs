@@ -1,0 +1,200 @@
+# EIN BESCHREIBENDER TITEL.
+# Copyright (C) 2025, JudaicaLink Team
+# Diese Datei wird unter derselben Lizenz wie das JudaicaLink
+# Dokumentationspaket verteilt.
+# ERSTER AUTOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Dokumentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"PO-Revision-Date: JAHR-MO-TAG STUNDE:MINUTE+ZEITZONE\n"
+"Last-Translator: VOLLER NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../user_guide/overview.rst:5
+msgid "User Guide Overview"
+msgstr "Übersicht des Benutzerhandbuchs"
+
+#: ../../user_guide/overview.rst:7
+msgid ""
+"Welcome to the JudaicaLink User Guide! This guide will help you navigate "
+"and effectively use the different features and resources available within"
+" JudaicaLink."
+msgstr ""
+"Willkommen im JudaicaLink-Benutzerhandbuch! Dieses Handbuch hilft Ihnen, "
+"die verschiedenen Funktionen und Ressourcen von JudaicaLink zu verstehen "
+"und effektiv zu nutzen."
+
+#: ../../user_guide/overview.rst:10
+msgid "What is JudaicaLink?"
+msgstr "Was ist JudaicaLink?"
+
+#: ../../user_guide/overview.rst:11
+msgid ""
+"JudaicaLink is a Linked Open Data project dedicated to Jewish studies, "
+"providing structured and interconnected knowledge about Jewish history, "
+"culture, and scholarship. It integrates multiple datasets, making them "
+"easily accessible through a knowledge graph, entity-based searches, and a"
+" SPARQL endpoint."
+msgstr ""
+"JudaicaLink ist ein Linked Open Data-Projekt, das sich mit jüdischen Studien "
+"befasst. Es bietet strukturiertes und vernetztes Wissen über die jüdische "
+"Geschichte, Kultur und Wissenschaft. JudaicaLink integriert mehrere "
+"Datensätze und stellt sie über einen Wissensgraphen, Entitätensuchen und "
+"einen SPARQL-Endpunkt zur Verfügung."
+
+#: ../../user_guide/overview.rst:14
+msgid "Key Features"
+msgstr "Hauptfunktionen"
+
+#: ../../user_guide/overview.rst:17
+msgid "1. Search Functionality"
+msgstr "1. Suchfunktion"
+
+#: ../../user_guide/overview.rst:18
+msgid "JudaicaLink offers multiple ways to search and explore data:"
+msgstr "JudaicaLink bietet verschiedene Möglichkeiten, Daten zu durchsuchen und zu erkunden:"
+
+#: ../../user_guide/overview.rst:20
+msgid ""
+"*Knowledge Graph Search*: Search for persons, places, institutions, and "
+"other entities in structured data."
+msgstr ""
+"*Wissensgraph-Suche*: Suche nach Personen, Orten, Institutionen und anderen "
+"Entitäten in strukturierten Daten."
+
+#: ../../user_guide/overview.rst:21
+msgid ""
+"*Full-Text Search in Compact Memory*: Query historical Jewish newspapers "
+"and documents."
+msgstr ""
+"*Volltextsuche in Compact Memory*: Durchsuchen historischer jüdischer Zeitungen "
+"und Dokumente."
+
+#: ../../user_guide/overview.rst:22
+msgid ""
+"*Entity Extraction Search*: Find entities automatically identified within"
+" historical texts using NLP."
+msgstr ""
+"*Entitätenextraktion-Suche*: Finde Entitäten, die mithilfe von NLP-Technologien "
+"automatisch aus historischen Texten extrahiert wurden."
+
+#: ../../user_guide/overview.rst:25
+msgid "2. SPARQL Endpoint"
+msgstr "2. SPARQL-Endpunkt"
+
+#: ../../user_guide/overview.rst:26
+msgid ""
+"For advanced users, JudaicaLink provides a *SPARQL query interface* , "
+"enabling custom queries against the structured knowledge graph."
+msgstr ""
+"Für fortgeschrittene Benutzer bietet JudaicaLink eine *SPARQL-Abfrageschnittstelle*, "
+"die benutzerdefinierte Abfragen gegen den strukturierten Wissensgraphen ermöglicht."
+
+#: ../../user_guide/overview.rst:28
+msgid ""
+"\\🔗 *Access the SPARQL endpoint:*  "
+"`https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_."
+msgstr ""
+"\\🔗 *Zugriff auf den SPARQL-Endpunkt:*  "
+"`https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_."
+
+#: ../../user_guide/overview.rst:29
+msgid ""
+"Learn how to construct SPARQL queries in the `SPARQL Guide "
+"<advanced_topic_sparql_guide>`_."
+msgstr ""
+"Erfahren Sie, wie Sie SPARQL-Abfragen erstellen können, im `SPARQL-Leitfaden "
+"<advanced_topic_sparql_guide>`_."
+
+#: ../../user_guide/overview.rst:32
+msgid "3. Linked Open Data (LOD) Integration"
+msgstr "3. Integration in Linked Open Data (LOD)"
+
+#: ../../user_guide/overview.rst:33
+msgid ""
+"JudaicaLink integrates with major Linked Data resources such as *GND, "
+"Wikidata, DBpedia, VIAF, and Geonames*, allowing enriched and "
+"interconnected research."
+msgstr ""
+"JudaicaLink ist mit wichtigen Linked Data-Ressourcen wie *GND, Wikidata, DBpedia, "
+"VIAF und Geonames* verknüpft, was eine verbesserte und vernetzte Forschung ermöglicht."
+
+#: ../../user_guide/overview.rst:36
+msgid "4. Dataset Exploration"
+msgstr "4. Datensatzerkundung"
+
+#: ../../user_guide/overview.rst:37
+msgid ""
+"Browse available datasets via `https://data.judaicalink.org "
+"<https://data.judaicalink.org>`_."
+msgstr ""
+"Durchsuchen Sie verfügbare Datensätze unter `https://data.judaicalink.org "
+"<https://data.judaicalink.org>`_."
+
+#: ../../user_guide/overview.rst:38
+msgid "Understand how datasets are structured in the `Dataset Guide <datasets>`."
+msgstr "Erfahren Sie mehr über die Struktur der Datensätze im `Datensatz-Leitfaden <datasets>`."
+
+#: ../../user_guide/overview.rst:41
+msgid "5. Entity Pages"
+msgstr "5. Entitätsseiten"
+
+#: ../../user_guide/overview.rst:42
+msgid ""
+"JudaicaLink provides *Entity Pages*, which aggregate information from "
+"multiple sources about an entity."
+msgstr ""
+"JudaicaLink bietet *Entitätsseiten*, die Informationen aus mehreren Quellen "
+"über eine Entität zusammenführen."
+
+#: ../../user_guide/overview.rst:46
+msgid "How to Use This Guide"
+msgstr "Wie man dieses Handbuch benutzt"
+
+#: ../../user_guide/overview.rst:47
+msgid ""
+"This guide is divided into several sections to help users get started "
+"with JudaicaLink:"
+msgstr ""
+"Dieses Handbuch ist in mehrere Abschnitte unterteilt, um Benutzern den Einstieg "
+"in JudaicaLink zu erleichtern:"
+
+#: ../../user_guide/overview.rst:54
+msgid ":ref:`FAQs <faq>` – Answers to common questions."
+msgstr ":ref:`FAQs <faq>` – Antworten auf häufige Fragen."
+
+#: ../../user_guide/overview.rst:57
+msgid "Who Can Use JudaicaLink?"
+msgstr "Wer kann JudaicaLink nutzen?"
+
+#: ../../user_guide/overview.rst:58
+msgid "JudaicaLink is designed for:"
+msgstr "JudaicaLink ist konzipiert für:"
+
+#: ../../user_guide/overview.rst:60
+msgid "*Researchers & Historians*  looking for structured Jewish studies data."
+msgstr "*Forscher & Historiker*, die strukturierte Daten zu jüdischen Studien suchen."
+
+#: ../../user_guide/overview.rst:61
+msgid "*Librarians & Archivists*  managing bibliographic and archival data."
+msgstr "*Bibliothekare & Archivare*, die bibliografische und archivierte Daten verwalten."
+
+#: ../../user_guide/overview.rst:63
+msgid "*General Users*  interested in exploring Jewish history and culture."
+msgstr "*Allgemeine Nutzer*, die sich für die jüdische Geschichte und Kultur interessieren."
+
+#: ../../user_guide/overview.rst:66
+msgid "Next Steps"
+msgstr "Nächste Schritte"

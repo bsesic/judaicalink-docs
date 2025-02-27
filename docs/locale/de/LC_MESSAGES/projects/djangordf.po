@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, JudaicaLink Team
+# This file is distributed under the same license as the JudaicaLink
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JudaicaLink Documentation 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-21 10:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../projects/djangordf.rst:5
+msgid "DjangoRDF"
+msgstr "DjangoRDF"
+
+#: ../../projects/djangordf.rst:7
+msgid "DjangoRDF is a **Django-based RDF framework** that enables structured management, querying, and serialization of RDF data within Django applications. It provides tools to integrate **RDF triple stores**, perform **SPARQL queries**, and facilitate **Linked Data publishing**."
+msgstr "DjangoRDF ist ein **Django-basiertes RDF-Framework**, das die strukturierte Verwaltung, Abfrage und Serialisierung von RDF-Daten in Django-Anwendungen ermöglicht. Es bietet Werkzeuge zur Integration von **RDF-Triple-Stores**, zur Durchführung von **SPARQL-Abfragen** und zur **Veröffentlichung von Linked Data**."
+
+#: ../../projects/djangordf.rst:10
+msgid "Features of DjangoRDF"
+msgstr "Funktionen von DjangoRDF"
+
+#: ../../projects/djangordf.rst:12
+msgid "**Django ORM-style RDF models**: Manage RDF data like Django models."
+msgstr "**Django ORM-ähnliche RDF-Modelle**: Verwalten Sie RDF-Daten wie Django-Modelle."
+
+#: ../../projects/djangordf.rst:13
+msgid "**SPARQL Query Integration**: Run queries against linked data."
+msgstr "**SPARQL-Abfrageintegration**: Führen Sie Abfragen gegen Linked Data aus."
+
+#: ../../projects/djangordf.rst:14
+msgid "**RDF Serialization & Content Negotiation**: Supports **JSON-LD, RDF/XML, Turtle, and N-Triples**."
+msgstr "**RDF-Serialisierung & Inhaltsaushandlung**: Unterstützt **JSON-LD, RDF/XML, Turtle und N-Triples**."
+
+#: ../../projects/djangordf.rst:15
+msgid "**Triple Store Compatibility**: Works with **Apache Jena Fuseki, Virtuoso, and GraphDB**."
+msgstr "**Triple-Store-Kompatibilität**: Funktioniert mit **Apache Jena Fuseki, Virtuoso und GraphDB**."
+
+#: ../../projects/djangordf.rst:16
+msgid "**Automatic RDF Data Mapping**: Define models that automatically map to RDF properties."
+msgstr "**Automatische RDF-Datenzuordnung**: Definieren Sie Modelle, die automatisch RDF-Eigenschaften zuordnen."
+
+#: ../../projects/djangordf.rst:19
+msgid "How to Use DjangoRDF"
+msgstr "Wie man DjangoRDF verwendet"
+
+#: ../../projects/djangordf.rst:22
+msgid "Setting Up the Environment"
+msgstr "Einrichten der Umgebung"
+
+#: ../../projects/djangordf.rst:24
+msgid "Clone the repository"
+msgstr "Klonen Sie das Repository"
+
+#: ../../projects/djangordf.rst:31
+msgid "Create a virtual environment (Recommended)"
+msgstr "Erstellen Sie eine virtuelle Umgebung (empfohlen)"
+
+#: ../../projects/djangordf.rst:39
+msgid "Install dependencies"
+msgstr "Installieren Sie Abhängigkeiten"
+
+#: ../../projects/djangordf.rst:46
+msgid "Configuring DjangoRDF"
+msgstr "Konfigurieren von DjangoRDF"
+
+#: ../../projects/djangordf.rst:48
+msgid "To use DjangoRDF, add it to your Django settings"
+msgstr "Um DjangoRDF zu verwenden, fügen Sie es zu Ihren Django-Einstellungen hinzu"
+
+#: ../../projects/djangordf.rst:57
+msgid "Configure the SPARQL endpoint in `settings.py`"
+msgstr "Konfigurieren Sie den SPARQL-Endpunkt in `settings.py`"
+
+#: ../../projects/djangordf.rst:68
+msgid "Running Django Commands"
+msgstr "Ausführen von Django-Befehlen"
+
+#: ../../projects/djangordf.rst:70
+msgid "DjangoRDF provides management commands to interact with RDF data."
+msgstr "DjangoRDF bietet Verwaltungsbefehle zur Interaktion mit RDF-Daten."
+
+#: ../../projects/djangordf.rst:72
+msgid "**List available RDF models**"
+msgstr "**Verfügbare RDF-Modelle auflisten**"
+
+#: ../../projects/djangordf.rst:78
+msgid "**Run a SPARQL query**"
+msgstr "**Eine SPARQL-Abfrage ausführen**"
+
+#: ../../projects/djangordf.rst:84
+msgid "**Load RDF data into the triple store**"
+msgstr "**RDF-Daten in den Triple-Store laden**"
+
+#: ../../projects/djangordf.rst:91
+msgid "Defining RDF Models"
+msgstr "Definieren von RDF-Modellen"
+
+#: ../../projects/djangordf.rst:93
+msgid "DjangoRDF allows you to define RDF models similar to Django ORM models."
+msgstr "DjangoRDF ermöglicht es Ihnen, RDF-Modelle ähnlich wie Django ORM-Modelle zu definieren."
+
+#: ../../projects/djangordf.rst:95
+msgid "Example model definition"
+msgstr "Beispiel für eine Modelldefinition"
+
+#: ../../projects/djangordf.rst:111
+msgid "Querying RDF Data"
+msgstr "Abfragen von RDF-Daten"
+
+#: ../../projects/djangordf.rst:113
+msgid "You can use Django's QuerySet-like API to retrieve RDF data::"
+msgstr "Sie können die QuerySet-ähnliche API von Django verwenden, um RDF-Daten abzurufen::"
+
+#: ../../projects/djangordf.rst:122
+msgid "Troubleshooting & Support"
+msgstr "Fehlersuche & Unterstützung"
+
+#: ../../projects/djangordf.rst:125
+msgid "**SPARQL queries not returning results?** Check if the endpoint URL is correct."
+msgstr "**SPARQL-Abfragen liefern keine Ergebnisse?** Überprüfen Sie, ob die Endpunkt-URL korrekt ist."
+
+#: ../../projects/djangordf.rst:126
+msgid "**Data not loading?** Validate RDF data before importing."
+msgstr "**Daten werden nicht geladen?** Validieren Sie RDF-Daten vor dem Import."
+
+#: ../../projects/djangordf.rst:127
+msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
+msgstr "**Benötigen Sie Hilfe?** Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/"
+
+#: ../../projects/djangordf.rst:130
+msgid "--- DjangoRDF simplifies RDF management in Django applications. Start integrating structured Linked Data today! \\🚀"
+msgstr "-- DjangoRDF vereinfacht die RDF-Verwaltung in Django-Anwendungen. Beginnen Sie noch heute mit der Integration von strukturierten Linked Data! \\🚀"
+
