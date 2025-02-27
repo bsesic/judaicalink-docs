@@ -15,12 +15,14 @@ Setting Up the Environment
 --------------------------
 
 1. *Clone the repository*
+
 ::
 
    git clone https://github.com/judaicalink/rdf_model.git
    cd rdf_model
 
 2. *Create a virtual environment* (Recommended)
+
 ::
 
    python -m venv venv
@@ -28,6 +30,7 @@ Setting Up the Environment
    venv\Scripts\activate  # On Windows
 
 3. *Install dependencies*
+
 ::
 
    pip install -r requirements.txt
@@ -35,7 +38,9 @@ Setting Up the Environment
 Defining an RDF Model
 ---------------------
 
-Define an RDF model using Python classes. Example model::
+Define an RDF model using Python classes. Example model
+
+::
 
    from rdflib import Graph, Namespace, URIRef, Literal
    from rdflib.namespace import RDF, FOAF

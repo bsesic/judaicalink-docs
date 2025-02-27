@@ -176,17 +176,6 @@ msgstr ""
 msgid "1. JudaicaLink Labs"
 msgstr "1. JudaicaLink Labs"
 
-msgid ""
-"JudaicaLink Labs is the *core application* that powers the search"
-"and entity exploration interface. It allows users to explore"
-"Jewish-related datasets through *SPARQL queries, entity linking, and structured search*."
-
-msgstr ""
-"JudaicaLink Labs ist die *Kernanwendung*, die die Suche und die"
-"Entitätserkundungsschnittstelle steuert. Sie ermöglicht es Benutzern,"
-"jüdische Datensätze durch *SPARQL-Abfragen, Entitätsverknüpfung und"
-"strukturierte Suche* zu erkunden."
-
 #: ../../introduction.rst:57
 msgid "2. JudaicaLink Site"
 msgstr "2. JudaicaLink Webseite"

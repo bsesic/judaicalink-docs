@@ -23,15 +23,17 @@ Setting Up Locally
 Follow these steps to set up the different projects locally:
 
 JudaicaLink Docs
-=================
+================
 
 1. *Clone the Repository*
+
 ::
 
    git clone https://github.com/judaicalink/judaicalink-docs.git
    cd judaicalink-docs
 
 2. *Create and Activate a Virtual Environment (Recommended)*
+
 ::
 
    python -m venv venv
@@ -39,11 +41,13 @@ JudaicaLink Docs
    venv\Scripts\activate  # On Windows
 
 3. *Install Dependencies*
+
 ::
 
    pip install -r requirements.txt
 
 4. *Build the Documentation Locally*
+
 ::
 
    cd docs
@@ -54,20 +58,23 @@ JudaicaLink Docs
    The generated HTML files will be located in `docs/_build/html/`. Open `index.html` in a browser to view the documentation.
 
 JudaicaLink Labs
-====================
+================
 
 1. *Clone the Repository*
+
 ::
 
    git clone https://github.com/judaicalink/judaicalink-labs.git
    cd judaicalink-labs
 
 2. *Install Dependencies*
+
 ::
 
    pip install -r requirements.txt
 
 3. *Run the Development Server*
+
 ::
 
    python manage.py runserver
@@ -76,18 +83,21 @@ JudaicaLink Site
 ====================
 
 1. *Clone the Repository*
+
 ::
 
    git clone https://github.com/judaicalink/judaicalink-site.git
    cd judaicalink-site
 
 2. *Install Hugo* (if not installed already)
+
 ::
 
    brew install hugo  # On macOS
    sudo apt install hugo  # On Linux
 
 3. *Build and Serve the Site*
+
 ::
 
    hugo server
@@ -96,39 +106,45 @@ JudaicaLink Pubby
 =====================
 
 1. *Clone the Repository*
+
 ::
 
    git clone https://github.com/lod-pubby/pubby-django.git
    cd pubby-django
 
 2. *Install Dependencies*
+
 ::
 
    pip install -r requirements.txt
 
 3. *Run the Development Server*
+
 ::
 
    python manage.py runserver
 
 
 Using Docker for Local Deployment
-=====================================
+=================================
 
 For a full-stack deployment of all projects together, use Docker:
 
 1. *Clone the Docker Repository*
+
 ::
 
    git clone https://github.com/judaicalink/docker.git
    cd docker
 
 2. *Set Up the Environment*
+
 ::
 
    cp .env.example .env
 
 3. *Build and Start Containers*
+
 ::
 
    docker-compose up --build -d
@@ -155,6 +171,7 @@ To contribute updates to the documentation:
 3. Preview the changes locally by opening `_build/html/index.html` in a browser.
 
 4. Commit and push changes:
+
 ::
 
    git add .
