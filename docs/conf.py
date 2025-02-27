@@ -20,7 +20,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
-    "sphinx.ext.githubpages"
+    "sphinx.ext.githubpages",
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
