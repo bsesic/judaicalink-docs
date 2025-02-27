@@ -12,9 +12,10 @@ release = '0.1.0'
 copyright = f'{year}, JudaicaLink Team'
 
 # Add language support
-language = 'en'  # Default language
+language = 'de'  # Default language
 locale_dirs = ['locale/']  # Path to translation files
 gettext_compact = False  # Keep translation structure
+
 
 extensions = [
     "sphinx.ext.autodoc",
