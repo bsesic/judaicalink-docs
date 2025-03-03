@@ -62,9 +62,7 @@ msgstr "1. Suchfunktion"
 
 #: ../user_guide/overview.rst:18
 msgid "JudaicaLink offers multiple ways to search and explore data:"
-msgstr ""
-"JudaicaLink bietet verschiedene Möglichkeiten, Daten zu durchsuchen und "
-"zu erkunden:"
+msgstr "JudaicaLink bietet mehrere Möglichkeiten, Daten zu durchsuchen und zu erkunden:"
 
 #: ../user_guide/overview.rst:20
 msgid ""
@@ -171,9 +169,8 @@ msgid ""
 "See examples of entity pages at: `https://data.judaicalink.org/data/html/"
 " <https://data.judaicalink.org/data/html/>`_."
 msgstr ""
-"\\🔗 *Zugriff auf den SPARQL-Endpunkt:*  "
-"`https://data.judaicalink.org/sparql.html "
-"<https://data.judaicalink.org/sparql.html>`_."
+"Beispiele für Entitätsseiten finden Sie unter: `https://data.judaicalink."
+"org/data/html/ <https://data.judaicalink.org/data/html/>`_."
 
 #: ../user_guide/overview.rst:46
 msgid "How to Use This Guide"
@@ -192,30 +189,40 @@ msgid ""
 ":ref:`Getting Started <getting_started>` – A step-by-step guide to "
 "accessing JudaicaLink."
 msgstr ""
+":ref:`Getting Started <getting_started>` – Eine Schritt-für-Schritt-Anleitung "
+"zum Zugriff auf JudaicaLink."
 
 #: ../user_guide/overview.rst:50
 msgid ""
 ":ref:`Search Guide <user_guide_search_guide>` – Instructions on how to "
 "use the different search methods."
 msgstr ""
+":ref:`Search Guide <user_guide_search_guide>` – Anleitungen zur Verwendung "
+"der verschiedenen Suchmethoden."
 
 #: ../user_guide/overview.rst:51
 msgid ""
 ":ref:`SPARQL Guide <advanced_topics_sparql_guide>` – How to construct "
 "SPARQL queries."
 msgstr ""
+":ref:`SPARQL Guide <advanced_topics_sparql_guide>` – Wie man SPARQL-"
+"Abfragen erstellt."
 
 #: ../user_guide/overview.rst:52
 msgid ""
 ":ref:`Dataset Guide <datasets>` – Information about the datasets "
 "available."
 msgstr ""
+":ref:`Dataset Guide <datasets>` – Informationen zu den verfügbaren "
+"Datensätzen."
 
 #: ../user_guide/overview.rst:53
 msgid ""
 ":ref:`Content Negotiation <user_guide_content_negotiation>` – Learn how "
 "to retrieve data in different formats."
 msgstr ""
+":ref:`Content Negotiation <user_guide_content_negotiation>` – Erfahren Sie, "
+"wie Sie Daten in verschiedenen Formaten abrufen können."
 
 #: ../user_guide/overview.rst:54
 msgid ":ref:`FAQs <faq>` – Answers to common questions."
@@ -246,6 +253,8 @@ msgid ""
 "*Developers & Data Scientists*  integrating JudaicaLink data into "
 "applications."
 msgstr ""
+"*Entwickler & Datenwissenschaftler*, die JudaicaLink-Daten in Anwendungen "
+"integrieren."
 
 #: ../user_guide/overview.rst:63
 msgid "*General Users*  interested in exploring Jewish history and culture."
@@ -259,16 +268,16 @@ msgstr "Nächste Schritte"
 
 #: ../user_guide/overview.rst:67
 msgid "Start with :ref:`Getting Started <getting_started>`."
-msgstr ""
+msgstr "Beginnen Sie mit :ref:`Getting Started <getting_started>`."
 
 #: ../user_guide/overview.rst:68
-#, fuzzy
 msgid ""
 "If you need help, visit the :ref:`FAQs <faq>` or contact us at "
 "`https://labs.judaicalink.org/contact/ "
 "<https://labs.judaicalink.org/contact/>`_."
 msgstr ""
-"\\🔗 *Zugriff auf den SPARQL-Endpunkt:*  "
-"`https://data.judaicalink.org/sparql.html "
-"<https://data.judaicalink.org/sparql.html>`_."
+"Wenn Sie Hilfe benötigen, besuchen Sie die :ref:`FAQs <faq>` oder "
+"kontaktieren Sie uns unter `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+
 
