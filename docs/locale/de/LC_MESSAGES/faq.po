@@ -197,9 +197,8 @@ msgid "*RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`"
 msgstr "*RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`"
 
 #: ../faq.rst:72
-#, fuzzy
 msgid "Technical Questions"
-msgstr "Allgemeine Fragen"
+msgstr "Technische Fragen"
 
 #: ../faq.rst:75
 msgid "How is data stored and structured in JudaicaLink?"
@@ -319,7 +318,7 @@ msgid ""
 "team via the `Contact Page <https://labs.judaicalink.org/contact/>`_."
 msgstr ""
 "Wenn Sie falsche oder veraltete Daten finden, wenden Sie sich bitte an "
-"das JudaicaLink-Team über die `Kontaktseite https://labs.judaicalink.org/contact/>`_."
+"das JudaicaLink-Team über die `Kontaktseite <https://labs.judaicalink.org/contact/>`_."
 
 #: ../faq.rst:125
 msgid "My SPARQL query is too slow. What can I do?"

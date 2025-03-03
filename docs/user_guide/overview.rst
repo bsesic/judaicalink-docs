@@ -15,6 +15,7 @@ Key Features
 
 1. Search Functionality
 -----------------------
+
 JudaicaLink offers multiple ways to search and explore data:
 
 * *Knowledge Graph Search*: Search for persons, places, institutions, and other entities in structured data.
@@ -23,6 +24,7 @@ JudaicaLink offers multiple ways to search and explore data:
 
 2. SPARQL Endpoint
 ------------------
+
 For advanced users, JudaicaLink provides a *SPARQL query interface* , enabling custom queries against the structured knowledge graph.
 
 * \🔗 *Access the SPARQL endpoint:*  `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_.
@@ -30,20 +32,24 @@ For advanced users, JudaicaLink provides a *SPARQL query interface* , enabling c
 
 3. Linked Open Data (LOD) Integration
 -------------------------------------
+
 JudaicaLink integrates with major Linked Data resources such as *GND, Wikidata, DBpedia, VIAF, and Geonames*, allowing enriched and interconnected research.
 
 4. Dataset Exploration
------------------------
+----------------------
+
 * Browse available datasets via `https://data.judaicalink.org <https://data.judaicalink.org>`_.
 * Understand how datasets are structured in the `Dataset Guide <datasets>`.
 
 5. Entity Pages
-----------------
+---------------
+
 * JudaicaLink provides *Entity Pages*, which aggregate information from multiple sources about an entity.
 * See examples of entity pages at: `https://data.judaicalink.org/data/html/ <https://data.judaicalink.org/data/html/>`_.
 
 How to Use This Guide
 ======================
+
 This guide is divided into several sections to help users get started with JudaicaLink:
 
 1. :ref:`Getting Started <getting_started>` – A step-by-step guide to accessing JudaicaLink.
@@ -55,6 +61,7 @@ This guide is divided into several sections to help users get started with Judai
 
 Who Can Use JudaicaLink?
 =========================
+
 JudaicaLink is designed for:
 
 * *Researchers & Historians*  looking for structured Jewish studies data.
@@ -64,6 +71,7 @@ JudaicaLink is designed for:
 
 Next Steps
 ==========
+
 * Start with :ref:`Getting Started <getting_started>`.
 * If you need help, visit the :ref:`FAQs <faq>` or contact us at `https://labs.judaicalink.org/contact/ <https://labs.judaicalink.org/contact/>`_.
 
