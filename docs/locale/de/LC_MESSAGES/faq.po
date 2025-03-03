@@ -201,7 +201,7 @@ msgstr "Allgemeine Fragen"
 
 #: ../faq.rst:75
 msgid "How is data stored and structured in JudaicaLink?"
-msgstr ""
+msgstr "Wie werden Daten in JudaicaLink gespeichert und strukturiert?"
 
 #: ../faq.rst:77
 msgid ""
@@ -209,74 +209,77 @@ msgid ""
 "data. It is stored in an *Apache Jena Fuseki* triple store and follows "
 "the Linked Open Data principles."
 msgstr ""
+"JudaicaLink verwendet *RDF (Resource Description Framework)* zur "
+"Strukturierung von Daten. Diese werden in einem *Apache Jena Fuseki* "
+"Triple Store gespeichert und folgen den Prinzipien von Linked Open Data."
 
 #: ../faq.rst:80
-#, fuzzy
 msgid "What technologies does JudaicaLink use?"
 msgstr "Was ist JudaicaLink?"
 
 #: ../faq.rst:82
 msgid "*Backend*: Django (Labs, Pubby)"
-msgstr ""
+msgstr "*Backend*: Django (Labs, Pubby)"
 
 #: ../faq.rst:83
 msgid "*Frontend*: Hugo (Site), Vue.js (planned improvements)"
-msgstr ""
+msgstr "*Frontend*: Hugo (Site), Vue.js (geplante Verbesserungen)"
 
 #: ../faq.rst:84
 msgid "*Data Storage*: Apache Jena Fuseki (RDF Triple Store)"
-msgstr ""
+msgstr "*Datenlagerung*: Apache Jena Fuseki (RDF Triple Store)"
 
 #: ../faq.rst:85
 msgid "*Search*: SOLR"
-msgstr ""
+msgstr "*Suche*: SOLR"
 
 #: ../faq.rst:86
 msgid "*Cache*: Redis"
-msgstr ""
+msgstr "*Cache*: Redis"
 
 #: ../faq.rst:87
 msgid "*Deployment*: Docker, Nginx"
-msgstr ""
+msgstr "*Bereitstellung*: Docker, Nginx"
 
 #: ../faq.rst:90
 msgid "How often is the data updated?"
-msgstr ""
+msgstr "Wie oft werden die Daten aktualisiert?"
 
 #: ../faq.rst:92
 msgid ""
 "JudaicaLink updates its data regularly. The frequency depends on external"
 " dataset updates and internal processing cycles."
 msgstr ""
+"JudaicaLink aktualisiert seine Daten regelmäßig. Die Häufigkeit hängt von "
+"externen Datensatzaktualisierungen und internen Verarbeitungszyklen ab."
 
 #: ../faq.rst:95
-#, fuzzy
 msgid "How can I integrate JudaicaLink with my project?"
 msgstr "Wie kann ich zu JudaicaLink beitragen?"
 
 #: ../faq.rst:97
 msgid "Developers can integrate JudaicaLink data by:"
-msgstr ""
+msgstr "Entwickler können JudaicaLink-Daten integrieren, indem sie:"
 
 #: ../faq.rst:99
 msgid "Using the *SPARQL endpoint* for live queries."
-msgstr ""
+msgstr "Verwendung des *SPARQL-Endpunkts* für Live-Abfragen."
 
 #: ../faq.rst:100
 msgid "Downloading RDF datasets for local processing."
-msgstr ""
+msgstr "Herunterladen von RDF-Datensätzen zur lokalen Verarbeitung."
 
 #: ../faq.rst:101
 msgid "Embedding entity URIs into their knowledge bases."
-msgstr ""
+msgstr "Einbetten von Entitäts-URIs in ihre Wissensbasen."
 
 #: ../faq.rst:104
 msgid "Data and Licensing"
-msgstr ""
+msgstr "Daten und Lizenzen"
 
 #: ../faq.rst:107
 msgid "What are the licensing terms for using JudaicaLink data?"
-msgstr ""
+msgstr "Welche Lizenzbedingungen gelten für die Nutzung von JudaicaLink-Daten?"
 
 #: ../faq.rst:109
 msgid ""
@@ -284,63 +287,71 @@ msgid ""
 "and *CC0*, depending on the dataset. Check individual dataset licenses "
 "for specifics."
 msgstr ""
+"JudaicaLink-Daten stehen unter offenen Lizenzen wie *CC BY-SA* und *CC0* "
+"zur Verfügung, je nach Datensatz. Überprüfen Sie die einzelnen "
+"Datensatzlizenzen für Details."
 
 #: ../faq.rst:112
 msgid "Can I use JudaicaLink data for commercial purposes?"
-msgstr ""
+msgstr "Kann ich JudaicaLink-Daten für kommerzielle Zwecke verwenden?"
 
 #: ../faq.rst:114
 msgid ""
 "Yes, but you must adhere to the respective dataset license. Some datasets"
 " require attribution."
 msgstr ""
+"Ja, aber Sie müssen sich an die jeweilige Datensatzlizenz halten. Einige "
+"Datensätze erfordern eine Zuordnung."
 
 #: ../faq.rst:117
 msgid "Troubleshooting & Support"
-msgstr ""
+msgstr "Fehlerbehebung und Unterstützung"
 
 #: ../faq.rst:120
 msgid "I found incorrect data. How can I report it?"
-msgstr ""
+msgstr "Ich habe falsche Daten gefunden. Wie kann ich sie melden?"
 
 #: ../faq.rst:122
 msgid ""
 "If you find incorrect or outdated data, please contact the JudaicaLink "
 "team via the `Contact Page <https://labs.judaicalink.org/contact/>`_."
 msgstr ""
+"Wenn Sie falsche oder veraltete Daten finden, wenden Sie sich bitte an "
+"das JudaicaLink-Team über die `Kontaktseite https://labs.judaicalink.org/contact/>`_."
 
 #: ../faq.rst:125
 msgid "My SPARQL query is too slow. What can I do?"
-msgstr ""
+msgstr "Meine SPARQL-Abfrage ist zu langsam. Was kann ich tun?"
 
 #: ../faq.rst:127
 msgid "Try *limiting results* with `LIMIT` and `OFFSET`."
-msgstr ""
+msgstr "Versuchen Sie, die Ergebnisse mit `LIMIT` und `OFFSET` zu begrenzen."
 
 #: ../faq.rst:128
 msgid "Optimize queries by *filtering entities early*."
-msgstr ""
+msgstr "Optimieren Sie Abfragen, indem Sie *Entitäten früh filtern*."
 
 #: ../faq.rst:129
 msgid "Use *indexed fields* where possible."
-msgstr ""
+msgstr "Verwenden Sie *indizierte Felder*, wo möglich."
 
 #: ../faq.rst:132
 msgid "I need a dataset that is not available. Can you add it?"
-msgstr ""
+msgstr "Ich benötige einen Datensatz, der nicht verfügbar ist. Können Sie ihn hinzufügen?"
 
 #: ../faq.rst:134
 msgid ""
 "JudaicaLink is open to dataset suggestions. If you have a dataset you’d "
 "like to contribute, reach out to us."
 msgstr ""
+"JudaicaLink steht für Datensatzvorschläge offen. Wenn Sie einen Datensatz "
+"beitragen möchten, kontaktieren Sie uns."
 
 #: ../faq.rst:137
 msgid "Getting Help"
-msgstr ""
+msgstr "Hilfe erhalten"
 
 #: ../faq.rst:139
-#, fuzzy
 msgid "Where can I find more information about JudaicaLink?"
 msgstr "Wie kann ich nach Informationen in JudaicaLink suchen?"
 
@@ -349,12 +360,16 @@ msgid ""
 "*Documentation*: `https://judaicalink-docs.readthedocs.io/ <https"
 "://judaicalink-docs.readthedocs.io/>`_"
 msgstr ""
+"*Dokumentation*: `https://judaicalink-docs.readthedocs.io/ <https"
+"://judaicalink-docs.readthedocs.io/>`_"
 
 #: ../faq.rst:142
 msgid ""
 "*FAQ Updates*: Check `https://web.judaicalink.org/faq/ "
 "<https://web.judaicalink.org/faq/>`_ for the latest FAQs."
 msgstr ""
+"*FAQ-Updates*: Überprüfen Sie `https://web.judaicalink.org/faq/ "
+"<https://web.judaicalink.org/faq/>`_ für die neuesten FAQs."
 
 #: ../faq.rst:143
 msgid ""
@@ -362,10 +377,14 @@ msgid ""
 "`https://labs.judaicalink.org/contact/ "
 "<https://labs.judaicalink.org/contact/>`_."
 msgstr ""
+"*Community & Support*: Kontaktieren Sie uns unter "
+"`https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
 
 #: ../faq.rst:145
 msgid ""
 "--- If your question isn't listed here, feel free to contact us or check "
 "the JudaicaLink documentation!"
 msgstr ""
-
+"--- Wenn Ihre Frage hier nicht aufgeführt ist, kontaktieren Sie uns "
+"gerne oder überprüfen Sie die JudaicaLink-Dokumentation!"
