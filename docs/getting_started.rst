@@ -55,7 +55,9 @@ JudaicaLink Docs
    # or
    make.bat html  # On Windows
 
+
    The generated HTML files will be located in `docs/_build/html/`. Open `index.html` in a browser to view the documentation.
+
 
 JudaicaLink Labs
 ================
@@ -80,7 +82,7 @@ JudaicaLink Labs
    python manage.py runserver
 
 JudaicaLink Site
-====================
+================
 
 1. *Clone the Repository*
 
@@ -103,7 +105,7 @@ JudaicaLink Site
    hugo server
 
 JudaicaLink Pubby
-=====================
+=================
 
 1. *Clone the Repository*
 

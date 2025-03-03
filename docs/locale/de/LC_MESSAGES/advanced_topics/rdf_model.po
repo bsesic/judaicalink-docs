@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../advanced_topics/rdf_model.rst:2
+#: ../advanced_topics/rdf_model.rst:2
 msgid "RDF Model"
 msgstr "RDF-Modell"
 
-#: ../../advanced_topics/rdf_model.rst:4
+#: ../advanced_topics/rdf_model.rst:4
 msgid ""
 "The RDF Model provides a structured way to represent and manage RDF data "
 "within applications. It allows users to define **entities, properties, "
@@ -32,31 +32,34 @@ msgid ""
 "principles."
 msgstr ""
 "Das RDF-Modell bietet eine strukturierte Möglichkeit zur Darstellung und "
-"Verwaltung von RDF-Daten innerhalb von Anwendungen. Es ermöglicht Benutzern, "
-"**Entitäten, Eigenschaften und Beziehungen** in einem strukturierten Format "
-"zu definieren, das den Prinzipien von Linked Data entspricht."
+"Verwaltung von RDF-Daten innerhalb von Anwendungen. Es ermöglicht "
+"Benutzern, **Entitäten, Eigenschaften und Beziehungen** in einem "
+"strukturierten Format zu definieren, das den Prinzipien von Linked Data "
+"entspricht."
 
-#: ../../advanced_topics/rdf_model.rst:7
+#: ../advanced_topics/rdf_model.rst:7
 msgid "Features of RDF Model"
 msgstr "Funktionen des RDF-Modells"
 
-#: ../../advanced_topics/rdf_model.rst:9
+#: ../advanced_topics/rdf_model.rst:9
 msgid "**Ontology-based data modeling** to maintain semantic consistency."
-msgstr "**Ontologie-basiertes Datenmodell** zur Wahrung der semantischen Konsistenz."
+msgstr ""
+"**Ontologie-basiertes Datenmodell** zur Wahrung der semantischen "
+"Konsistenz."
 
-#: ../../advanced_topics/rdf_model.rst:10
+#: ../advanced_topics/rdf_model.rst:10
 msgid "**SPARQL query support** for retrieving and manipulating data."
 msgstr "**SPARQL-Abfrageunterstützung** zur Datenabfrage und -manipulation."
 
-#: ../../advanced_topics/rdf_model.rst:11
+#: ../advanced_topics/rdf_model.rst:11
 msgid ""
 "**Serialization in multiple RDF formats**, including **RDF/XML, Turtle, "
 "JSON-LD, and N-Triples**."
 msgstr ""
-"**Serialisierung in mehreren RDF-Formaten**, einschließlich **RDF/XML, Turtle, "
-"JSON-LD und N-Triples**."
+"**Serialisierung in mehreren RDF-Formaten**, einschließlich **RDF/XML, "
+"Turtle, JSON-LD und N-Triples**."
 
-#: ../../advanced_topics/rdf_model.rst:12
+#: ../advanced_topics/rdf_model.rst:12
 msgid ""
 "**Integration with external linked data sources** like **Wikidata, "
 "DBpedia, and GND**."
@@ -64,82 +67,94 @@ msgstr ""
 "**Integration mit externen Linked Data-Quellen** wie **Wikidata, DBpedia "
 "und GND**."
 
-#: ../../advanced_topics/rdf_model.rst:15
+#: ../advanced_topics/rdf_model.rst:15
 msgid "Setting Up the Environment"
 msgstr "Einrichten der Umgebung"
 
-#: ../../advanced_topics/rdf_model.rst:17
-msgid "1. *Clone the repository* ::"
+#: ../advanced_topics/rdf_model.rst:17
+#, fuzzy
+msgid "*Clone the repository*"
 msgstr "1. *Repository klonen* ::"
 
-#: ../../advanced_topics/rdf_model.rst:23
-msgid "2. *Create a virtual environment* (Recommended) ::"
+#: ../advanced_topics/rdf_model.rst:24
+#, fuzzy
+msgid "*Create a virtual environment* (Recommended)"
 msgstr "2. *Virtuelle Umgebung erstellen* (empfohlen) ::"
 
-#: ../../advanced_topics/rdf_model.rst:30
-msgid "3. *Install dependencies* ::"
+#: ../advanced_topics/rdf_model.rst:32
+#, fuzzy
+msgid "*Install dependencies*"
 msgstr "3. *Abhängigkeiten installieren* ::"
 
-#: ../../advanced_topics/rdf_model.rst:36
+#: ../advanced_topics/rdf_model.rst:39
 msgid "Defining an RDF Model"
 msgstr "Definieren eines RDF-Modells"
 
-#: ../../advanced_topics/rdf_model.rst:38
-msgid "Define an RDF model using Python classes. Example model::"
+#: ../advanced_topics/rdf_model.rst:41
+#, fuzzy
+msgid "Define an RDF model using Python classes. Example model"
 msgstr "Definieren Sie ein RDF-Modell mit Python-Klassen. Beispielmodell::"
 
-#: ../../advanced_topics/rdf_model.rst:53
+#: ../advanced_topics/rdf_model.rst:58
 msgid "Querying RDF Data"
 msgstr "Abfragen von RDF-Daten"
 
-#: ../../advanced_topics/rdf_model.rst:55
+#: ../advanced_topics/rdf_model.rst:60
 msgid "Run SPARQL queries on the RDF model to extract relevant data::"
-msgstr "Führen Sie SPARQL-Abfragen auf dem RDF-Modell aus, um relevante Daten zu extrahieren::"
+msgstr ""
+"Führen Sie SPARQL-Abfragen auf dem RDF-Modell aus, um relevante Daten zu "
+"extrahieren::"
 
-#: ../../advanced_topics/rdf_model.rst:71
+#: ../advanced_topics/rdf_model.rst:76
 msgid "Validating RDF Data"
 msgstr "Validierung von RDF-Daten"
 
-#: ../../advanced_topics/rdf_model.rst:73
+#: ../advanced_topics/rdf_model.rst:78
 msgid "Ensure RDF data is valid before integration::"
 msgstr "Stellen Sie sicher, dass die RDF-Daten vor der Integration gültig sind::"
 
-#: ../../advanced_topics/rdf_model.rst:77
+#: ../advanced_topics/rdf_model.rst:82
 msgid "Alternatively, use an online RDF validator."
 msgstr "Alternativ können Sie einen Online-RDF-Validator verwenden."
 
-#: ../../advanced_topics/rdf_model.rst:80
+#: ../advanced_topics/rdf_model.rst:85
 msgid "Loading RDF Data into a Triple Store"
 msgstr "Laden von RDF-Daten in einen Triple-Store"
 
-#: ../../advanced_topics/rdf_model.rst:82
+#: ../advanced_topics/rdf_model.rst:87
 msgid "To upload RDF data to a **SPARQL endpoint**::"
 msgstr "Zum Hochladen von RDF-Daten an einen **SPARQL-Endpunkt**::"
 
-#: ../../advanced_topics/rdf_model.rst:87
+#: ../advanced_topics/rdf_model.rst:92
 msgid "Troubleshooting & Support"
 msgstr "Fehlersuche & Unterstützung"
 
-#: ../../advanced_topics/rdf_model.rst:89
+#: ../advanced_topics/rdf_model.rst:94
 msgid ""
 "**SPARQL query not returning results?** Ensure the RDF model is correctly"
 " defined."
 msgstr ""
-"**SPARQL-Abfrage liefert keine Ergebnisse?** Stellen Sie sicher, dass das "
-"RDF-Modell korrekt definiert ist."
+"**SPARQL-Abfrage liefert keine Ergebnisse?** Stellen Sie sicher, dass das"
+" RDF-Modell korrekt definiert ist."
 
-#: ../../advanced_topics/rdf_model.rst:90
+#: ../advanced_topics/rdf_model.rst:95
 msgid "**Serialization errors?** Validate the RDF syntax before saving."
-msgstr "**Serialisierungsfehler?** Überprüfen Sie die RDF-Syntax vor dem Speichern."
+msgstr ""
+"**Serialisierungsfehler?** Überprüfen Sie die RDF-Syntax vor dem "
+"Speichern."
 
-#: ../../advanced_topics/rdf_model.rst:91
+#: ../advanced_topics/rdf_model.rst:96
 msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
-msgstr "**Benötigen Sie Hilfe?** Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/"
+msgstr ""
+"**Benötigen Sie Hilfe?** Kontaktieren Sie uns unter "
+"https://labs.judaicalink.org/contact/"
 
-#: ../../advanced_topics/rdf_model.rst:93
+#: ../advanced_topics/rdf_model.rst:98
 msgid ""
 "--- The RDF Model simplifies Linked Data management, making it easier to "
-"structure, query, and integrate semantic data. \🚀"
+"structure, query, and integrate semantic data. \\🚀"
 msgstr ""
 "--- Das RDF-Modell vereinfacht das Management von Linked Data, indem es "
-"die Strukturierung, Abfrage und Integration semantischer Daten erleichtert. \🚀"
+"die Strukturierung, Abfrage und Integration semantischer Daten "
+"erleichtert. \\🚀"
+

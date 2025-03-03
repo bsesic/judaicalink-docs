@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -20,183 +20,225 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../developer_guide/setup.rst:5
+#: ../developer_guide/setup.rst:5
 msgid "Setup Guide"
 msgstr "Setup-Anleitung"
 
-#: ../../developer_guide/setup.rst:7
+#: ../developer_guide/setup.rst:7
 msgid ""
 "This guide provides instructions on how to set up the JudaicaLink "
 "environment locally, including *Solr, Redis, Apache Jena Fuseki, and "
 "Nginx*  to run the projects efficiently."
 msgstr ""
-"Diese Anleitung bietet eine Anleitung zur lokalen Einrichtung der JudaicaLink-Umgebung, "
-"einschließlich *Solr, Redis, Apache Jena Fuseki und Nginx*, um die Projekte effizient auszuführen."
+"Diese Anleitung bietet eine Anleitung zur lokalen Einrichtung der "
+"JudaicaLink-Umgebung, einschließlich *Solr, Redis, Apache Jena Fuseki und"
+" Nginx*, um die Projekte effizient auszuführen."
 
-#: ../../developer_guide/setup.rst:10
+#: ../developer_guide/setup.rst:10
 msgid "System Requirements"
 msgstr "Systemanforderungen"
 
-#: ../../developer_guide/setup.rst:12
+#: ../developer_guide/setup.rst:12
 msgid "Ensure your system meets the following requirements:"
 msgstr "Stellen Sie sicher, dass Ihr System die folgenden Anforderungen erfüllt:"
 
-#: ../../developer_guide/setup.rst:14
+#: ../developer_guide/setup.rst:14
 msgid "*OS:*  Ubuntu 20.04+ / macOS / Windows (WSL recommended for Windows)"
-msgstr "*Betriebssystem:*  Ubuntu 20.04+ / macOS / Windows (WSL empfohlen für Windows)"
+msgstr ""
+"*Betriebssystem:*  Ubuntu 20.04+ / macOS / Windows (WSL empfohlen für "
+"Windows)"
 
-#: ../../developer_guide/setup.rst:15
+#: ../developer_guide/setup.rst:15
 msgid "*Python:*  3.8+"
 msgstr "*Python:*  3.8+"
 
-#: ../../developer_guide/setup.rst:16
+#: ../developer_guide/setup.rst:16
 msgid "*Docker & Docker Compose:*  Latest version"
 msgstr "*Docker & Docker Compose:*  Neueste Version"
 
-#: ../../developer_guide/setup.rst:17
+#: ../developer_guide/setup.rst:17
 msgid "*Node.js & npm:*  Latest LTS version (for frontend projects)"
 msgstr "*Node.js & npm:*  Neueste LTS-Version (für Frontend-Projekte)"
 
-#: ../../developer_guide/setup.rst:18
+#: ../developer_guide/setup.rst:18
 msgid "*Git:*  Latest version"
 msgstr "*Git:*  Neueste Version"
 
-#: ../../developer_guide/setup.rst:21
+#: ../developer_guide/setup.rst:21
 msgid "Cloning the Repositories"
 msgstr "Klonen der Repositories"
 
-#: ../../developer_guide/setup.rst:23
+#: ../developer_guide/setup.rst:23
 msgid "Clone the main JudaicaLink projects:"
 msgstr "Klonen Sie die Hauptprojekte von JudaicaLink:"
 
-#: ../../developer_guide/setup.rst:34
+#: ../developer_guide/setup.rst:34
 msgid "Setting Up Python Environment"
 msgstr "Einrichten der Python-Umgebung"
 
-#: ../../developer_guide/setup.rst:36
+#: ../developer_guide/setup.rst:36
 msgid "Create and activate a virtual environment:"
 msgstr "Erstellen und aktivieren Sie eine virtuelle Umgebung:"
 
-#: ../../developer_guide/setup.rst:44
+#: ../developer_guide/setup.rst:44
 msgid "Install dependencies:"
 msgstr "Abhängigkeiten installieren:"
 
-#: ../../developer_guide/setup.rst:51
+#: ../developer_guide/setup.rst:51
 msgid "Setting Up Solr"
 msgstr "Einrichten von Solr"
 
-#: ../../developer_guide/setup.rst:53
+#: ../developer_guide/setup.rst:53
 msgid "Solr is used for full-text indexing in JudaicaLink Labs."
 msgstr "Solr wird für die Volltextindizierung in JudaicaLink Labs verwendet."
 
-#: ../../developer_guide/setup.rst:55
+#: ../developer_guide/setup.rst:55
 msgid "*Download and extract Solr:*"
 msgstr "*Solr herunterladen und extrahieren:*"
 
-#: ../../developer_guide/setup.rst:63
+#: ../developer_guide/setup.rst:63
 msgid "*Start Solr in standalone mode:*"
 msgstr "*Solr im Standalone-Modus starten:*"
 
-#: ../../developer_guide/setup.rst:69
+#: ../developer_guide/setup.rst:69
 msgid "*Create a core for JudaicaLink:*"
 msgstr "*Erstellen eines Cores für JudaicaLink:*"
 
-#: ../../developer_guide/setup.rst:76
+#: ../developer_guide/setup.rst:76
 msgid "Setting Up Redis"
 msgstr "Einrichten von Redis"
 
-#: ../../developer_guide/setup.rst:78
+#: ../developer_guide/setup.rst:78
 msgid "Redis is used for caching and queuing operations."
 msgstr "Redis wird für Caching- und Warteschlangenoperationen verwendet."
 
-#: ../../developer_guide/setup.rst:80
+#: ../developer_guide/setup.rst:80
 msgid "*Install Redis:*"
 msgstr "*Redis installieren:*"
 
-#: ../../developer_guide/setup.rst:86
+#: ../developer_guide/setup.rst:86
 msgid "*Start Redis:*"
 msgstr "*Redis starten:*"
 
-#: ../../developer_guide/setup.rst:94
+#: ../developer_guide/setup.rst:94
 msgid "Setting Up Apache Jena Fuseki"
 msgstr "Einrichten von Apache Jena Fuseki"
 
-#: ../../developer_guide/setup.rst:96
+#: ../developer_guide/setup.rst:96
 msgid "Apache Jena Fuseki is used as the SPARQL endpoint and RDF triple store."
-msgstr "Apache Jena Fuseki wird als SPARQL-Endpunkt und RDF-Triple-Store verwendet."
+msgstr ""
+"Apache Jena Fuseki wird als SPARQL-Endpunkt und RDF-Triple-Store "
+"verwendet."
 
-#: ../../developer_guide/setup.rst:98
+#: ../developer_guide/setup.rst:98
 msgid "*Download and extract Fuseki:*"
 msgstr "*Fuseki herunterladen und extrahieren:*"
 
-#: ../../developer_guide/setup.rst:106
+#: ../developer_guide/setup.rst:106
 msgid "*Start Fuseki server:*"
 msgstr "*Fuseki-Server starten:*"
 
-#: ../../developer_guide/setup.rst:112
+#: ../developer_guide/setup.rst:112
 msgid "*Load RDF data:*"
 msgstr "*RDF-Daten laden:*"
 
-#: ../../developer_guide/setup.rst:119
+#: ../developer_guide/setup.rst:119
 msgid "Setting Up Nginx"
 msgstr "Einrichten von Nginx"
 
-#: ../../developer_guide/setup.rst:121
+#: ../developer_guide/setup.rst:121
 msgid "Nginx is used as a reverse proxy to serve the web applications."
-msgstr "Nginx wird als Reverse Proxy zum Bereitstellen der Webanwendungen verwendet."
+msgstr ""
+"Nginx wird als Reverse Proxy zum Bereitstellen der Webanwendungen "
+"verwendet."
 
-#: ../../developer_guide/setup.rst:123
+#: ../developer_guide/setup.rst:123
 msgid "*Install Nginx:*"
 msgstr "*Nginx installieren:*"
 
-#: ../../developer_guide/setup.rst:129
+#: ../developer_guide/setup.rst:129
 msgid "*Create an Nginx configuration file:*"
 msgstr "*Erstellen einer Nginx-Konfigurationsdatei:*"
 
-#: ../../developer_guide/setup.rst:135
+#: ../developer_guide/setup.rst:135
 msgid "Add the following configuration:"
 msgstr "Fügen Sie die folgende Konfiguration hinzu:"
 
-#: ../../developer_guide/setup.rst:151
+#: ../developer_guide/setup.rst:151
 msgid "*Enable the configuration and restart Nginx:*"
 msgstr "*Konfiguration aktivieren und Nginx neu starten:*"
 
-#: ../../developer_guide/setup.rst:159
+#: ../developer_guide/setup.rst:159
 msgid "Running the Projects"
 msgstr "Ausführen der Projekte"
 
-#: ../../developer_guide/setup.rst:161
+#: ../developer_guide/setup.rst:161
 msgid "To run the projects locally:"
 msgstr "Um die Projekte lokal auszuführen:"
 
-#: ../../developer_guide/setup.rst:163
+#: ../developer_guide/setup.rst:163
 msgid "*Run Django-based projects:*"
 msgstr "*Django-basierte Projekte ausführen:*"
 
-#: ../../developer_guide/setup.rst:170
+#: ../developer_guide/setup.rst:170
 msgid "*Run Hugo-based site:*"
 msgstr "*Hugo-basierte Website ausführen:*"
 
-#: ../../developer_guide/setup.rst:177
+#: ../developer_guide/setup.rst:177
 msgid "*Run Pubby:*"
 msgstr "*Pubby ausführen:*"
 
-#: ../../developer_guide/setup.rst:185
+#: ../developer_guide/setup.rst:185
 msgid "Verifying the Setup"
 msgstr "Überprüfen der Einrichtung"
 
-#: ../../developer_guide/setup.rst:198
+#: ../developer_guide/setup.rst:187
+msgid "*Labs:*  http://127.0.0.1:8000"
+msgstr ""
+
+#: ../developer_guide/setup.rst:188
+msgid "*Site:*  http://localhost:1313"
+msgstr ""
+
+#: ../developer_guide/setup.rst:189
+msgid "*SPARQL Endpoint:*  http://localhost:3030/ds"
+msgstr ""
+
+#: ../developer_guide/setup.rst:190
+msgid "*Solr Admin UI:*  http://localhost:8983/solr"
+msgstr ""
+
+#: ../developer_guide/setup.rst:191
+msgid "*Redis Status:*"
+msgstr ""
+
+#: ../developer_guide/setup.rst:198
 msgid "Troubleshooting & Support"
 msgstr "Fehlersuche & Unterstützung"
 
-#: ../../developer_guide/setup.rst:208
-msgid "*Need help?*  Contact us at https://labs.judaicalink.org/contact/."
-msgstr "*Benötigen Sie Hilfe?* Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/."
+#: ../developer_guide/setup.rst:200
+msgid "*Solr not starting?*  Ensure Java is installed."
+msgstr ""
 
-#: ../../developer_guide/setup.rst:211
+#: ../developer_guide/setup.rst:201
+msgid "*Fuseki not responding?*  Verify it is running on port * 3030* ."
+msgstr ""
+
+#: ../developer_guide/setup.rst:202
+msgid "*Redis connection errors?*  Restart Redis with:"
+msgstr ""
+
+#: ../developer_guide/setup.rst:208
+msgid "*Need help?*  Contact us at https://labs.judaicalink.org/contact/."
+msgstr ""
+"*Benötigen Sie Hilfe?* Kontaktieren Sie uns unter "
+"https://labs.judaicalink.org/contact/."
+
+#: ../developer_guide/setup.rst:211
 msgid ""
 "--- This setup guide ensures a complete local environment for developing "
-"and testing JudaicaLink projects. \🚀"
+"and testing JudaicaLink projects. \\🚀"
 msgstr ""
-"--- Diese Setup-Anleitung stellt eine vollständige lokale Umgebung für die Entwicklung "
-"und das Testen von JudaicaLink-Projekten sicher. \🚀"
+"--- Diese Setup-Anleitung stellt eine vollständige lokale Umgebung für "
+"die Entwicklung und das Testen von JudaicaLink-Projekten sicher. \\🚀"
+

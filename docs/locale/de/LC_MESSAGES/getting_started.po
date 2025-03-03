@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -20,101 +20,199 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../getting_started.rst:5
+#: ../getting_started.rst:5
 msgid "Getting Started"
 msgstr "Erste Schritte"
 
-#: ../../getting_started.rst:7
+#: ../getting_started.rst:7
 msgid ""
 "Welcome to JudaicaLink! This guide will help you set up the documentation"
 " environment and get started with exploring and contributing to the "
 "JudaicaLink project and its sub-projects."
 msgstr ""
-"Willkommen bei JudaicaLink! Dieser Leitfaden hilft Ihnen, die Dokumentationsumgebung "
-"einzurichten und mit der Erkundung sowie der Mitarbeit am JudaicaLink-Projekt und seinen "
-"Teilprojekten zu beginnen."
+"Willkommen bei JudaicaLink! Dieser Leitfaden hilft Ihnen, die "
+"Dokumentationsumgebung einzurichten und mit der Erkundung sowie der "
+"Mitarbeit am JudaicaLink-Projekt und seinen Teilprojekten zu beginnen."
 
-#: ../../getting_started.rst:10
+#: ../getting_started.rst:10
 msgid "Prerequisites"
 msgstr "Voraussetzungen"
 
-#: ../../getting_started.rst:12
+#: ../getting_started.rst:12
 msgid "Before getting started, ensure you have the following installed:"
-msgstr "Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes installiert haben:"
+msgstr ""
+"Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes installiert "
+"haben:"
 
-#: ../../getting_started.rst:14
+#: ../getting_started.rst:14
 msgid "Python 3.8 or later"
 msgstr "Python 3.8 oder neuer"
 
-#: ../../getting_started.rst:15
+#: ../getting_started.rst:15
 msgid "pip (Python package manager)"
 msgstr "pip (Python-Paketmanager)"
 
-#: ../../getting_started.rst:16
+#: ../getting_started.rst:16
 msgid "Virtual environment (optional but recommended)"
 msgstr "Virtuelle Umgebung (optional, aber empfohlen)"
 
-#: ../../getting_started.rst:17
+#: ../getting_started.rst:17
 msgid "Git (for cloning the repository)"
 msgstr "Git (zum Klonen des Repositorys)"
 
-#: ../../getting_started.rst:18
+#: ../getting_started.rst:18
 msgid "Docker (if using containerized deployments)"
 msgstr "Docker (falls containerisierte Bereitstellungen verwendet werden)"
 
-#: ../../getting_started.rst:21
+#: ../getting_started.rst:21
 msgid "Setting Up Locally"
 msgstr "Lokale Einrichtung"
 
-#: ../../getting_started.rst:23
+#: ../getting_started.rst:23
 msgid "Follow these steps to set up the different projects locally:"
-msgstr "Folgen Sie diesen Schritten, um die verschiedenen Projekte lokal einzurichten:"
+msgstr ""
+"Folgen Sie diesen Schritten, um die verschiedenen Projekte lokal "
+"einzurichten:"
 
-#: ../../getting_started.rst:26
+#: ../getting_started.rst:26
 msgid "JudaicaLink Docs"
 msgstr "JudaicaLink Dokumentation"
 
-#: ../../getting_started.rst:28 ../../getting_started.rst:59
-#: ../../getting_started.rst:78 ../../getting_started.rst:98
-msgid "1. *Clone the Repository* ::"
-msgstr "1. *Repository klonen* ::"
+#: ../getting_started.rst:28 ../getting_started.rst:65
+#: ../getting_started.rst:87 ../getting_started.rst:110
+#, fuzzy
+msgid "*Clone the Repository*"
+msgstr "1. *Repository klonen*"
 
-#: ../../getting_started.rst:34
-msgid "2. *Create and Activate a Virtual Environment (Recommended)* ::"
-msgstr "2. *Erstellen und Aktivieren einer virtuellen Umgebung (empfohlen)* ::"
+#: ../getting_started.rst:35
+#, fuzzy
+msgid "*Create and Activate a Virtual Environment (Recommended)*"
+msgstr "*Virtuelle Umgebung erstellen und aktivieren (empfohlen)*"
 
-#: ../../getting_started.rst:41
-msgid "3. *Install Dependencies* ::"
-msgstr "3. *Abhängigkeiten installieren* ::"
+#: ../getting_started.rst:43 ../getting_started.rst:72
+#: ../getting_started.rst:117
+#, fuzzy
+msgid "*Install Dependencies*"
+msgstr "*Abhängigkeiten installieren*"
 
-#: ../../getting_started.rst:46
-msgid "4. *Build the Documentation Locally* ::"
-msgstr "4. *Dokumentation lokal erstellen* ::"
+#: ../getting_started.rst:49
+#, fuzzy
+msgid "*Build the Documentation Locally*"
+msgstr "*Dokumentation lokal erstellen*"
 
-#: ../../getting_started.rst:57
+#: ../getting_started.rst:63
 msgid "JudaicaLink Labs"
 msgstr "JudaicaLink Labs"
 
-#: ../../getting_started.rst:65 ../../getting_started.rst:104
-msgid "2. *Install Dependencies* ::"
-msgstr "2. *Abhängigkeiten installieren* ::"
+#: ../getting_started.rst:78 ../getting_started.rst:123
+#, fuzzy
+msgid "*Run the Development Server*"
+msgstr "*Entwicklungsserver starten*"
 
-#: ../../getting_started.rst:70 ../../getting_started.rst:109
-msgid "3. *Run the Development Server* ::"
-msgstr "3. *Entwicklungsserver starten* ::"
-
-#: ../../getting_started.rst:76
+#: ../getting_started.rst:85
 msgid "JudaicaLink Site"
 msgstr "JudaicaLink Webseite"
 
-#: ../../getting_started.rst:84
-msgid "2. *Install Hugo* (if not installed already) ::"
-msgstr "2. *Hugo installieren* (falls nicht bereits installiert) ::"
+#: ../getting_started.rst:94
+#, fuzzy
+msgid "*Install Hugo* (if not installed already)"
+msgstr "*Hugo installieren* (falls nicht bereits installiert)"
 
-#: ../../getting_started.rst:90
-msgid "3. *Build and Serve the Site* ::"
-msgstr "3. *Webseite erstellen und bereitstellen* ::"
+#: ../getting_started.rst:101
+#, fuzzy
+msgid "*Build and Serve the Site*"
+msgstr "*Webseite erstellen und bereitstellen*"
 
-#: ../../getting_started.rst:96
+#: ../getting_started.rst:108
 msgid "JudaicaLink Pubby"
 msgstr "JudaicaLink Pubby"
+
+#: ../getting_started.rst:131
+msgid "Using Docker for Local Deployment"
+msgstr "Docker für lokale Bereitstellung verwenden"
+
+#: ../getting_started.rst:133
+msgid "For a full-stack deployment of all projects together, use Docker:"
+msgstr "Für eine Full-Stack-Bereitstellung aller Projekte zusammen Docker verwenden:"
+
+#: ../getting_started.rst:135
+msgid "*Clone the Docker Repository*"
+msgstr "*Repository klonen*"
+
+#: ../getting_started.rst:142
+msgid "*Set Up the Environment*"
+msgstr "*Umgebung einrichten*"
+
+#: ../getting_started.rst:148
+msgid "*Build and Start Containers*"
+msgstr "*Container erstellen und starten*"
+
+#: ../getting_started.rst:155
+msgid "Using Read the Docs"
+msgstr "Read the Docs verwenden"
+
+#: ../getting_started.rst:157
+msgid ""
+"JudaicaLink documentation is hosted on *Read the Docs*. You can view the "
+"latest version online at:"
+msgstr ""
+"Die JudaicaLink-Dokumentation wird auf *Read the Docs* gehostet. Sie "
+"können die neueste Version online unter folgender Adresse einsehen:"
+
+#: ../getting_started.rst:159
+msgid "\\📖 `JudaicaLink Docs <https://judaicalink-docs.readthedocs.io/>`_"
+msgstr "\\📖 `JudaicaLink Dokumentation <https://judaicalink-docs.readthedocs.io/>`_"
+
+#: ../getting_started.rst:162
+msgid "Updating Documentation"
+msgstr "Dokumentation aktualisieren"
+
+#: ../getting_started.rst:164
+msgid "To contribute updates to the documentation:"
+msgstr "Um Aktualisierungen an der Dokumentation beizutragen:"
+
+#: ../getting_started.rst:166
+msgid "Make changes to the `.rst` files in the `docs/` directory."
+msgstr "Machen Sie Änderungen an den `.rst`-Dateien im `docs/`-Verzeichnis."
+
+#: ../getting_started.rst:167
+msgid "Rebuild the documentation using:"
+msgstr "*Dokumentation lokal erstellen*"
+
+#: ../getting_started.rst:173
+msgid ""
+"Preview the changes locally by opening `_build/html/index.html` in a "
+"browser."
+msgstr ""
+"Vorschau der Änderungen lokal durch Öffnen von `_build/html/index.html` "
+"in einem Browser."
+
+#: ../getting_started.rst:175
+msgid "Commit and push changes:"
+msgstr "Änderungen committen und pushen:"
+
+#: ../getting_started.rst:184
+msgid "Next Steps"
+msgstr "Nächste Schritte"
+
+#: ../getting_started.rst:186
+msgid ""
+"Read the :ref:`User Guide <user_guide_overview>` for more details on "
+"using JudaicaLink."
+msgstr ""
+"Lesen Sie den :ref:`Benutzerhandbuch <user_guide_overview>` für weitere "
+"Informationen zur Verwendung von JudaicaLink."
+
+#: ../getting_started.rst:187
+msgid ""
+"Check the :ref:`Developer Guide <developer_guide_setup>` for information "
+"on contributing code."
+msgstr ""
+"Überprüfen Sie das :ref:`Entwicklerhandbuch <developer_guide_setup>` für "
+"Informationen zur Beitrag von Code."
+
+#: ../getting_started.rst:188
+msgid "Visit the :ref:`FAQ <faq>` if you encounter any issues."
+msgstr "Besuchen Sie die :ref:`FAQ <faq>`, wenn Sie auf Probleme stoßen."
+
+

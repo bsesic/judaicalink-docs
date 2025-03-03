@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Dokumentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: VOLLER NAME <EMAIL@ADRESSE>\n"
 "Language: de\n"
@@ -20,27 +20,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../user_guide/content_negotiation.rst:5
+#: ../user_guide/content_negotiation.rst:5
 msgid "Content Negotiation"
 msgstr "Inhaltsverhandlung"
 
-#: ../../user_guide/content_negotiation.rst:7
+#: ../user_guide/content_negotiation.rst:7
 msgid ""
 "JudaicaLink supports *content negotiation*, allowing users to retrieve "
 "linked data in multiple formats such as *HTML, JSON-LD, RDF/XML, and "
 "Turtle (TTL)*. This enables seamless integration with various linked data"
 " tools and applications."
 msgstr ""
-"JudaicaLink unterstützt die *Inhaltsverhandlung*, wodurch Benutzer verknüpfte "
-"Daten in verschiedenen Formaten wie *HTML, JSON-LD, RDF/XML und Turtle (TTL)* "
-"abrufen können. Dies ermöglicht eine nahtlose Integration mit verschiedenen "
-"Linked-Data-Tools und -Anwendungen."
+"JudaicaLink unterstützt die *Inhaltsverhandlung*, wodurch Benutzer "
+"verknüpfte Daten in verschiedenen Formaten wie *HTML, JSON-LD, RDF/XML "
+"und Turtle (TTL)* abrufen können. Dies ermöglicht eine nahtlose "
+"Integration mit verschiedenen Linked-Data-Tools und -Anwendungen."
 
-#: ../../user_guide/content_negotiation.rst:10
+#: ../user_guide/content_negotiation.rst:10
 msgid "What is Content Negotiation?"
 msgstr "Was ist Content Negotiation?"
 
-#: ../../user_guide/content_negotiation.rst:12
+#: ../user_guide/content_negotiation.rst:12
 msgid ""
 "Content negotiation is a mechanism that allows clients to request a "
 "resource in a specific format by specifying the desired format in the "
@@ -50,135 +50,135 @@ msgstr ""
 "Ressource in einem bestimmten Format anzufordern, indem das gewünschte "
 "Format im HTTP-Header `Accept` angegeben wird."
 
-#: ../../user_guide/content_negotiation.rst:14
+#: ../user_guide/content_negotiation.rst:14
 msgid "For example:"
 msgstr "Zum Beispiel:"
 
-#: ../../user_guide/content_negotiation.rst:16
+#: ../user_guide/content_negotiation.rst:16
 msgid "A web browser requests *HTML* by default."
 msgstr "Ein Webbrowser fordert standardmäßig *HTML* an."
 
-#: ../../user_guide/content_negotiation.rst:17
+#: ../user_guide/content_negotiation.rst:17
 msgid "A linked data application may request *JSON-LD or RDF/XML* ."
 msgstr "Eine Linked-Data-Anwendung kann *JSON-LD oder RDF/XML* anfordern."
 
-#: ../../user_guide/content_negotiation.rst:20
+#: ../user_guide/content_negotiation.rst:20
 msgid "Available Formats"
 msgstr "Verfügbare Formate"
 
-#: ../../user_guide/content_negotiation.rst:22
+#: ../user_guide/content_negotiation.rst:22
 msgid "JudaicaLink supports the following formats:"
 msgstr "JudaicaLink unterstützt die folgenden Formate:"
 
-#: ../../user_guide/content_negotiation.rst:25
+#: ../user_guide/content_negotiation.rst:25
 msgid "Format"
 msgstr "Format"
 
-#: ../../user_guide/content_negotiation.rst:25
+#: ../user_guide/content_negotiation.rst:25
 msgid "MIME Type"
 msgstr "MIME-Typ"
 
-#: ../../user_guide/content_negotiation.rst:25
+#: ../user_guide/content_negotiation.rst:25
 msgid "Example Request"
 msgstr "Beispielanfrage"
 
-#: ../../user_guide/content_negotiation.rst:27
+#: ../user_guide/content_negotiation.rst:27
 msgid "HTML"
 msgstr "HTML"
 
-#: ../../user_guide/content_negotiation.rst:27
+#: ../user_guide/content_negotiation.rst:27
 msgid "`text/html`"
 msgstr "`text/html`"
 
-#: ../../user_guide/content_negotiation.rst:27
+#: ../user_guide/content_negotiation.rst:27
 msgid "https://data.judaicalink.org/data/html/yivo/moses-mendelssohn"
 msgstr "https://data.judaicalink.org/data/html/yivo/moses-mendelssohn"
 
-#: ../../user_guide/content_negotiation.rst:29
+#: ../user_guide/content_negotiation.rst:29
 msgid "JSON-LD"
 msgstr "JSON-LD"
 
-#: ../../user_guide/content_negotiation.rst:29
+#: ../user_guide/content_negotiation.rst:29
 msgid "`application/ld+json`"
 msgstr "`application/ld+json`"
 
-#: ../../user_guide/content_negotiation.rst:29
+#: ../user_guide/content_negotiation.rst:29
 msgid "https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn"
 msgstr "https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn"
 
-#: ../../user_guide/content_negotiation.rst:31
+#: ../user_guide/content_negotiation.rst:31
 msgid "RDF/XML"
 msgstr "RDF/XML"
 
-#: ../../user_guide/content_negotiation.rst:31
+#: ../user_guide/content_negotiation.rst:31
 msgid "`application/rdf+xml`"
 msgstr "`application/rdf+xml`"
 
-#: ../../user_guide/content_negotiation.rst:31
+#: ../user_guide/content_negotiation.rst:31
 msgid "https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn"
 msgstr "https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn"
 
-#: ../../user_guide/content_negotiation.rst:33
+#: ../user_guide/content_negotiation.rst:33
 msgid "Turtle"
 msgstr "Turtle"
 
-#: ../../user_guide/content_negotiation.rst:33
+#: ../user_guide/content_negotiation.rst:33
 msgid "`text/turtle`"
 msgstr "`text/turtle`"
 
-#: ../../user_guide/content_negotiation.rst:33
+#: ../user_guide/content_negotiation.rst:33
 msgid "https://data.judaicalink.org/data/ttl/yivo/moses-mendelssohn"
 msgstr "https://data.judaicalink.org/data/ttl/yivo/moses-mendelssohn"
 
-#: ../../user_guide/content_negotiation.rst:37
+#: ../user_guide/content_negotiation.rst:37
 msgid "How to Request Data in Different Formats"
 msgstr "Wie man Daten in verschiedenen Formaten anfordert"
 
-#: ../../user_guide/content_negotiation.rst:39
+#: ../user_guide/content_negotiation.rst:39
 msgid "There are two primary ways to request a specific format:"
 msgstr "Es gibt zwei Hauptwege, um ein bestimmtes Format anzufordern:"
 
-#: ../../user_guide/content_negotiation.rst:42
+#: ../user_guide/content_negotiation.rst:42
 msgid "1. Using URL Paths"
 msgstr "1. Verwendung von URL-Pfaden"
 
-#: ../../user_guide/content_negotiation.rst:44
+#: ../user_guide/content_negotiation.rst:44
 msgid ""
 "JudaicaLink allows users to specify the desired format directly in the "
 "URL:"
 msgstr ""
-"JudaicaLink ermöglicht es Benutzern, das gewünschte Format direkt in der URL "
-"anzugeben:"
+"JudaicaLink ermöglicht es Benutzern, das gewünschte Format direkt in der "
+"URL anzugeben:"
 
-#: ../../user_guide/content_negotiation.rst:46
+#: ../user_guide/content_negotiation.rst:46
 #, python-brace-format
 msgid "HTML: `https://data.judaicalink.org/data/html/{dataset}/{entity}`"
 msgstr "HTML: `https://data.judaicalink.org/data/html/{dataset}/{entity}`"
 
-#: ../../user_guide/content_negotiation.rst:47
+#: ../user_guide/content_negotiation.rst:47
 #, python-brace-format
 msgid "JSON-LD: `https://data.judaicalink.org/data/jsonld/{dataset}/{entity}`"
 msgstr "JSON-LD: `https://data.judaicalink.org/data/jsonld/{dataset}/{entity}`"
 
-#: ../../user_guide/content_negotiation.rst:48
+#: ../user_guide/content_negotiation.rst:48
 #, python-brace-format
 msgid "RDF/XML: `https://data.judaicalink.org/data/xml/{dataset}/{entity}`"
 msgstr "RDF/XML: `https://data.judaicalink.org/data/xml/{dataset}/{entity}`"
 
-#: ../../user_guide/content_negotiation.rst:49
+#: ../user_guide/content_negotiation.rst:49
 #, python-brace-format
 msgid "Turtle: `https://data.judaicalink.org/data/ttl/{dataset}/{entity}`"
 msgstr "Turtle: `https://data.judaicalink.org/data/ttl/{dataset}/{entity}`"
 
-#: ../../user_guide/content_negotiation.rst:51
+#: ../user_guide/content_negotiation.rst:51
 msgid "Example: ::"
 msgstr "Beispiel: ::"
 
-#: ../../user_guide/content_negotiation.rst:58
+#: ../user_guide/content_negotiation.rst:58
 msgid "2. Using HTTP Headers"
 msgstr "2. Verwendung von HTTP-Headern"
 
-#: ../../user_guide/content_negotiation.rst:59
+#: ../user_guide/content_negotiation.rst:59
 msgid ""
 "Advanced users and applications can specify the desired format using the "
 "`Accept` header in HTTP requests:"
@@ -186,10 +186,122 @@ msgstr ""
 "Erfahrene Benutzer und Anwendungen können das gewünschte Format über den "
 "`Accept`-Header in HTTP-Anfragen angeben:"
 
-#: ../../user_guide/content_negotiation.rst:125
+#: ../user_guide/content_negotiation.rst:62
+#, fuzzy
+msgid "Example Requests"
+msgstr "Beispielanfrage"
+
+#: ../user_guide/content_negotiation.rst:64
+#, fuzzy
+msgid "*JSON-LD:*"
+msgstr "JSON-LD"
+
+#: ../user_guide/content_negotiation.rst:70
+#, fuzzy
+msgid "*RDF/XML:*"
+msgstr "RDF/XML"
+
+#: ../user_guide/content_negotiation.rst:76
+#, fuzzy
+msgid "*Turtle:*"
+msgstr "Turtle"
+
+#: ../user_guide/content_negotiation.rst:83
+msgid "Programmatic Access"
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:84
+msgid ""
+"Applications can integrate JudaicaLink's content negotiation capabilities"
+" by dynamically requesting data formats based on their needs."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:86
+#, fuzzy
+msgid "For example, in *Python*:"
+msgstr "Zum Beispiel:"
+
+#: ../user_guide/content_negotiation.rst:99
+msgid "Best Practices"
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:101
+msgid ""
+"When using *SPARQL endpoints*, consider requesting results in *JSON-LD* "
+"for better integration with semantic web tools."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:102
+msgid "For *human-readable data*, use the *HTML* format."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:103
+msgid "For *machine-readable RDF*, request *Turtle (TTL)* or *RDF/XML* ."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:106
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:109
+msgid "1. Receiving the Wrong Format"
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:111
+msgid "If you are not getting the expected format:"
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:113
+msgid "Check the *URL path*  (make sure you are using `/jsonld/`, `/xml/`, etc.)."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:114
+msgid "Ensure the *`Accept` header*  is correctly set."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:117
+msgid "2. Data Not Found"
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:119
+msgid "If a specific entity does not exist in the requested format, try checking:"
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:121
+msgid ""
+"The dataset availability at `https://data.judaicalink.org "
+"<https://data.judaicalink.org)>`_."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:122
+msgid "Whether the entity exists by first requesting the *HTML*  version."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:125
 msgid "Next Steps"
 msgstr "Nächste Schritte"
 
-#: ../../user_guide/content_negotiation.rst:127
-msgid "Explore available *datasets* in :ref:`Datasets Guide <datasets>`."
-msgstr "Erkunden Sie verfügbare *Datensätze* im :ref:`Datensatz-Leitfaden <datasets>`."
+#: ../user_guide/content_negotiation.rst:127
+msgid ""
+"Learn more about *SPARQL querying*  in the :ref:`SPARQL Guide "
+"<advanced_topics_sparql_guide>`."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:128
+#, fuzzy
+msgid "Explore available *datasets*  in :ref:`Datasets Guide <datasets>`."
+msgstr ""
+"Erkunden Sie verfügbare *Datensätze* im :ref:`Datensatz-Leitfaden "
+"<datasets>`."
+
+#: ../user_guide/content_negotiation.rst:129
+msgid ""
+"If you encounter any issues, check the :ref:`FAQs <faq>` or contact us at"
+" `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+msgstr ""
+
+#: ../user_guide/content_negotiation.rst:131
+msgid "--- Thank you for using JudaicaLink! \\🚀"
+msgstr ""
+

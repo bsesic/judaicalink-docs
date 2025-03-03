@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -20,148 +20,352 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../faq.rst:5
+#: ../faq.rst:5
 msgid "Frequently Asked Questions (FAQ)"
 msgstr "Häufig gestellte Fragen (FAQ)"
 
-#: ../../faq.rst:7
+#: ../faq.rst:7
 msgid ""
 "Below are the most common questions about JudaicaLink, its functionality,"
 " and how to use it effectively."
 msgstr ""
-"Unten finden Sie die häufigsten Fragen zu JudaicaLink, seiner Funktionalität "
-"und zur effektiven Nutzung."
+"Unten finden Sie die häufigsten Fragen zu JudaicaLink, seiner "
+"Funktionalität und zur effektiven Nutzung."
 
-#: ../../faq.rst:10
+#: ../faq.rst:10
 msgid "General Questions"
 msgstr "Allgemeine Fragen"
 
-#: ../../faq.rst:13
+#: ../faq.rst:13
 msgid "What is JudaicaLink?"
 msgstr "Was ist JudaicaLink?"
 
-#: ../../faq.rst:15
+#: ../faq.rst:15
 msgid ""
 "JudaicaLink is a Linked Open Data project that provides structured, "
 "interconnected knowledge about Jewish history, culture, and scholarship. "
 "It integrates data from various sources and makes it available for "
 "researchers, historians, and digital humanities projects."
 msgstr ""
-"JudaicaLink ist ein Linked Open Data-Projekt, das strukturiertes, vernetztes "
-"Wissen über jüdische Geschichte, Kultur und Wissenschaft bereitstellt. "
-"Es integriert Daten aus verschiedenen Quellen und stellt sie Forschern, "
-"Historikern und digitalen Geisteswissenschaften zur Verfügung."
+"JudaicaLink ist ein Linked Open Data-Projekt, das strukturiertes, "
+"vernetztes Wissen über jüdische Geschichte, Kultur und Wissenschaft "
+"bereitstellt. Es integriert Daten aus verschiedenen Quellen und stellt "
+"sie Forschern, Historikern und digitalen Geisteswissenschaften zur "
+"Verfügung."
 
-#: ../../faq.rst:18
+#: ../faq.rst:18
 msgid "Who maintains JudaicaLink?"
 msgstr "Wer betreut JudaicaLink?"
 
-#: ../../faq.rst:20
+#: ../faq.rst:20
 msgid ""
 "JudaicaLink is developed and maintained by *Hochschule Mannheim* in "
 "collaboration with *FID Jüdische Studien*, *UB Frankfurt*, and other "
 "partners."
 msgstr ""
 "JudaicaLink wird von der *Hochschule Mannheim* in Zusammenarbeit mit dem "
-"*FID Jüdische Studien*, der *UB Frankfurt* und weiteren Partnern entwickelt "
-"und betreut."
+"*FID Jüdische Studien*, der *UB Frankfurt* und weiteren Partnern "
+"entwickelt und betreut."
 
-#: ../../faq.rst:23
+#: ../faq.rst:23
 msgid "Is JudaicaLink free to use?"
 msgstr "Ist JudaicaLink kostenlos nutzbar?"
 
-#: ../../faq.rst:25
+#: ../faq.rst:25
 msgid ""
 "Yes! JudaicaLink follows the principles of *Open Data, Open Knowledge, "
 "and Open Source*. All datasets are freely accessible."
 msgstr ""
-"Ja! JudaicaLink folgt den Prinzipien von *Open Data, Open Knowledge und Open Source*. "
-"Alle Datensätze sind frei zugänglich."
+"Ja! JudaicaLink folgt den Prinzipien von *Open Data, Open Knowledge und "
+"Open Source*. Alle Datensätze sind frei zugänglich."
 
-#: ../../faq.rst:28
+#: ../faq.rst:28
 msgid "How can I contribute to JudaicaLink?"
 msgstr "Wie kann ich zu JudaicaLink beitragen?"
 
-#: ../../faq.rst:30
+#: ../faq.rst:30
 msgid "You can contribute by:"
 msgstr "Sie können beitragen, indem Sie:"
 
-#: ../../faq.rst:32
+#: ../faq.rst:32
 msgid "Providing datasets related to Jewish Studies."
 msgstr "Datensätze zu jüdischen Studien bereitstellen."
 
-#: ../../faq.rst:33
+#: ../faq.rst:33
 msgid "Contributing to RDF data generation."
 msgstr "Zur RDF-Datengenerierung beitragen."
 
-#: ../../faq.rst:34
+#: ../faq.rst:34
 msgid "Enhancing entity linking and enrichment."
 msgstr "Entity Linking und Datenanreicherung verbessern."
 
-#: ../../faq.rst:35
+#: ../faq.rst:35
 msgid "Developing additional tools using the SPARQL endpoint."
 msgstr "Zusätzliche Tools unter Verwendung des SPARQL-Endpunkts entwickeln."
 
-#: ../../faq.rst:37
+#: ../faq.rst:37
 msgid ""
 "For detailed contribution guidelines, see the :ref:`Contributing Guide "
 "<developer_guide_contributing>`."
 msgstr ""
-"Für detaillierte Richtlinien zur Mitwirkung siehe den :ref:`Beitragsleitfaden "
-"<developer_guide_contributing>`."
+"Für detaillierte Richtlinien zur Mitwirkung siehe den "
+":ref:`Beitragsleitfaden <developer_guide_contributing>`."
 
-#: ../../faq.rst:40
+#: ../faq.rst:40
 msgid "Using JudaicaLink"
 msgstr "JudaicaLink nutzen"
 
-#: ../../faq.rst:43
+#: ../faq.rst:43
 msgid "How can I search for information in JudaicaLink?"
 msgstr "Wie kann ich nach Informationen in JudaicaLink suchen?"
 
-#: ../../faq.rst:45
+#: ../faq.rst:45
 msgid "JudaicaLink offers multiple search methods:"
 msgstr "JudaicaLink bietet verschiedene Suchmethoden an:"
 
-#: ../../faq.rst:47
-msgid "*Knowledge Graph Search* – Explore structured data about persons, places, and institutions."
-msgstr "*Knowledge Graph-Suche* – Strukturierte Daten über Personen, Orte und Institutionen durchsuchen."
+#: ../faq.rst:47
+msgid ""
+"*Knowledge Graph Search* – Explore structured data about persons, places,"
+" and institutions."
+msgstr ""
+"*Knowledge Graph-Suche* – Strukturierte Daten über Personen, Orte und "
+"Institutionen durchsuchen."
 
-#: ../../faq.rst:48
-msgid "*Full-text search in Compact Memory* – Find relevant excerpts in historical Jewish newspapers."
-msgstr "*Volltextsuche in Compact Memory* – Relevante Auszüge aus historischen jüdischen Zeitungen finden."
+#: ../faq.rst:48
+msgid ""
+"*Full-text search in Compact Memory* – Find relevant excerpts in "
+"historical Jewish newspapers."
+msgstr ""
+"*Volltextsuche in Compact Memory* – Relevante Auszüge aus historischen "
+"jüdischen Zeitungen finden."
 
-#: ../../faq.rst:49
-msgid "*Entity Extraction Search* – Use NLP-extracted entities from Compact Memory to discover connections."
-msgstr "*Entitätensuche* – Durch NLP extrahierte Entitäten aus Compact Memory nutzen, um Verbindungen zu entdecken."
+#: ../faq.rst:49
+msgid ""
+"*Entity Extraction Search* – Use NLP-extracted entities from Compact "
+"Memory to discover connections."
+msgstr ""
+"*Entitätensuche* – Durch NLP extrahierte Entitäten aus Compact Memory "
+"nutzen, um Verbindungen zu entdecken."
 
-#: ../../faq.rst:52
+#: ../faq.rst:52
 msgid "Where can I find the SPARQL endpoint?"
 msgstr "Wo finde ich den SPARQL-Endpunkt?"
 
-#: ../../faq.rst:54
+#: ../faq.rst:54
 msgid ""
-"The SPARQL endpoint for querying the knowledge graph is available at: \🔗 "
-"`https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_"
+"The SPARQL endpoint for querying the knowledge graph is available at: \\🔗"
+" `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_"
 msgstr ""
-"Der SPARQL-Endpunkt zur Abfrage des Knowledge Graph ist verfügbar unter: \🔗 "
-"`https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_"
+"Der SPARQL-Endpunkt zur Abfrage des Knowledge Graph ist verfügbar unter: "
+"\\🔗 `https://data.judaicalink.org/sparql.html "
+"<https://data.judaicalink.org/sparql.html>`_"
 
-#: ../../faq.rst:63
+#: ../faq.rst:58
+#, fuzzy
+msgid "Can I download datasets from JudaicaLink?"
+msgstr "Wie kann ich zu JudaicaLink beitragen?"
+
+#: ../faq.rst:60
+msgid ""
+"Yes. JudaicaLink provides RDF dumps that can be downloaded and processed "
+"locally. Contact the team if you need a specific dataset."
+msgstr ""
+
+#: ../faq.rst:63
 msgid "Does JudaicaLink support content negotiation?"
 msgstr "Unterstützt JudaicaLink Content-Negotiation?"
 
-#: ../../faq.rst:65
+#: ../faq.rst:65
 msgid "Yes. You can access data in different formats using content negotiation:"
-msgstr "Ja. Sie können mit Content-Negotiation auf Daten in verschiedenen Formaten zugreifen:"
+msgstr ""
+"Ja. Sie können mit Content-Negotiation auf Daten in verschiedenen "
+"Formaten zugreifen:"
 
-#: ../../faq.rst:67
+#: ../faq.rst:67
 msgid "*HTML*: `https://data.judaicalink.org/data/html/<dataset>/<entity>`"
 msgstr "*HTML*: `https://data.judaicalink.org/data/html/<dataset>/<entity>`"
 
-#: ../../faq.rst:68
+#: ../faq.rst:68
 msgid "*JSON-LD*: `https://data.judaicalink.org/data/jsonld/<dataset>/<entity>`"
 msgstr "*JSON-LD*: `https://data.judaicalink.org/data/jsonld/<dataset>/<entity>`"
 
-#: ../../faq.rst:69
+#: ../faq.rst:69
 msgid "*RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`"
 msgstr "*RDF/XML*: `https://data.judaicalink.org/data/xml/<dataset>/<entity>`"
+
+#: ../faq.rst:72
+#, fuzzy
+msgid "Technical Questions"
+msgstr "Allgemeine Fragen"
+
+#: ../faq.rst:75
+msgid "How is data stored and structured in JudaicaLink?"
+msgstr ""
+
+#: ../faq.rst:77
+msgid ""
+"JudaicaLink uses *RDF (Resource Description Framework)* to structure "
+"data. It is stored in an *Apache Jena Fuseki* triple store and follows "
+"the Linked Open Data principles."
+msgstr ""
+
+#: ../faq.rst:80
+#, fuzzy
+msgid "What technologies does JudaicaLink use?"
+msgstr "Was ist JudaicaLink?"
+
+#: ../faq.rst:82
+msgid "*Backend*: Django (Labs, Pubby)"
+msgstr ""
+
+#: ../faq.rst:83
+msgid "*Frontend*: Hugo (Site), Vue.js (planned improvements)"
+msgstr ""
+
+#: ../faq.rst:84
+msgid "*Data Storage*: Apache Jena Fuseki (RDF Triple Store)"
+msgstr ""
+
+#: ../faq.rst:85
+msgid "*Search*: SOLR"
+msgstr ""
+
+#: ../faq.rst:86
+msgid "*Cache*: Redis"
+msgstr ""
+
+#: ../faq.rst:87
+msgid "*Deployment*: Docker, Nginx"
+msgstr ""
+
+#: ../faq.rst:90
+msgid "How often is the data updated?"
+msgstr ""
+
+#: ../faq.rst:92
+msgid ""
+"JudaicaLink updates its data regularly. The frequency depends on external"
+" dataset updates and internal processing cycles."
+msgstr ""
+
+#: ../faq.rst:95
+#, fuzzy
+msgid "How can I integrate JudaicaLink with my project?"
+msgstr "Wie kann ich zu JudaicaLink beitragen?"
+
+#: ../faq.rst:97
+msgid "Developers can integrate JudaicaLink data by:"
+msgstr ""
+
+#: ../faq.rst:99
+msgid "Using the *SPARQL endpoint* for live queries."
+msgstr ""
+
+#: ../faq.rst:100
+msgid "Downloading RDF datasets for local processing."
+msgstr ""
+
+#: ../faq.rst:101
+msgid "Embedding entity URIs into their knowledge bases."
+msgstr ""
+
+#: ../faq.rst:104
+msgid "Data and Licensing"
+msgstr ""
+
+#: ../faq.rst:107
+msgid "What are the licensing terms for using JudaicaLink data?"
+msgstr ""
+
+#: ../faq.rst:109
+msgid ""
+"JudaicaLink data is available under open licenses, including *CC BY-SA* "
+"and *CC0*, depending on the dataset. Check individual dataset licenses "
+"for specifics."
+msgstr ""
+
+#: ../faq.rst:112
+msgid "Can I use JudaicaLink data for commercial purposes?"
+msgstr ""
+
+#: ../faq.rst:114
+msgid ""
+"Yes, but you must adhere to the respective dataset license. Some datasets"
+" require attribution."
+msgstr ""
+
+#: ../faq.rst:117
+msgid "Troubleshooting & Support"
+msgstr ""
+
+#: ../faq.rst:120
+msgid "I found incorrect data. How can I report it?"
+msgstr ""
+
+#: ../faq.rst:122
+msgid ""
+"If you find incorrect or outdated data, please contact the JudaicaLink "
+"team via the `Contact Page <https://labs.judaicalink.org/contact/>`_."
+msgstr ""
+
+#: ../faq.rst:125
+msgid "My SPARQL query is too slow. What can I do?"
+msgstr ""
+
+#: ../faq.rst:127
+msgid "Try *limiting results* with `LIMIT` and `OFFSET`."
+msgstr ""
+
+#: ../faq.rst:128
+msgid "Optimize queries by *filtering entities early*."
+msgstr ""
+
+#: ../faq.rst:129
+msgid "Use *indexed fields* where possible."
+msgstr ""
+
+#: ../faq.rst:132
+msgid "I need a dataset that is not available. Can you add it?"
+msgstr ""
+
+#: ../faq.rst:134
+msgid ""
+"JudaicaLink is open to dataset suggestions. If you have a dataset you’d "
+"like to contribute, reach out to us."
+msgstr ""
+
+#: ../faq.rst:137
+msgid "Getting Help"
+msgstr ""
+
+#: ../faq.rst:139
+#, fuzzy
+msgid "Where can I find more information about JudaicaLink?"
+msgstr "Wie kann ich nach Informationen in JudaicaLink suchen?"
+
+#: ../faq.rst:141
+msgid ""
+"*Documentation*: `https://judaicalink-docs.readthedocs.io/ <https"
+"://judaicalink-docs.readthedocs.io/>`_"
+msgstr ""
+
+#: ../faq.rst:142
+msgid ""
+"*FAQ Updates*: Check `https://web.judaicalink.org/faq/ "
+"<https://web.judaicalink.org/faq/>`_ for the latest FAQs."
+msgstr ""
+
+#: ../faq.rst:143
+msgid ""
+"*Community & Support*: Contact us at "
+"`https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
+msgstr ""
+
+#: ../faq.rst:145
+msgid ""
+"--- If your question isn't listed here, feel free to contact us or check "
+"the JudaicaLink documentation!"
+msgstr ""
+

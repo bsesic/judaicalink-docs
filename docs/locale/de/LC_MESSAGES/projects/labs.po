@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Dokumentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: VOLLER NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -20,82 +20,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../projects/labs.rst:5
+#: ../projects/labs.rst:5
 msgid "JudaicaLink Labs"
 msgstr "JudaicaLink Labs"
 
-#: ../../projects/labs.rst:7
+#: ../projects/labs.rst:7
 msgid ""
 "JudaicaLink Labs is the **main web interface** for searching, exploring, "
 "and interacting with the JudaicaLink **knowledge graph**. It provides an "
 "easy-to-use interface for users to query and browse structured data about"
 " Jewish history, culture, and scholarship."
 msgstr ""
-"JudaicaLink Labs ist die **zentrale Webschnittstelle** zum Suchen, Erkunden "
-"und Interagieren mit dem JudaicaLink **Wissensgraphen**. Es bietet eine "
-"benutzerfreundliche Oberfläche, um strukturierte Daten zur jüdischen Geschichte, "
-"Kultur und Wissenschaft zu durchsuchen und zu betrachten."
+"JudaicaLink Labs ist die **zentrale Webschnittstelle** zum Suchen, "
+"Erkunden und Interagieren mit dem JudaicaLink **Wissensgraphen**. Es "
+"bietet eine benutzerfreundliche Oberfläche, um strukturierte Daten zur "
+"jüdischen Geschichte, Kultur und Wissenschaft zu durchsuchen und zu "
+"betrachten."
 
-#: ../../projects/labs.rst:10
+#: ../projects/labs.rst:10
 msgid "Features of JudaicaLink Labs"
 msgstr "Funktionen von JudaicaLink Labs"
 
-#: ../../projects/labs.rst:13
+#: ../projects/labs.rst:13
 msgid "1. Entity Search"
 msgstr "1. Entitätensuche"
 
-#: ../../projects/labs.rst:15
+#: ../projects/labs.rst:15
 msgid "Users can search for **persons, places, institutions, and texts**."
 msgstr "Benutzer können nach **Personen, Orten, Institutionen und Texten** suchen."
 
-#: ../../projects/labs.rst:16
+#: ../projects/labs.rst:16
 msgid ""
 "Results display structured RDF data enriched with external links (e.g., "
 "**GND, Wikidata, DBpedia**)."
 msgstr ""
-"Die Ergebnisse zeigen strukturierte RDF-Daten, angereichert mit externen Links "
-"(z. B. **GND, Wikidata, DBpedia**)."
+"Die Ergebnisse zeigen strukturierte RDF-Daten, angereichert mit externen "
+"Links (z. B. **GND, Wikidata, DBpedia**)."
 
-#: ../../projects/labs.rst:19
+#: ../projects/labs.rst:19
 msgid "2. Compact Memory Full-Text Search"
 msgstr "2. Volltextsuche in Compact Memory"
 
-#: ../../projects/labs.rst:21
+#: ../projects/labs.rst:21
 msgid "Search within historical Jewish newspapers and periodicals."
 msgstr "Suche in historischen jüdischen Zeitungen und Zeitschriften."
 
-#: ../../projects/labs.rst:22
+#: ../projects/labs.rst:22
 msgid ""
 "Indexed texts include metadata and direct links to **Compact Memory** "
 "digital archives."
 msgstr ""
-"Indexierte Texte enthalten Metadaten und direkte Links zu den digitalen Archiven "
-"von **Compact Memory**."
+"Indexierte Texte enthalten Metadaten und direkte Links zu den digitalen "
+"Archiven von **Compact Memory**."
 
-#: ../../projects/labs.rst:25
+#: ../projects/labs.rst:25
 msgid "3. Compact Memory Entity Extraction"
 msgstr "3. Entitätenextraktion aus Compact Memory"
 
-#: ../../projects/labs.rst:27
+#: ../projects/labs.rst:27
 msgid ""
 "Extracted **named entities** (people, places, organizations) from "
 "digitized texts."
 msgstr ""
-"Extrahiert **benannte Entitäten** (Personen, Orte, Organisationen) aus digitalisierten Texten."
+"Extrahiert **benannte Entitäten** (Personen, Orte, Organisationen) aus "
+"digitalisierten Texten."
 
-#: ../../projects/labs.rst:28
+#: ../projects/labs.rst:28
 msgid "Helps users find references to historical figures and events."
-msgstr "Hilft Benutzern, Verweise auf historische Personen und Ereignisse zu finden."
+msgstr ""
+"Hilft Benutzern, Verweise auf historische Personen und Ereignisse zu "
+"finden."
 
-#: ../../projects/labs.rst:31
+#: ../projects/labs.rst:31
 msgid "4. SPARQL Query Interface"
 msgstr "4. SPARQL-Abfrageschnittstelle"
 
-#: ../../projects/labs.rst:33
+#: ../projects/labs.rst:33
 msgid "Advanced users can write **SPARQL queries** to access structured data."
-msgstr "Fortgeschrittene Benutzer können **SPARQL-Abfragen** schreiben, um auf strukturierte Daten zuzugreifen."
+msgstr ""
+"Fortgeschrittene Benutzer können **SPARQL-Abfragen** schreiben, um auf "
+"strukturierte Daten zuzugreifen."
 
-#: ../../projects/labs.rst:34
+#: ../projects/labs.rst:34
 msgid ""
 "SPARQL endpoint: `https://data.judaicalink.org/sparql.html "
 "<https://data.judaicalink.org/sparql.html>`_."
@@ -103,94 +109,171 @@ msgstr ""
 "SPARQL-Endpunkt: `https://data.judaicalink.org/sparql.html "
 "<https://data.judaicalink.org/sparql.html>`_."
 
-#: ../../projects/labs.rst:37
+#: ../projects/labs.rst:37
 msgid "How to Use JudaicaLink Labs"
 msgstr "Wie man JudaicaLink Labs benutzt"
 
-#: ../../projects/labs.rst:40
+#: ../projects/labs.rst:40
 msgid "Searching for Entities"
 msgstr "Suche nach Entitäten"
 
-#: ../../projects/labs.rst:42
+#: ../projects/labs.rst:42
 msgid "Visit `https://labs.judaicalink.org <https://labs.judaicalink.org>`_."
-msgstr "Besuchen Sie `https://labs.judaicalink.org <https://labs.judaicalink.org>`_."
+msgstr ""
+"Besuchen Sie `https://labs.judaicalink.org "
+"<https://labs.judaicalink.org>`_."
 
-#: ../../projects/labs.rst:43
+#: ../projects/labs.rst:43
 msgid "Use the **search bar** to enter a term (e.g., \"Moses Mendelssohn\")."
-msgstr "Nutzen Sie die **Suchleiste**, um einen Begriff einzugeben (z. B. „Moses Mendelssohn“)."
+msgstr ""
+"Nutzen Sie die **Suchleiste**, um einen Begriff einzugeben (z. B. „Moses "
+"Mendelssohn“)."
 
-#: ../../projects/labs.rst:44
+#: ../projects/labs.rst:44
 msgid "Browse entity pages containing structured data and external references."
-msgstr "Durchsuchen Sie Entitätsseiten mit strukturierten Daten und externen Verweisen."
+msgstr ""
+"Durchsuchen Sie Entitätsseiten mit strukturierten Daten und externen "
+"Verweisen."
 
-#: ../../projects/labs.rst:47
+#: ../projects/labs.rst:47
 msgid "Running a SPARQL Query"
 msgstr "Ausführen einer SPARQL-Abfrage"
 
-#: ../../projects/labs.rst:48
+#: ../projects/labs.rst:48
 msgid ""
 "Go to **SPARQL Endpoint**: `https://data.judaicalink.org/sparql.html "
 "<https://data.judaicalink.org/sparql.html>`_."
 msgstr ""
-"Gehen Sie zum **SPARQL-Endpunkt**: `https://data.judaicalink.org/sparql.html "
+"Gehen Sie zum **SPARQL-Endpunkt**: "
+"`https://data.judaicalink.org/sparql.html "
 "<https://data.judaicalink.org/sparql.html>`_."
 
-#: ../../projects/labs.rst:49
+#: ../projects/labs.rst:49
 msgid "Enter a query, such as:"
 msgstr "Geben Sie eine Abfrage ein, zum Beispiel:"
 
-#: ../../projects/labs.rst:59
+#: ../projects/labs.rst:59
 msgid "Execute the query and view results in **JSON, XML, or CSV format**."
-msgstr "Führen Sie die Abfrage aus und sehen Sie sich die Ergebnisse im **JSON-, XML- oder CSV-Format** an."
+msgstr ""
+"Führen Sie die Abfrage aus und sehen Sie sich die Ergebnisse im **JSON-, "
+"XML- oder CSV-Format** an."
 
-#: ../../projects/labs.rst:62
+#: ../projects/labs.rst:62
 msgid "Exploring Compact Memory Data"
 msgstr "Erkunden von Compact Memory-Daten"
 
-#: ../../projects/labs.rst:64
+#: ../projects/labs.rst:64
 msgid "Select **\"Compact Memory Search\"** on the search page."
 msgstr "Wählen Sie auf der Suchseite **„Compact Memory-Suche“** aus."
 
-#: ../../projects/labs.rst:65
+#: ../projects/labs.rst:65
 msgid "Enter a keyword (e.g., \"Zionism\")."
 msgstr "Geben Sie ein Schlüsselwort ein (z. B. „Zionismus“)."
 
-#: ../../projects/labs.rst:66
+#: ../projects/labs.rst:66
 msgid "View search results with text snippets and source links."
 msgstr "Sehen Sie sich die Suchergebnisse mit Textauszügen und Quellenlinks an."
 
-#: ../../projects/labs.rst:69
+#: ../projects/labs.rst:69
 msgid "Technical Overview"
 msgstr "Technische Übersicht"
 
-#: ../../projects/labs.rst:72
+#: ../projects/labs.rst:72
 msgid "Backend"
 msgstr "Backend"
 
-#: ../../projects/labs.rst:74
+#: ../projects/labs.rst:74
 msgid "Built using **Django (Python)**."
 msgstr "Erstellt mit **Django (Python)**."
 
-#: ../../projects/labs.rst:75
+#: ../projects/labs.rst:75
 msgid "Uses **SOLR** for optimized search indexing."
 msgstr "Verwendet **SOLR** für optimierte Suchindizierung."
 
-#: ../../projects/labs.rst:76
+#: ../projects/labs.rst:76
 msgid "Relies on **Apache Jena Fuseki** for SPARQL query processing."
 msgstr "Nutzt **Apache Jena Fuseki** zur Verarbeitung von SPARQL-Abfragen."
 
-#: ../../projects/labs.rst:131
+#: ../projects/labs.rst:79
+msgid "Frontend"
+msgstr ""
+
+#: ../projects/labs.rst:81
+msgid "Developed with **Bootstrap and jQuery**."
+msgstr ""
+
+#: ../projects/labs.rst:82
+msgid "Plans to migrate to **Vue.js** for better interactivity."
+msgstr ""
+
+#: ../projects/labs.rst:85
+msgid "Database & Data Sources"
+msgstr ""
+
+#: ../projects/labs.rst:87
+msgid "RDF data stored in **Apache Jena Fuseki**."
+msgstr ""
+
+#: ../projects/labs.rst:88
+msgid "Data sources include **Compact Memory, YIVO, GND, and Wikidata**."
+msgstr ""
+
+#: ../projects/labs.rst:92
+#, fuzzy
+msgid "Contributing to JudaicaLink Labs"
+msgstr "Wie man JudaicaLink Labs benutzt"
+
+#: ../projects/labs.rst:95
+msgid "Setting Up a Development Environment"
+msgstr ""
+
+#: ../projects/labs.rst:97
+msgid "**Clone the repository**"
+msgstr ""
+
+#: ../projects/labs.rst:105
+msgid "**Create a virtual environment**"
+msgstr ""
+
+#: ../projects/labs.rst:114
+msgid "**Install dependencies**"
+msgstr ""
+
+#: ../projects/labs.rst:121
+msgid "**Run the development server**"
+msgstr ""
+
+#: ../projects/labs.rst:128
+msgid "Open **http://127.0.0.1:8000/** in your browser."
+msgstr ""
+
+#: ../projects/labs.rst:131
 msgid "Troubleshooting & Support"
 msgstr "Fehlersuche & Unterstützung"
 
-#: ../../projects/labs.rst:133
+#: ../projects/labs.rst:133
 msgid "**Error accessing data?** Ensure the **SPARQL endpoint is online**."
-msgstr "**Fehler beim Zugriff auf Daten?** Stellen Sie sicher, dass der **SPARQL-Endpunkt online** ist."
+msgstr ""
+"**Fehler beim Zugriff auf Daten?** Stellen Sie sicher, dass der **SPARQL-"
+"Endpunkt online** ist."
 
-#: ../../projects/labs.rst:135
+#: ../projects/labs.rst:134
+msgid "**Search not returning results?** Check if the dataset is indexed."
+msgstr ""
+
+#: ../projects/labs.rst:135
 msgid ""
 "**Need help?** Contact us at `https://labs.judaicalink.org/contact/ "
 "<https://labs.judaicalink.org/contact/>`_."
 msgstr ""
-"**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter `https://labs.judaicalink.org/contact/ "
+"**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter "
+"`https://labs.judaicalink.org/contact/ "
 "<https://labs.judaicalink.org/contact/>`_."
+
+#: ../projects/labs.rst:137
+msgid ""
+"--- JudaicaLink Labs is an evolving platform—new features and datasets "
+"are regularly added. Stay updated with the latest changes on "
+"`https://www.judaicalink.org/news/ <https://www.judaicalink.org/news/>`_."
+msgstr ""
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 11:18+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../developer_guide/docker.rst:5
+#: ../developer_guide/docker.rst:5
 msgid "Docker Setup and Deployment"
 msgstr "Docker-Einrichtung und Bereitstellung"
 
-#: ../../developer_guide/docker.rst:7
+#: ../developer_guide/docker.rst:7
 msgid ""
 "This guide explains how to set up and deploy the JudaicaLink projects "
 "using **Docker** and **Docker Compose**. This setup allows you to run all"
@@ -35,15 +35,15 @@ msgstr ""
 "ermöglicht das Ausführen aller Dienste in isolierten Containern für eine "
 "einfache Bereitstellung und Verwaltung."
 
-#: ../../developer_guide/docker.rst:10
+#: ../developer_guide/docker.rst:10
 msgid "System Requirements"
 msgstr "Systemanforderungen"
 
-#: ../../developer_guide/docker.rst:12
+#: ../developer_guide/docker.rst:12
 msgid "Ensure your system has the following installed:"
 msgstr "Stellen Sie sicher, dass Ihr System die folgenden Anforderungen erfüllt:"
 
-#: ../../developer_guide/docker.rst:14
+#: ../developer_guide/docker.rst:14
 msgid ""
 "**Docker:** Latest version (`Docker Installation Guide "
 "<https://docs.docker.com/get-docker/>`_)"
@@ -51,31 +51,31 @@ msgstr ""
 "**Docker:** Neueste Version (`Docker-Installationsanleitung "
 "<https://docs.docker.com/get-docker/>`_)"
 
-#: ../../developer_guide/docker.rst:15
+#: ../developer_guide/docker.rst:15
 msgid ""
 "**Docker Compose:** Latest version (`Docker Compose Installation Guide "
 "<https://docs.docker.com/compose/install/>`_)"
 msgstr ""
-"**Docker Compose:** Neueste Version (`Docker Compose Installationsanleitung "
-"<https://docs.docker.com/compose/install/>`_)"
+"**Docker Compose:** Neueste Version (`Docker Compose "
+"Installationsanleitung <https://docs.docker.com/compose/install/>`_)"
 
-#: ../../developer_guide/docker.rst:18
+#: ../developer_guide/docker.rst:18
 msgid "Cloning the Repository"
 msgstr "Repository klonen"
 
-#: ../../developer_guide/docker.rst:20
+#: ../developer_guide/docker.rst:20
 msgid "First, clone the main Docker repository for JudaicaLink:"
 msgstr "Zuerst das Haupt-Docker-Repository für JudaicaLink klonen:"
 
-#: ../../developer_guide/docker.rst:28
+#: ../developer_guide/docker.rst:28
 msgid "Setting Up the Environment"
 msgstr "Einrichten der Umgebung"
 
-#: ../../developer_guide/docker.rst:30
+#: ../developer_guide/docker.rst:30
 msgid "Create an **.env** file to store environment variables:"
 msgstr "Erstellen Sie eine **.env**-Datei, um Umgebungsvariablen zu speichern:"
 
-#: ../../developer_guide/docker.rst:37
+#: ../developer_guide/docker.rst:37
 msgid ""
 "Modify the variables to match your setup, including database credentials "
 "and service configurations."
@@ -83,109 +83,197 @@ msgstr ""
 "Passen Sie die Variablen an Ihre Konfiguration an, einschließlich "
 "Datenbankzugangsdaten und Dienstkonfigurationen."
 
-#: ../../developer_guide/docker.rst:40
+#: ../developer_guide/docker.rst:40
 msgid "Running Docker Containers"
 msgstr "Docker-Container ausführen"
 
-#: ../../developer_guide/docker.rst:42
+#: ../developer_guide/docker.rst:42
 msgid "**Build and start containers**:"
 msgstr "**Container erstellen und starten**:"
 
-#: ../../developer_guide/docker.rst:48
+#: ../developer_guide/docker.rst:48
 msgid "**Check running containers**:"
 msgstr "**Laufende Container überprüfen**:"
 
-#: ../../developer_guide/docker.rst:54
+#: ../developer_guide/docker.rst:54
 msgid "**View logs for troubleshooting**:"
 msgstr "**Logs für Fehlerbehebung anzeigen**:"
 
-#: ../../developer_guide/docker.rst:61
+#: ../developer_guide/docker.rst:61
 msgid "Services Included in Docker Compose"
 msgstr "In Docker Compose enthaltene Dienste"
 
-#: ../../developer_guide/docker.rst:63
+#: ../developer_guide/docker.rst:63
 msgid "The `docker-compose.yml` file includes the following services:"
 msgstr "Die `docker-compose.yml`-Datei enthält die folgenden Dienste:"
 
-#: ../../developer_guide/docker.rst:65
+#: ../developer_guide/docker.rst:65
 msgid "**Django Application** (JudaicaLink Labs & Pubby)"
 msgstr "**Django-Anwendung** (JudaicaLink Labs & Pubby)"
 
-#: ../../developer_guide/docker.rst:66
+#: ../developer_guide/docker.rst:66
 msgid "**PostgreSQL** (Database backend for Django)"
 msgstr "**PostgreSQL** (Datenbank-Backend für Django)"
 
-#: ../../developer_guide/docker.rst:67
+#: ../developer_guide/docker.rst:67
 msgid "**Solr** (Full-text search engine)"
 msgstr "**Solr** (Volltextsuchmaschine)"
 
-#: ../../developer_guide/docker.rst:68
+#: ../developer_guide/docker.rst:68
 msgid "**Redis** (Caching layer for Django)"
 msgstr "**Redis** (Caching-Schicht für Django)"
 
-#: ../../developer_guide/docker.rst:69
+#: ../developer_guide/docker.rst:69
 msgid "**Apache Jena Fuseki** (SPARQL endpoint)"
 msgstr "**Apache Jena Fuseki** (SPARQL-Endpunkt)"
 
-#: ../../developer_guide/docker.rst:70
+#: ../developer_guide/docker.rst:70
 msgid "**Nginx** (Reverse proxy for serving the application)"
 msgstr "**Nginx** (Reverse Proxy zur Bereitstellung der Anwendung)"
 
-#: ../../developer_guide/docker.rst:73
+#: ../developer_guide/docker.rst:73
 msgid "Managing Docker Containers"
 msgstr "Verwaltung von Docker-Containern"
 
-#: ../../developer_guide/docker.rst:75
+#: ../developer_guide/docker.rst:75
 msgid "**Stop all running containers**:"
 msgstr "**Alle laufenden Container stoppen**:"
 
-#: ../../developer_guide/docker.rst:81
+#: ../developer_guide/docker.rst:81
 msgid "**Restart containers**:"
 msgstr "**Container neu starten**:"
 
-#: ../../developer_guide/docker.rst:87
+#: ../developer_guide/docker.rst:87
 msgid "**Rebuild containers after making changes**:"
 msgstr "**Container nach Änderungen neu erstellen**:"
 
-#: ../../developer_guide/docker.rst:94
+#: ../developer_guide/docker.rst:94
 msgid "Interacting with Services"
 msgstr "Interaktion mit Diensten"
 
-#: ../../developer_guide/docker.rst:97
+#: ../developer_guide/docker.rst:97
 msgid "Running Database Migrations"
 msgstr "Datenbankmigrationen ausführen"
 
-#: ../../developer_guide/docker.rst:99
+#: ../developer_guide/docker.rst:99
 msgid "To apply Django migrations inside the container:"
 msgstr "Django-Migrationen im Container ausführen:"
 
-#: ../../developer_guide/docker.rst:115
+#: ../developer_guide/docker.rst:106
+msgid "Collecting Static Files"
+msgstr ""
+
+#: ../developer_guide/docker.rst:108
+msgid "To collect static files for Django:"
+msgstr ""
+
+#: ../developer_guide/docker.rst:115
 msgid "Running a Bash Shell inside a Container"
 msgstr "Eine Bash-Shell innerhalb eines Containers ausführen"
 
-#: ../../developer_guide/docker.rst:117
+#: ../developer_guide/docker.rst:117
 msgid "To open a shell inside the Django container:"
 msgstr "Eine Shell im Django-Container öffnen:"
 
-#: ../../developer_guide/docker.rst:137
+#: ../developer_guide/docker.rst:124
+#, fuzzy
+msgid "Running Solr in Docker"
+msgstr "Apache Jena Fuseki in Docker ausführen"
+
+#: ../developer_guide/docker.rst:126
+msgid "To access the Solr admin panel:"
+msgstr ""
+
+#: ../developer_guide/docker.rst:128
+msgid "URL: `http://localhost:8983/solr`"
+msgstr ""
+
+#: ../developer_guide/docker.rst:130
+msgid "To create a new Solr core:"
+msgstr ""
+
+#: ../developer_guide/docker.rst:137
 msgid "Running Apache Jena Fuseki in Docker"
 msgstr "Apache Jena Fuseki in Docker ausführen"
 
-#: ../../developer_guide/docker.rst:139
+#: ../developer_guide/docker.rst:139
 msgid "To access Fuseki’s web interface:"
 msgstr "Um auf die Fuseki-Weboberfläche zuzugreifen:"
 
-#: ../../developer_guide/docker.rst:173
+#: ../developer_guide/docker.rst:141
+msgid "URL: `http://localhost:3030`"
+msgstr ""
+
+#: ../developer_guide/docker.rst:143
+msgid "To load RDF data into Fuseki:"
+msgstr ""
+
+#: ../developer_guide/docker.rst:150
+#, fuzzy
+msgid "Running Nginx in Docker"
+msgstr "Apache Jena Fuseki in Docker ausführen"
+
+#: ../developer_guide/docker.rst:152
+#, fuzzy
+msgid ""
+"Nginx serves as a reverse proxy for the Django application. To reload "
+"Nginx:"
+msgstr "**Nginx** (Reverse Proxy zur Bereitstellung der Anwendung)"
+
+#: ../developer_guide/docker.rst:159
+msgid "Verifying the Setup"
+msgstr ""
+
+#: ../developer_guide/docker.rst:161
+msgid "After deployment, verify the services are running correctly:"
+msgstr ""
+
+#: ../developer_guide/docker.rst:163
+#, fuzzy
+msgid "**Django Application:** http://localhost"
+msgstr "**Django-Anwendung** (JudaicaLink Labs & Pubby)"
+
+#: ../developer_guide/docker.rst:164
+msgid "**SPARQL Endpoint (Fuseki):** http://localhost:3030/ds"
+msgstr ""
+
+#: ../developer_guide/docker.rst:165
+msgid "**Solr Admin UI:** http://localhost:8983/solr"
+msgstr ""
+
+#: ../developer_guide/docker.rst:166
+msgid "**Redis Status:**"
+msgstr ""
+
+#: ../developer_guide/docker.rst:173
 msgid "Troubleshooting & Support"
 msgstr "Fehlersuche & Unterstützung"
 
-#: ../../developer_guide/docker.rst:178
-msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
-msgstr "**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/"
+#: ../developer_guide/docker.rst:175
+msgid "**Container not starting?** Check logs with `docker-compose logs -f`"
+msgstr ""
 
-#: ../../developer_guide/docker.rst:180
+#: ../developer_guide/docker.rst:176
+msgid ""
+"**Database connection errors?** Ensure PostgreSQL is running inside the "
+"container"
+msgstr ""
+
+#: ../developer_guide/docker.rst:177
+msgid "**Application not accessible?** Verify Nginx settings and restart services"
+msgstr ""
+
+#: ../developer_guide/docker.rst:178
+msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
+msgstr ""
+"**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter "
+"https://labs.judaicalink.org/contact/"
+
+#: ../developer_guide/docker.rst:180
 msgid ""
 "--- Using Docker makes it easy to deploy and manage JudaicaLink services."
-" \🚀"
+" \\🚀"
 msgstr ""
-"--- Mit Docker ist die Bereitstellung und Verwaltung der JudaicaLink-Dienste einfach. \🚀"
+"--- Mit Docker ist die Bereitstellung und Verwaltung der JudaicaLink-"
+"Dienste einfach. \\🚀"
+

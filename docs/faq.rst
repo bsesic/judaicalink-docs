@@ -95,6 +95,7 @@ How can I integrate JudaicaLink with my project?
 ------------------------------------------------
 
 Developers can integrate JudaicaLink data by:
+
 * Using the *SPARQL endpoint* for live queries.
 * Downloading RDF datasets for local processing.
 * Embedding entity URIs into their knowledge bases.

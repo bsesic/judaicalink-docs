@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-21 10:48+0100\n"
+"POT-Creation-Date: 2025-03-03 12:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../projects/generators.rst:5
+#: ../projects/generators.rst:5
 msgid "JudaicaLink Generators"
 msgstr "JudaicaLink-Generatoren"
 
-#: ../../projects/generators.rst:7
+#: ../projects/generators.rst:7
 msgid ""
 "JudaicaLink Generators is a collection of scripts and tools designed to "
 "transform structured and unstructured data into RDF triples for "
@@ -30,174 +30,202 @@ msgid ""
 "bibliographic databases** and convert them into **Linked Data**."
 msgstr ""
 
-#: ../../projects/generators.rst:10
+#: ../projects/generators.rst:10
 msgid "Features of JudaicaLink Generators"
 msgstr "Funktionen der JudaicaLink-Generatoren"
 
-#: ../../projects/generators.rst:12
+#: ../projects/generators.rst:12
 msgid "**Automatic RDF generation** from different data formats."
 msgstr "**Automatische RDF-Generierung** aus verschiedenen Datenformaten."
 
-#: ../../projects/generators.rst:13
+#: ../projects/generators.rst:13
 msgid "**Data enrichment** using external authority files like GND and Wikidata."
-msgstr "**Datenanreicherung** unter Verwendung externer Normdateien wie GND und Wikidata."
+msgstr ""
+"**Datenanreicherung** unter Verwendung externer Normdateien wie GND und "
+"Wikidata."
 
-#: ../../projects/generators.rst:14
+#: ../projects/generators.rst:14
 msgid "**Batch processing** of large datasets."
 msgstr "**Stapelverarbeitung** großer Datensätze."
 
-#: ../../projects/generators.rst:15
+#: ../projects/generators.rst:15
 msgid "**Integration with Django commands** for managing and running generators."
-msgstr "**Integration mit Django-Befehlen** zur Verwaltung und Ausführung von Generatoren."
+msgstr ""
+"**Integration mit Django-Befehlen** zur Verwaltung und Ausführung von "
+"Generatoren."
 
-#: ../../projects/generators.rst:18
+#: ../projects/generators.rst:18
 msgid "How to Use JudaicaLink Generators"
 msgstr "So verwenden Sie JudaicaLink-Generatoren"
 
-#: ../../projects/generators.rst:21
+#: ../projects/generators.rst:21
 msgid "Setting Up the Environment"
 msgstr "Einrichtung der Umgebung"
 
-#: ../../projects/generators.rst:23
-msgid "1. **Clone the repository** ::"
+#: ../projects/generators.rst:23
+#, fuzzy
+msgid "**Clone the repository**"
 msgstr "1. **Klonen Sie das Repository** ::"
 
-#: ../../projects/generators.rst:29
-msgid "2. **Create a virtual environment** (Recommended) ::"
+#: ../projects/generators.rst:30
+#, fuzzy
+msgid "**Create a virtual environment** (Recommended)"
 msgstr "2. **Erstellen Sie eine virtuelle Umgebung** (Empfohlen) ::"
 
-#: ../../projects/generators.rst:36
-msgid "3. **Install dependencies** ::"
+#: ../projects/generators.rst:38
+#, fuzzy
+msgid "**Install dependencies**"
 msgstr "3. **Installieren Sie Abhängigkeiten** ::"
 
-#: ../../projects/generators.rst:42
+#: ../projects/generators.rst:45
 msgid "Running a Generator"
 msgstr "Ausführen eines Generators"
 
-#: ../../projects/generators.rst:44
+#: ../projects/generators.rst:47
 msgid ""
 "Each generator script is responsible for processing specific datasets. To"
 " run a generator ::"
 msgstr ""
 
-#: ../../projects/generators.rst:49
+#: ../projects/generators.rst:52
 msgid "For example ::"
 msgstr "Zum Beispiel ::"
 
-#: ../../projects/generators.rst:55
+#: ../projects/generators.rst:58
 msgid "Running Django Commands"
 msgstr "Ausführen von Django-Befehlen"
 
-#: ../../projects/generators.rst:56
+#: ../projects/generators.rst:59
 msgid ""
 "Some generators are integrated with Django management commands for better"
 " orchestration. You can run them as follows:"
 msgstr ""
 
-#: ../../projects/generators.rst:58
-msgid "1. **Navigate to the project directory** ::"
+#: ../projects/generators.rst:61
+#, fuzzy
+msgid "**Navigate to the project directory**"
 msgstr "1. **Navigieren Sie zum Projektverzeichnis** ::"
 
-#: ../../projects/generators.rst:63
-msgid "2. **Run a specific Django command**:: ::"
+#: ../projects/generators.rst:67
+#, fuzzy
+msgid "**Run a specific Django command**"
 msgstr "2. **Führen Sie einen spezifischen Django-Befehl aus**:: ::"
 
-#: ../../projects/generators.rst:68
+#: ../projects/generators.rst:73
 msgid "Available commands:"
 msgstr "Verfügbare Befehle:"
 
-#: ../../projects/generators.rst:70
+#: ../projects/generators.rst:75
 msgid "`run_generator <dataset>` – Runs a generator for a specific dataset."
-msgstr "`run_generator <dataset>` – Führt einen Generator für einen bestimmten Datensatz aus."
+msgstr ""
+"`run_generator <dataset>` – Führt einen Generator für einen bestimmten "
+"Datensatz aus."
 
-#: ../../projects/generators.rst:71
+#: ../projects/generators.rst:76
 msgid "`list_generators` – Lists all available generators."
 msgstr "`list_generators` – Listet alle verfügbaren Generatoren auf."
 
-#: ../../projects/generators.rst:72
+#: ../projects/generators.rst:77
 msgid "`validate_rdf` – Checks RDF output for errors."
 msgstr "`validate_rdf` – Überprüft RDF-Ausgaben auf Fehler."
 
-#: ../../projects/generators.rst:75
+#: ../projects/generators.rst:80
 msgid "Validating RDF Output"
 msgstr "Validierung der RDF-Ausgabe"
 
-#: ../../projects/generators.rst:77
+#: ../projects/generators.rst:82
 msgid ""
 "Once RDF data is generated, it is essential to validate it before loading"
-" it into the triple store. Use the following command ::"
+" it into the triple store. Use the following command"
 msgstr ""
 
-#: ../../projects/generators.rst:82
-msgid "Or validate using the Django management command ::"
+#: ../projects/generators.rst:88
+#, fuzzy
+msgid "Or validate using the Django management command"
 msgstr "Oder validieren Sie mit dem Django-Verwaltungsbefehl ::"
 
-#: ../../projects/generators.rst:88
+#: ../projects/generators.rst:95
 msgid "Loading Data into JudaicaLink"
 msgstr "Laden von Daten in JudaicaLink"
 
-#: ../../projects/generators.rst:90
+#: ../projects/generators.rst:97
 msgid ""
 "After validation, RDF data can be loaded into the JudaicaLink SPARQL "
-"endpoint ::"
+"endpoint"
 msgstr ""
 
-#: ../../projects/generators.rst:95
-msgid "Alternatively, if using Django commands ::"
+#: ../projects/generators.rst:103
+#, fuzzy
+msgid "Alternatively, if using Django commands"
 msgstr "Alternativ, wenn Django-Befehle verwendet werden ::"
 
-#: ../../projects/generators.rst:101
+#: ../projects/generators.rst:110
 msgid "Adding a New Generator"
 msgstr "Hinzufügen eines neuen Generators"
 
-#: ../../projects/generators.rst:103
+#: ../projects/generators.rst:112
 msgid "To create a new generator:"
 msgstr "Um einen neuen Generator zu erstellen:"
 
-#: ../../projects/generators.rst:105
+#: ../projects/generators.rst:114
 msgid "**Create a new Python script in the `generators/` folder**."
 msgstr "**Erstellen Sie ein neues Python-Skript im Ordner `generators/`**."
 
-#: ../../projects/generators.rst:106
+#: ../projects/generators.rst:115
 msgid "**Implement data extraction and RDF transformation**."
 msgstr "**Implementieren Sie die Datenextraktion und RDF-Transformation**."
 
-#: ../../projects/generators.rst:107
+#: ../projects/generators.rst:116
 msgid "**Use the RDFLib library to generate triples**."
 msgstr "**Verwenden Sie die RDFLib-Bibliothek, um Tripel zu generieren**."
 
-#: ../../projects/generators.rst:123
+#: ../projects/generators.rst:132
 msgid "**Test and validate RDF output**."
 msgstr "**Testen und validieren Sie die RDF-Ausgabe**."
 
-#: ../../projects/generators.rst:126
+#: ../projects/generators.rst:135
 msgid "Troubleshooting & Support"
 msgstr "Fehlerbehebung & Unterstützung"
 
-#: ../../projects/generators.rst:128
+#: ../projects/generators.rst:137
 msgid ""
 "**Generator not producing output?** Check the data source and ensure it "
 "is accessible."
 msgstr ""
 
-#: ../../projects/generators.rst:129
+#: ../projects/generators.rst:138
 msgid "**RDF validation errors?** Run `validate_rd` and fix syntax issues."
 msgstr "**RDF validation errors?** Run `validate_rd` and fix syntax issues."
 
-#: ../../projects/generators.rst:130
+#: ../projects/generators.rst:139
 msgid ""
 "**SPARQL endpoint not updating?** Ensure that the RDF data is correctly "
 "loaded."
 msgstr ""
 
-#: ../../projects/generators.rst:131
+#: ../projects/generators.rst:140
 msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
-msgstr "**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter https://labs.judaicalink.org/contact/"
+msgstr ""
+"**Brauchen Sie Hilfe?** Kontaktieren Sie uns unter "
+"https://labs.judaicalink.org/contact/"
 
-#: ../../projects/generators.rst:133
+#: ../projects/generators.rst:142
 msgid ""
 "--- JudaicaLink Generators play a crucial role in transforming raw data "
 "into Linked Open Data. Follow best practices to ensure high-quality RDF "
 "output! \\🚀"
 msgstr ""
+
+#~ msgid ""
+#~ "Once RDF data is generated, it is"
+#~ " essential to validate it before "
+#~ "loading it into the triple store. "
+#~ "Use the following command ::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After validation, RDF data can be "
+#~ "loaded into the JudaicaLink SPARQL "
+#~ "endpoint ::"
+#~ msgstr ""
 
