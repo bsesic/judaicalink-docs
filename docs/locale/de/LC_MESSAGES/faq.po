@@ -162,7 +162,6 @@ msgstr ""
 "<https://data.judaicalink.org/sparql.html>`_"
 
 #: ../faq.rst:58
-#, fuzzy
 msgid "Can I download datasets from JudaicaLink?"
 msgstr "Wie kann ich zu JudaicaLink beitragen?"
 
@@ -171,6 +170,9 @@ msgid ""
 "Yes. JudaicaLink provides RDF dumps that can be downloaded and processed "
 "locally. Contact the team if you need a specific dataset."
 msgstr ""
+"Ja. JudaicaLink stellt RDF-Dumps bereit, die heruntergeladen und lokal "
+"verarbeitet werden können. Kontaktieren Sie das Team, wenn Sie einen "
+"spezifischen Datensatz benötigen."
 
 #: ../faq.rst:63
 msgid "Does JudaicaLink support content negotiation?"
