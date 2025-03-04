@@ -110,7 +110,9 @@ Example model definition
 Querying RDF Data
 -----------------
 
-You can use Django's QuerySet-like API to retrieve RDF data::
+You can use Django's QuerySet-like API to retrieve RDF data
+
+::
 
    persons = Person.objects.filter(name="Moses Mendelssohn")
    for person in persons:

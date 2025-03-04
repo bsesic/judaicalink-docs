@@ -45,11 +45,13 @@ Running a Generator
 -------------------
 
 Each generator script is responsible for processing specific datasets. To run a generator
+
 ::
 
    python generators/<generator_script>.py
 
 For example
+
 ::
 
     python generators/yivo_generator.py
