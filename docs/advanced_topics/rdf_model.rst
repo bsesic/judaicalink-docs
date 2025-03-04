@@ -77,7 +77,9 @@ Run SPARQL queries on the RDF model to extract relevant data
 Validating RDF Data
 -------------------
 
-Ensure RDF data is valid before integration::
+Ensure RDF data is valid before integration
+
+::
 
    rapper -i turtle -o ntriples output.ttl
 
@@ -86,7 +88,9 @@ Alternatively, use an online RDF validator.
 Loading RDF Data into a Triple Store
 ------------------------------------
 
-To upload RDF data to a **SPARQL endpoint**::
+To upload RDF data to a **SPARQL endpoint**
+
+::
 
    curl -X POST --data-binary @output.ttl -H "Content-Type: text/turtle" https://data.judaicalink.org/fuseki/ds/data
 
