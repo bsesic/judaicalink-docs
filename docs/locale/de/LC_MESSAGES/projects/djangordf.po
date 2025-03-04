@@ -121,8 +121,8 @@ msgid "Querying RDF Data"
 msgstr "Abfragen von RDF-Daten"
 
 #: ../../projects/djangordf.rst:113
-msgid "You can use Django's QuerySet-like API to retrieve RDF data::"
-msgstr "Sie können die QuerySet-ähnliche API von Django verwenden, um RDF-Daten abzurufen::"
+msgid "You can use Django's QuerySet-like API to retrieve RDF data"
+msgstr "Sie können die QuerySet-ähnliche API von Django verwenden, um RDF-Daten abzurufen"
 
 #: ../../projects/djangordf.rst:122
 msgid "Troubleshooting & Support"
