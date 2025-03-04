@@ -172,11 +172,11 @@ msgstr "Entitäten: Personen, Orte, Organisationen, Themen."
 
 #: ../user_guide/datasets.rst:59
 msgid "SPARQL Query Example:"
-msgstr ""
+msgstr "SPARQL-Abfragebeispiel:"
 
 #: ../user_guide/datasets.rst:69
 msgid "Content Negotiation: Available in RDF/XML, JSON-LD, and Turtle."
-msgstr ""
+msgstr "Content Negotiation: Verfügbar in RDF/XML, JSON-LD und Turtle."
 
 #: ../user_guide/datasets.rst:73
 #, fuzzy
@@ -185,90 +185,87 @@ msgstr "Verfügbare Datensätze"
 
 #: ../user_guide/datasets.rst:76
 msgid "1. Querying Data with SPARQL"
-msgstr ""
+msgstr "1. Abfragen von Daten mit SPARQL"
 
 #: ../user_guide/datasets.rst:78
 msgid "Users can run SPARQL queries against the JudaicaLink **SPARQL Endpoint**:"
-msgstr ""
+msgstr "Nutzer können SPARQL-Abfragen gegen den JudaicaLink **SPARQL-Endpunkt** ausführen:"
 
 #: ../user_guide/datasets.rst:80
-#, fuzzy
 msgid ""
 "**Endpoint URL** : `https://data.judaicalink.org/sparql.html "
 "<https://data.judaicalink.org/sparql.html>`_"
 msgstr ""
-"SPARQL: Abfragen unter `https://data.judaicalink.org/sparql.html "
+"**Endpunkt-URL** : `https://data.judaicalink.org/sparql.html "
 "<https://data.judaicalink.org/sparql.html>`_"
 
 #: ../user_guide/datasets.rst:81
 msgid "**Example Query**  (Retrieve all persons in the dataset):"
-msgstr ""
+msgstr "**Beispielabfrage**  (Alle Personen im Datensatz abrufen):"
 
 #: ../user_guide/datasets.rst:92
 msgid "2. Downloading RDF Dumps"
-msgstr ""
+msgstr "2. Herunterladen von RDF-Dumps"
 
 #: ../user_guide/datasets.rst:94
 msgid "Users can download full dataset RDF dumps for offline use:"
-msgstr ""
+msgstr "Nutzer können vollständige Datensatz-RDF-Dumps für die Offline-Nutzung herunterladen:"
 
 #: ../user_guide/datasets.rst:96
-#, fuzzy
 msgid ""
 "**Download URL**: `https://data.judaicalink.org/dumps/ "
 "<https://data.judaicalink.org/dumps/>`_"
 msgstr ""
-"Entitätsseiten: `https://data.judaicalink.org/data/html/yivo/ "
-"<https://data.judaicalink.org/data/html/yivo/>`_"
+"**Download-URL**: `https://data.judaicalink.org/dumps/ "
+"<https://data.judaicalink.org/dumps/>`_"
 
 #: ../user_guide/datasets.rst:97
 msgid "**Example:**  Download `yivo.rdf`"
-msgstr ""
+msgstr "**Beispiel:**  Download `yivo.rdf`"
 
 #: ../user_guide/datasets.rst:105
 msgid "3. Accessing Data via Content Negotiation"
-msgstr ""
+msgstr "3. Zugriff auf Daten über Content Negotiation"
 
 #: ../user_guide/datasets.rst:107
 msgid ""
 "JudaicaLink supports content negotiation, allowing users to request data "
 "in different formats."
 msgstr ""
+"JudaicaLink unterstützt Content Negotiation, was es Nutzern ermöglicht, "
+"Daten in verschiedenen Formaten anzufordern."
 
 #: ../user_guide/datasets.rst:109
 msgid "**Formats available:** HTML, JSON-LD, RDF/XML, Turtle."
-msgstr ""
+msgstr "**Verfügbare Formate:** HTML, JSON-LD, RDF/XML, Turtle."
 
 #: ../user_guide/datasets.rst:110
 msgid "**Example Requests:**"
-msgstr ""
+msgstr "**Beispielanfragen:**"
 
 #: ../user_guide/datasets.rst:112
-#, fuzzy
 msgid "JSON-LD: `https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn`"
-msgstr "JSON-LD-Zugriff: `https://data.judaicalink.org/data/jsonld/footprints/`"
+msgstr "JSON-LD: `https://data.judaicalink.org/data/jsonld/yivo/moses-mendelssohn`"
 
 #: ../user_guide/datasets.rst:113
-#, fuzzy
 msgid "RDF/XML: `https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn`"
-msgstr "RDF: `https://data.judaicalink.org/dumps/rabbiner.rdf`"
+msgstr "RDF/XML: `https://data.judaicalink.org/data/xml/yivo/moses-mendelssohn`"
 
 #: ../user_guide/datasets.rst:116
 msgid "4. Using the JudaicaLink API"
-msgstr ""
+msgstr "4. Verwendung der JudaicaLink-API"
 
 #: ../user_guide/datasets.rst:118
 msgid "For automated access and data retrieval:"
-msgstr ""
+msgstr "Für automatisierten Zugriff und Datenabruf:"
 
 #: ../user_guide/datasets.rst:120
-#, fuzzy
 msgid "**Base API URL** : `https://data.judaicalink.org/api/`"
-msgstr "RDF: `https://data.judaicalink.org/dumps/rabbiner.rdf`"
+msgstr "**Basis-API-URL** : `https://data.judaicalink.org/api/`"
 
 #: ../user_guide/datasets.rst:121
 msgid "**Example API Query (Get data for an entity):**"
-msgstr ""
+msgstr "**Beispiel-API-Abfrage (Daten für eine Entität abrufen):**"
 
 #: ../user_guide/datasets.rst:128
 msgid "Next Steps"
@@ -284,7 +281,7 @@ msgstr ""
 
 #: ../user_guide/datasets.rst:131
 msgid "Explore the **Entity Pages** to browse individual datasets."
-msgstr ""
+msgstr "Erkunden Sie die **Entitätsseiten**, um einzelne Datensätze zu durchsuchen."
 
 #: ../user_guide/datasets.rst:132
 msgid ""
