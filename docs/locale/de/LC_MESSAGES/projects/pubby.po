@@ -223,19 +223,19 @@ msgstr "Einrichten einer Entwicklungsumgebung"
 
 #: ../projects/pubby.rst:88
 msgid "**Clone the repository**"
-msgstr "1. **Klonen des Repositories** ::"
+msgstr "1. **Klonen des Repositories**"
 
 #: ../projects/pubby.rst:95
 msgid "**Create a virtual environment**"
-msgstr "2. **Erstellen einer virtuellen Umgebung** ::"
+msgstr "2. **Erstellen einer virtuellen Umgebung**"
 
 #: ../projects/pubby.rst:103
 msgid "**Install dependencies**"
-msgstr "3. **Abhängigkeiten installieren** ::"
+msgstr "3. **Abhängigkeiten installieren**"
 
 #: ../projects/pubby.rst:109
 msgid "**Run the development server**"
-msgstr "4. **Starten des Entwicklungsservers** ::"
+msgstr "4. **Starten des Entwicklungsservers**"
 
 #: ../projects/pubby.rst:115
 msgid "Open http://127.0.0.1:8000/ in your browser."
