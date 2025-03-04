@@ -208,74 +208,81 @@ msgstr "Turtle"
 
 #: ../user_guide/content_negotiation.rst:83
 msgid "Programmatic Access"
-msgstr ""
+msgstr "Programmatischer Zugriff"
 
 #: ../user_guide/content_negotiation.rst:84
 msgid ""
 "Applications can integrate JudaicaLink's content negotiation capabilities"
 " by dynamically requesting data formats based on their needs."
 msgstr ""
+"Anwendungen können die Inhaltsverhandlungsfähigkeiten von JudaicaLink "
+"integrieren, indem sie Datenformate basierend auf ihren Anforderungen "
+"dynamisch anfordern."
 
 #: ../user_guide/content_negotiation.rst:86
-#, fuzzy
 msgid "For example, in *Python*:"
 msgstr "Zum Beispiel:"
 
 #: ../user_guide/content_negotiation.rst:99
 msgid "Best Practices"
-msgstr ""
+msgstr "Beste Praktiken"
 
 #: ../user_guide/content_negotiation.rst:101
 msgid ""
 "When using *SPARQL endpoints*, consider requesting results in *JSON-LD* "
 "for better integration with semantic web tools."
 msgstr ""
+"Bei der Verwendung von *SPARQL-Endpunkten* sollten Ergebnisse in *JSON-LD* "
+"angefordert werden, um eine bessere Integration mit semantischen "
+"Web-Tools zu ermöglichen."
 
 #: ../user_guide/content_negotiation.rst:102
 msgid "For *human-readable data*, use the *HTML* format."
-msgstr ""
+msgstr "Für *menschlich lesbare Daten* verwenden Sie das *HTML*-Format."
 
 #: ../user_guide/content_negotiation.rst:103
 msgid "For *machine-readable RDF*, request *Turtle (TTL)* or *RDF/XML* ."
-msgstr ""
+msgstr "Für *maschinenlesbare RDF* fordern Sie *Turtle (TTL)* oder *RDF/XML* an."
 
 #: ../user_guide/content_negotiation.rst:106
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Problembehandlung"
 
 #: ../user_guide/content_negotiation.rst:109
 msgid "1. Receiving the Wrong Format"
-msgstr ""
+msgstr "1. Falsches Format erhalten"
 
 #: ../user_guide/content_negotiation.rst:111
 msgid "If you are not getting the expected format:"
-msgstr ""
+msgstr "Wenn Sie nicht das erwartete Format erhalten:"
 
 #: ../user_guide/content_negotiation.rst:113
 msgid "Check the *URL path*  (make sure you are using `/jsonld/`, `/xml/`, etc.)."
-msgstr ""
+msgstr "Überprüfen Sie den *URL-Pfad*  (stellen Sie sicher, dass Sie `/jsonld/`, `/xml/` usw. verwenden)."
 
 #: ../user_guide/content_negotiation.rst:114
 msgid "Ensure the *`Accept` header*  is correctly set."
-msgstr ""
+msgstr "Stellen Sie sicher, dass der *`Accept`-Header*  korrekt gesetzt ist."
 
 #: ../user_guide/content_negotiation.rst:117
 msgid "2. Data Not Found"
-msgstr ""
+msgstr "2. Daten nicht gefunden"
 
 #: ../user_guide/content_negotiation.rst:119
 msgid "If a specific entity does not exist in the requested format, try checking:"
-msgstr ""
+msgstr "Wenn eine bestimmte Entität im angeforderten Format nicht existiert, versuchen Sie Folgendes zu überprüfen:"
 
 #: ../user_guide/content_negotiation.rst:121
 msgid ""
 "The dataset availability at `https://data.judaicalink.org "
 "<https://data.judaicalink.org)>`_."
 msgstr ""
+"Die Datensatzverfügbarkeit unter `https://data.judaicalink.org "
+"<https://data.judaicalink.org)>`_."
 
 #: ../user_guide/content_negotiation.rst:122
 msgid "Whether the entity exists by first requesting the *HTML*  version."
-msgstr ""
+msgstr "Überprüfen Sie, ob die Entität existiert, indem Sie zuerst die *HTML*-Version anfordern."
 
 #: ../user_guide/content_negotiation.rst:125
 msgid "Next Steps"
@@ -286,9 +293,10 @@ msgid ""
 "Learn more about *SPARQL querying*  in the :ref:`SPARQL Guide "
 "<advanced_topics_sparql_guide>`."
 msgstr ""
+"Erfahren Sie mehr über *SPARQL-Abfragen*  im :ref:`SPARQL-Leitfaden "
+"<advanced_topics_sparql_guide>`."
 
 #: ../user_guide/content_negotiation.rst:128
-#, fuzzy
 msgid "Explore available *datasets*  in :ref:`Datasets Guide <datasets>`."
 msgstr ""
 "Erkunden Sie verfügbare *Datensätze* im :ref:`Datensatz-Leitfaden "
@@ -300,8 +308,11 @@ msgid ""
 " `https://labs.judaicalink.org/contact/ "
 "<https://labs.judaicalink.org/contact/>`_."
 msgstr ""
+"Wenn Sie auf Probleme stoßen, überprüfen Sie die :ref:`FAQs <faq>` oder "
+"kontaktieren Sie uns unter `https://labs.judaicalink.org/contact/ "
+"<https://labs.judaicalink.org/contact/>`_."
 
 #: ../user_guide/content_negotiation.rst:131
 msgid "--- Thank you for using JudaicaLink! \\🚀"
-msgstr ""
+msgstr "--- Vielen Dank, dass Sie JudaicaLink verwenden! \\🚀"
 
