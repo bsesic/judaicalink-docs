@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-03 12:53+0100\n"
+"POT-Creation-Date: 2025-03-04 13:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -101,31 +101,33 @@ msgstr ""
 "Führen Sie SPARQL-Abfragen auf dem RDF-Modell aus, um relevante Daten zu "
 "extrahieren"
 
-#: ../advanced_topics/rdf_model.rst:76
+#: ../advanced_topics/rdf_model.rst:78
 msgid "Validating RDF Data"
 msgstr "Validierung von RDF-Daten"
 
-#: ../advanced_topics/rdf_model.rst:78
-msgid "Ensure RDF data is valid before integration"
+#: ../advanced_topics/rdf_model.rst:80
+#, fuzzy
+msgid "Ensure RDF data is valid before integration::"
 msgstr "Stellen Sie sicher, dass die RDF-Daten vor der Integration gültig sind"
 
-#: ../advanced_topics/rdf_model.rst:82
+#: ../advanced_topics/rdf_model.rst:84
 msgid "Alternatively, use an online RDF validator."
 msgstr "Alternativ können Sie einen Online-RDF-Validator verwenden."
 
-#: ../advanced_topics/rdf_model.rst:85
+#: ../advanced_topics/rdf_model.rst:87
 msgid "Loading RDF Data into a Triple Store"
 msgstr "Laden von RDF-Daten in einen Triple-Store"
 
-#: ../advanced_topics/rdf_model.rst:87
-msgid "To upload RDF data to a **SPARQL endpoint**"
+#: ../advanced_topics/rdf_model.rst:89
+#, fuzzy
+msgid "To upload RDF data to a **SPARQL endpoint**::"
 msgstr "Zum Hochladen von RDF-Daten an einen **SPARQL-Endpunkt**"
 
-#: ../advanced_topics/rdf_model.rst:92
+#: ../advanced_topics/rdf_model.rst:94
 msgid "Troubleshooting & Support"
 msgstr "Fehlersuche & Unterstützung"
 
-#: ../advanced_topics/rdf_model.rst:94
+#: ../advanced_topics/rdf_model.rst:96
 msgid ""
 "**SPARQL query not returning results?** Ensure the RDF model is correctly"
 " defined."
@@ -133,19 +135,19 @@ msgstr ""
 "**SPARQL-Abfrage liefert keine Ergebnisse?** Stellen Sie sicher, dass das"
 " RDF-Modell korrekt definiert ist."
 
-#: ../advanced_topics/rdf_model.rst:95
+#: ../advanced_topics/rdf_model.rst:97
 msgid "**Serialization errors?** Validate the RDF syntax before saving."
 msgstr ""
 "**Serialisierungsfehler?** Überprüfen Sie die RDF-Syntax vor dem "
 "Speichern."
 
-#: ../advanced_topics/rdf_model.rst:96
+#: ../advanced_topics/rdf_model.rst:98
 msgid "**Need help?** Contact us at https://labs.judaicalink.org/contact/"
 msgstr ""
 "**Benötigen Sie Hilfe?** Kontaktieren Sie uns unter "
 "https://labs.judaicalink.org/contact/"
 
-#: ../advanced_topics/rdf_model.rst:98
+#: ../advanced_topics/rdf_model.rst:100
 msgid ""
 "--- The RDF Model simplifies Linked Data management, making it easier to "
 "structure, query, and integrate semantic data. \\🚀"
