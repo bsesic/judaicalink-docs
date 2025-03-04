@@ -4,7 +4,7 @@
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
@@ -222,22 +222,18 @@ msgid "Setting Up a Development Environment"
 msgstr "Einrichten einer Entwicklungsumgebung"
 
 #: ../projects/pubby.rst:88
-#, fuzzy
 msgid "**Clone the repository**"
 msgstr "1. **Klonen des Repositories** ::"
 
 #: ../projects/pubby.rst:95
-#, fuzzy
 msgid "**Create a virtual environment**"
 msgstr "2. **Erstellen einer virtuellen Umgebung** ::"
 
 #: ../projects/pubby.rst:103
-#, fuzzy
 msgid "**Install dependencies**"
 msgstr "3. **Abhängigkeiten installieren** ::"
 
 #: ../projects/pubby.rst:109
-#, fuzzy
 msgid "**Run the development server**"
 msgstr "4. **Starten des Entwicklungsservers** ::"
 
