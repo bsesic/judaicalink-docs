@@ -42,31 +42,31 @@ JudaicaLink Components
 JudaicaLink consists of multiple sub-projects that work together to support the knowledge graph and its applications:
 
 1. JudaicaLink Labs
----------------------
+-------------------
 
 JudaicaLink Labs is the *core application* that powers the search and entity exploration interface. It allows users to explore Jewish-related datasets through *SPARQL queries, entity linking, and structured search*.
 
-- Built using *Django*
-- Provides a *searchable knowledge graph*
-- Supports *Natural Language Processing (NLP)* for entity recognition
+* Built using *Django*
+* Provides a *searchable knowledge graph*
+* Supports *Natural Language Processing (NLP)* for entity recognition
 
 \🔗 *Labs URL*: `https://labs.judaicalink.org <https://labs.judaicalink.org>`_
 
 
 2. JudaicaLink Site
----------------------
+-------------------
 
 The JudaicaLink Site is the *public-facing static website* providing background information, project news, and dataset overviews. It is built using *Hugo* and integrates dynamically with the knowledge graph.
 
 \🔗 *Site URL*: `https://www.judaicalink.org <https://www.judaicalink.org>`_
 
 3. JudaicaLink Pubby
-----------------------
+--------------------
 
 JudaicaLink Pubby provides a *SPARQL endpoint* and a *Linked Data interface* for accessing and querying RDF data.
 
-- Powered by *Apache Jena Fuseki*
-- Provides *triple-store access* for external applications
+* Powered by *Apache Jena Fuseki*
+* Provides *triple-store access* for external applications
 
 \🔗 *SPARQL Endpoint*: `https://data.judaicalink.org/sparql.html <https://data.judaicalink.org/sparql.html>`_
 
@@ -78,14 +78,14 @@ This project contains *data ingestion scripts* that transform external data sour
 \🔗 *GitHub Repo*: `https://github.com/judaicalink/judaicalink-generators  <https://github.com/judaicalink/judaicalink-generators>`_
 
 5. RDF Generator
------------------
+----------------
 
 A library for generating RDF files from structured and unstructured data sources, such as websites, spreadsheets, and full-text documents.
 
 \🔗 *GitHub Repo*: `https://github.com/judaicalink/rdf_generator  <https://github.com/judaicalink/rdf_generator>`_
 
 6. JudaicaLink Loader
-----------------------
+---------------------
 
 A script that loads datasets into the triple store. It processes RDF dumps, enriches them with metadata, and uploads them to Fuseki.
 
@@ -110,20 +110,20 @@ How to Use JudaicaLink
 ======================
 
 For Researchers and Historians
--------------------------------
+------------------------------
 
-- *Search for Jewish figures, places, and events* using the Labs interface.
-- *Access structured datasets* to support academic research.
-- *Run SPARQL queries* to extract complex relationships and insights.
+* *Search for Jewish figures, places, and events* using the Labs interface.
+* *Access structured datasets* to support academic research.
+* *Run SPARQL queries* to extract complex relationships and insights.
 
 For Developers and Data Scientists
---------------------------------------
-- *Integrate JudaicaLink data* into external applications via *SPARQL*.
-- *Contribute to RDF generation scripts* and help expand the knowledge graph.
-- *Develop new visualizations and analysis tools* based on the dataset.
+----------------------------------
+* *Integrate JudaicaLink data* into external applications via *SPARQL*.
+* *Contribute to RDF generation scripts* and help expand the knowledge graph.
+* *Develop new visualizations and analysis tools* based on the dataset.
 
 For Institutions and Digital Libraries
-------------------------------------------
+--------------------------------------
 
 - *Link existing digital collections* to JudaicaLink’s structured data.
 - *Share bibliographic and archival metadata* using the RDF format.

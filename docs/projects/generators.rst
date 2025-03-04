@@ -21,12 +21,14 @@ Setting Up the Environment
 --------------------------
 
 1. **Clone the repository**
+
 ::
 
    git clone https://github.com/judaicalink/judaicalink-generators.git
    cd judaicalink-generators
 
 2. **Create a virtual environment** (Recommended)
+
 ::
 
    python -m venv venv
@@ -34,6 +36,7 @@ Setting Up the Environment
    venv\Scripts\activate  # On Windows
 
 3. **Install dependencies**
+
 ::
 
    pip install -r requirements.txt
@@ -42,11 +45,13 @@ Running a Generator
 -------------------
 
 Each generator script is responsible for processing specific datasets. To run a generator
+
 ::
 
    python generators/<generator_script>.py
 
 For example
+
 ::
 
     python generators/yivo_generator.py
@@ -56,11 +61,13 @@ Running Django Commands
 Some generators are integrated with Django management commands for better orchestration. You can run them as follows:
 
 1. **Navigate to the project directory**
+
 ::
 
    cd judaicalink-generators
 
-2. **Run a specific Django command**::
+2. **Run a specific Django command**
+
 ::
 
    python manage.py run_generator yivo
@@ -75,11 +82,13 @@ Validating RDF Output
 ---------------------
 
 Once RDF data is generated, it is essential to validate it before loading it into the triple store. Use the following command
+
 ::
 
     rapper -i rdfxml -o turtle output.rdf
 
 Or validate using the Django management command
+
 ::
 
    python manage.py validate_rdf output.rdf
@@ -88,11 +97,13 @@ Loading Data into JudaicaLink
 -----------------------------
 
 After validation, RDF data can be loaded into the JudaicaLink SPARQL endpoint
+
 ::
 
    curl -X POST --data-binary @output.rdf -H "Content-Type: application/rdf+xml" https://data.judaicalink.org/fuseki/ds/data
 
 Alternatively, if using Django commands
+
 ::
 
    python manage.py load_rdf output.rdf
