@@ -164,7 +164,6 @@ msgstr ""
 "Quellen über eine Entität zusammenführen."
 
 #: ../user_guide/overview.rst:43
-#, fuzzy
 msgid ""
 "See examples of entity pages at: `https://data.judaicalink.org/data/html/"
 " <https://data.judaicalink.org/data/html/>`_."
