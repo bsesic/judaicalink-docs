@@ -196,56 +196,55 @@ msgstr "Nutzt **Apache Jena Fuseki** zur Verarbeitung von SPARQL-Abfragen."
 
 #: ../projects/labs.rst:79
 msgid "Frontend"
-msgstr ""
+msgstr "Frontend"
 
 #: ../projects/labs.rst:81
 msgid "Developed with **Bootstrap and jQuery**."
-msgstr ""
+msgstr "Entwickelt mit **Bootstrap und jQuery**."
 
 #: ../projects/labs.rst:82
 msgid "Plans to migrate to **Vue.js** for better interactivity."
-msgstr ""
+msgstr "Pläne zur Migration zu **Vue.js** für eine bessere Interaktivität."
 
 #: ../projects/labs.rst:85
 msgid "Database & Data Sources"
-msgstr ""
+msgstr "Datenbank & Datenquellen"
 
 #: ../projects/labs.rst:87
 msgid "RDF data stored in **Apache Jena Fuseki**."
-msgstr ""
+msgstr "RDF-Daten werden in **Apache Jena Fuseki** gespeichert."
 
 #: ../projects/labs.rst:88
 msgid "Data sources include **Compact Memory, YIVO, GND, and Wikidata**."
-msgstr ""
+msgstr "Datenquellen umfassen **Compact Memory, YIVO, GND und Wikidata**."
 
 #: ../projects/labs.rst:92
-#, fuzzy
 msgid "Contributing to JudaicaLink Labs"
 msgstr "Wie man JudaicaLink Labs benutzt"
 
 #: ../projects/labs.rst:95
 msgid "Setting Up a Development Environment"
-msgstr ""
+msgstr "Einrichten einer Entwicklungsumgebung"
 
 #: ../projects/labs.rst:97
 msgid "**Clone the repository**"
-msgstr ""
+msgstr "**Klonen Sie das Repository**"
 
 #: ../projects/labs.rst:105
 msgid "**Create a virtual environment**"
-msgstr ""
+msgstr "**Erstellen Sie eine virtuelle Umgebung**"
 
 #: ../projects/labs.rst:114
 msgid "**Install dependencies**"
-msgstr ""
+msgstr "**Installieren Sie Abhängigkeiten**"
 
 #: ../projects/labs.rst:121
 msgid "**Run the development server**"
-msgstr ""
+msgstr "**Starten Sie den Entwicklungsserver**"
 
 #: ../projects/labs.rst:128
 msgid "Open **http://127.0.0.1:8000/** in your browser."
-msgstr ""
+msgstr "Öffnen Sie **http://127.0.0.1:8000/** in Ihrem Browser."
 
 #: ../projects/labs.rst:131
 msgid "Troubleshooting & Support"
@@ -259,7 +258,7 @@ msgstr ""
 
 #: ../projects/labs.rst:134
 msgid "**Search not returning results?** Check if the dataset is indexed."
-msgstr ""
+msgstr "**Suche liefert keine Ergebnisse?** Überprüfen Sie, ob das Dataset indiziert ist."
 
 #: ../projects/labs.rst:135
 msgid ""
@@ -276,4 +275,9 @@ msgid ""
 "are regularly added. Stay updated with the latest changes on "
 "`https://www.judaicalink.org/news/ <https://www.judaicalink.org/news/>`_."
 msgstr ""
+"--- JudaicaLink Labs ist eine sich entwickelnde Plattform – neue Funktionen "
+"und Datensätze werden regelmäßig hinzugefügt. Bleiben Sie über die neuesten "
+"Änderungen auf dem Laufenden unter "
+"`https://www.judaicalink.org/news/ <https://www.judaicalink.org/news/>`_."
+
 
