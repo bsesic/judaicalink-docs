@@ -72,17 +72,14 @@ msgid "Setting Up the Environment"
 msgstr "Einrichten der Umgebung"
 
 #: ../advanced_topics/rdf_model.rst:17
-#, fuzzy
 msgid "*Clone the repository*"
 msgstr "*Repository klonen*"
 
 #: ../advanced_topics/rdf_model.rst:24
-#, fuzzy
 msgid "*Create a virtual environment* (Recommended)"
 msgstr "*Virtuelle Umgebung erstellen* (empfohlen)"
 
 #: ../advanced_topics/rdf_model.rst:32
-#, fuzzy
 msgid "*Install dependencies*"
 msgstr "*Abhängigkeiten installieren*"
 
@@ -91,7 +88,6 @@ msgid "Defining an RDF Model"
 msgstr "Definieren eines RDF-Modells"
 
 #: ../advanced_topics/rdf_model.rst:41
-#, fuzzy
 msgid "Define an RDF model using Python classes. Example model"
 msgstr "Definieren Sie ein RDF-Modell mit Python-Klassen. Beispielmodell"
 
