@@ -101,7 +101,7 @@ msgstr "Kontaktdaten für die Verantwortlichen des JudaicaLink-Projekts."
 
 #: ../../projects/site.rst:37
 msgid "How to Use JudaicaLink Site"
-msgstr ""
+msgstr "Wie man die JudaicaLink Seite benutzt"
 
 #: ../../projects/site.rst:40
 msgid "Navigating the Website"
