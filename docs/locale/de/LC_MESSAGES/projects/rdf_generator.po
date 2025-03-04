@@ -76,12 +76,10 @@ msgid "**Clone the repository**"
 msgstr "**Klonen des Repositorys**"
 
 #: ../projects/rdf_generator.rst:28
-#, fuzzy
 msgid "**Create a virtual environment** (Recommended)"
 msgstr "**Erstellen einer virtuellen Umgebung** (Empfohlen)"
 
 #: ../projects/rdf_generator.rst:36
-#, fuzzy
 msgid "**Install dependencies**"
 msgstr "**Abhängigkeiten installieren**"
 
@@ -98,7 +96,6 @@ msgstr ""
 "integrieren Sie es in ein Python-Skript."
 
 #: ../projects/rdf_generator.rst:47
-#, fuzzy
 msgid "Example usage"
 msgstr "Beispielverwendung"
 
