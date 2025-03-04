@@ -57,7 +57,9 @@ Define an RDF model using Python classes. Example model
 Querying RDF Data
 -----------------
 
-Run SPARQL queries on the RDF model to extract relevant data::
+Run SPARQL queries on the RDF model to extract relevant data
+
+::
 
    from rdflib.plugins.sparql import prepareQuery
 
