@@ -7,7 +7,7 @@ RDF Generator
 The RDF Generator is a **Python library** designed to transform structured and unstructured data into **RDF triples**, making them compatible with **Linked Data principles**. It is primarily used in the JudaicaLink project to convert datasets into RDF format for integration into the JudaicaLink **knowledge graph**.
 
 Features of RDF Generator
-==========================
+=========================
 
 - **Support for multiple data sources** (spreadsheets, XML, JSON, CSV, web scraping).
 - **Automatic RDF conversion** using predefined mappings.

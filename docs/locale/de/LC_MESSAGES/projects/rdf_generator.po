@@ -4,7 +4,6 @@
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: JudaicaLink Documentation 0.1\n"
@@ -57,9 +56,8 @@ msgstr "**Automatische RDF-Konvertierung** mit vordefinierten Zuordnungen."
 
 #: ../projects/rdf_generator.rst:14
 msgid "**SPARQL update compatibility** for inserting RDF data into triple stores."
-msgstr ""
-"**SPARQL-Update-Kompatibilität** zum Einfügen von RDF-Daten in Triple-"
-"Stores."
+msgstr "**SPARQL-Update-Kompatibilität** zum Einfügen von RDF-Daten in "
+"Triple-Stores."
 
 #: ../projects/rdf_generator.rst:15
 msgid "**Integration with Django and external APIs**."
@@ -67,28 +65,25 @@ msgstr "**Integration mit Django und externen APIs**."
 
 #: ../projects/rdf_generator.rst:16
 msgid "**Export support for RDF/XML, Turtle, N-Triples, and JSON-LD formats**."
-msgstr ""
-"**Exportunterstützung für RDF/XML, Turtle, N-Triples und JSON-LD-"
-"Formate**."
+msgstr "**Exportunterstützung für RDF/XML, Turtle, N-Triples und JSON-LD-Formate**."
 
 #: ../projects/rdf_generator.rst:19
 msgid "Setting Up the Environment"
 msgstr "Einrichten der Umgebung"
 
 #: ../projects/rdf_generator.rst:21
-#, fuzzy
 msgid "**Clone the repository**"
-msgstr "1. **Klonen des Repositorys** ::"
+msgstr "**Klonen des Repositorys**"
 
 #: ../projects/rdf_generator.rst:28
 #, fuzzy
 msgid "**Create a virtual environment** (Recommended)"
-msgstr "2. **Erstellen einer virtuellen Umgebung** (Empfohlen) ::"
+msgstr "**Erstellen einer virtuellen Umgebung** (Empfohlen)"
 
 #: ../projects/rdf_generator.rst:36
 #, fuzzy
 msgid "**Install dependencies**"
-msgstr "3. **Abhängigkeiten installieren** ::"
+msgstr "**Abhängigkeiten installieren**"
 
 #: ../projects/rdf_generator.rst:43
 msgid "Generating RDF Data"
@@ -105,7 +100,7 @@ msgstr ""
 #: ../projects/rdf_generator.rst:47
 #, fuzzy
 msgid "Example usage"
-msgstr "Beispielverwendung ::"
+msgstr "Beispielverwendung"
 
 #: ../projects/rdf_generator.rst:53
 msgid "Supported formats:"
@@ -148,39 +143,34 @@ msgstr ""
 "werden. Beispiel-Mapping-Datei (YAML):"
 
 #: ../projects/rdf_generator.rst:96
-#, fuzzy
 msgid "Running with a mapping file"
-msgstr "Mit einer Mapping-Datei ausführen ::"
+msgstr "Mit einer Mapping-Datei ausführen"
 
 #: ../projects/rdf_generator.rst:103
 msgid "Validating RDF Output"
 msgstr "Überprüfen der RDF-Ausgabe"
 
 #: ../projects/rdf_generator.rst:105
-#, fuzzy
 msgid "Once RDF is generated, validate it to ensure correctness"
 msgstr ""
 "Wenn RDF generiert wurde, überprüfen Sie es, um die Korrektheit "
-"sicherzustellen ::"
+"sicherzustellen"
 
 #: ../projects/rdf_generator.rst:111
-#, fuzzy
 msgid "Or using the RDF Generator tool"
-msgstr "Oder mit dem RDF-Generator-Tool ::"
+msgstr "Oder mit dem RDF-Generator-Tool"
 
 #: ../projects/rdf_generator.rst:118
 msgid "Loading RDF into a Triple Store"
 msgstr "Laden von RDF in einen Triple-Store"
 
 #: ../projects/rdf_generator.rst:120
-#, fuzzy
 msgid "To load RDF data into **Apache Jena Fuseki**"
-msgstr "Um RDF-Daten in **Apache Jena Fuseki** zu laden ::"
+msgstr "Um RDF-Daten in **Apache Jena Fuseki** zu laden"
 
 #: ../projects/rdf_generator.rst:126
-#, fuzzy
 msgid "Alternatively, using SPARQL Update"
-msgstr "Alternativ mit SPARQL-Update ::"
+msgstr "Alternativ mit SPARQL-Update"
 
 #: ../projects/rdf_generator.rst:133
 msgid "Troubleshooting & Support"
